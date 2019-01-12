@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     font-family:'Roboto', sans-serif ;
     margin: 60px auto;
@@ -34,6 +38,22 @@ p {
     line-height: 1.4em;
     color: #333;
 }
+
+.column {
+    float:left;
+    width:calc(50% - 40px);
+    margin:20px;
+    height:600px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
