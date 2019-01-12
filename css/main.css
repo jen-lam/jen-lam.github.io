@@ -50,7 +50,6 @@ p {
 .rectangle {
     width:100%;
     height:auto;
-    display:flex;
     top:0;
     left:0;
     margin-bottom:100px;
@@ -59,12 +58,14 @@ p {
 .info {
     float:left;
     width:30%;
+    height:auto;
     background:#fff;
 }
 
 .cover {
     float:right;
     width:70%;
+    height:auto;
     left:30%;
     background:#68caff;
 }
