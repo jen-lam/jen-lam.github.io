@@ -41,8 +41,12 @@ p {
     color:#333;
 }
 
+#container {
+    width:100%;
+}
+
 .rectangle {
-    position:absolute;
+    position:relative;
     width:100%;
     height:300px;
     top:0;
