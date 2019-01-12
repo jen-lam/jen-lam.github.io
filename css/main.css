@@ -1,11 +1,5 @@
-* {
-  box-sizing:border-box;
-}
-
 body {
     font-family:'Roboto', sans-serif ;
-    margin:60px auto;
-    width:70%;
     background:#f9f9f9;
 }
 nav ul, footer ul {
@@ -42,7 +36,8 @@ p {
 }
 
 #container {
-    width:100%;
+    margin:60px auto;
+    width:70vw;
 }
 
 .rectangle {
