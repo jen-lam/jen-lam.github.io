@@ -36,11 +36,12 @@ p {
 }
 
 #container {
-    margin:60px auto;
+    margin:40px;
     width:960px;
 }
 
 .rectangle {
+    float:left;
     width:100%;
     height:300px;
     top:0;
