@@ -39,22 +39,27 @@ p {
     color: #333;
 }
 
-.column {
-    float:left;
-    width:calc(50% - 40px);
-    margin:20px;
-    height:600px;
+.container {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    grid-gap: 10px;    
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.square {
+  position: relative;
+  border: 1px solid;
+  box-sizing: border-box;
 }
 
+.square::before {
+  content: '';
+  display: block;
+  padding-top: 100%;
+}
 
-
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+.square .content {
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%;
+  width: 100%;
 }
