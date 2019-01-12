@@ -5,7 +5,7 @@
 body {
     font-family:'Roboto', sans-serif ;
     margin:60px auto;
-    width:80vw;
+    width:80%;
     background:#f9f9f9;
 }
 nav ul, footer ul {
@@ -47,8 +47,8 @@ p {
 }
 
 .square {
-    flex-basis:calc(50% - 10px);
-    margin:0px 10px 10px;
+    flex-basis:calc(50% - 20px);
+    margin:10px;
     border:1px solid;
 }
 
