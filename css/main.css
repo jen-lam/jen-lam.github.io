@@ -21,7 +21,7 @@ a:hover {
 
 a.focus:link, a.focus:visited
 {
-    color:blue;
+    color:#68caff;
 }
 
 h1 {
@@ -71,5 +71,5 @@ p {
     left:30%;
     height:400px;
     top:0px;
-    background:green;
+    background:#68caff;
 }
