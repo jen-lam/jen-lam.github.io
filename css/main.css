@@ -52,15 +52,12 @@ p {
     height:400px;
     top:0;
     right:0;
-    border:1px solid #000000;
     margin-bottom:100px;
 }
 
 .info {
     float:left;
     width:30%;
-    left:0px;
-    top:0px;
     height:400px;
     background:#fff;
 }
@@ -70,6 +67,5 @@ p {
     width:70%;
     left:30%;
     height:400px;
-    top:0px;
     background:#68caff;
 }
