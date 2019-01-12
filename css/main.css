@@ -57,15 +57,15 @@ p {
 
 .info {
     float:left;
-    width:30%;
+    width:30vw;
     height:400px;
     background:#fff;
 }
 
 .cover {
     float:right;
-    width:70%;
-    left:30%;
+    width:70vw;
+    left:30vw;
     height:400px;
     background:#68caff;
 }
