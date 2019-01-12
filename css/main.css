@@ -41,24 +41,22 @@ p {
     box-sizing:border-box; 
 }
 
-/* Mobile Styles */
 @media only screen and (max-width: 400px) {
     #container {
         background:red;
   }
 }
 
-/* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
     #container {
         background:green;
   }
 }
 
-/* Desktop Styles */
 @media only screen and (min-width: 961px) {
     #container {
         background:yellow;
+        width:960px;
   }
 }
 
