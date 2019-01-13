@@ -67,13 +67,10 @@ p {
 }
 
 .info {
-    float:right;
-    width:calc(20% - 24px);
-    text-align:right;
-    background:#fff;
-} /* Make the info appear under the image on mobile resolution */
+    width:100%;
+} 
 
 .cover {
-    width:80%;
+    width:100%;
     height:auto;
 }
