@@ -40,13 +40,18 @@ p {
     font-size:3em;
     font-weight:800;
     position:fixed;
-    top:80px;
+    top:100px;
 }
 
 #nav {
     position:fixed;
     bottom:80px;
     display:block;
+}
+
+#nav a {
+    display:block;
+    line-height:2em;
 }
 
 #intro {
