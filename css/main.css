@@ -46,15 +46,17 @@ p {
 
 #container {
     margin:0 auto;
-    padding:24px;
+    padding:100px;
     box-sizing:border-box; 
 }
 
+/*
 @media only screen and (min-width:1025px) {
     #container {
         width:1024px;
     }
 }
+*/
 
 .rectangle {
     width:100%;
