@@ -65,12 +65,11 @@ p {
 }
 
 .info {
-    width:20%;
-    right:0px;
+    float:right;
+    width:calc(20% - 24px);
     text-align:right;
-    height:50px;
     background:#fff;
-}
+} /* Make the info appear under the image on mobile resolution */
 
 .cover {
     width:80%;
