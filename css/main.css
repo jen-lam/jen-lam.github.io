@@ -66,19 +66,19 @@ p {
     box-sizing:border-box; 
 }
 
-/*
-@media only screen and (min-width:1025px) {
+@media only screen and (min-width:1921px) {
     #container {
-        width:1024px;
+        width:1920px;
     }
 }
-*/
 
 .rectangle {
+    position:relative;
+    top:40vh;
     float:right;
     width:70%;
     height:auto;
-    margin:100px 0px;
+    margin:150px 0px;
 }
 
 .info {
