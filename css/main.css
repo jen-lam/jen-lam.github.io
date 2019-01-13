@@ -65,12 +65,14 @@ p {
 }
 
 .info {
-    width:100%;
+    width:20%;
+    right:0px;
+    text-align:right;
     height:50px;
     background:#fff;
 }
 
 .cover {
-    width:70%;
+    width:80%;
     height:auto;
 }
