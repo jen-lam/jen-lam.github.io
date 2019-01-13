@@ -35,12 +35,24 @@ p {
     color:#333333;
 }
 
+#container {
+    margin:0 auto;
+    padding:80px;
+    box-sizing:border-box; 
+}
+
+@media only screen and (min-width:1921px) {
+    #container {
+        width:1920px;
+    }
+}
+
 #logo {
     font-family:'Open Sans', sans-serif;
     font-size:3em;
     font-weight:800;
     position:fixed;
-    top:100px;
+    top:80px;
 }
 
 #nav {
@@ -58,18 +70,7 @@ p {
     font-family:'Open Sans', sans-serif;    
     float:right;
     width:70%;
-}
-
-#container {
-    margin:0 auto;
-    padding:80px;
-    box-sizing:border-box; 
-}
-
-@media only screen and (min-width:1921px) {
-    #container {
-        width:1920px;
-    }
+    margin-bottom:300px;
 }
 
 .rectangle {
