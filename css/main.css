@@ -59,10 +59,9 @@ p {
 */
 
 .rectangle {
+    float:right;
     width:70%;
     height:auto;
-    top:0;
-    left:30%;
     margin-bottom:200px;
 }
 
