@@ -46,6 +46,7 @@ p {
 #nav {
     position:fixed;
     bottom:80px;
+    display:block;
 }
 
 #intro {
