@@ -50,9 +50,35 @@ p {
     box-sizing:border-box; 
 }
 
-@media only screen and (min-width:1025px) {
+@media only screen and (max-width:1024px) {
+    .cover {
+        width:100%;
+    }
+
+    .info {
+        width:100%;
+        text-align:left;
+        float:none;
+        top:10px;
+        left:0;
+    }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1366) {
     #container {
         width:1024px;
+    }
+}
+
+@media only screen and (min-width:1367px) and (max-width:1920) {
+    #container {
+        width:1366px;
+    }
+}
+
+@media only screen and (min-width:1921px) {
+    #container {
+        width:1920px;
     }
 }
 
