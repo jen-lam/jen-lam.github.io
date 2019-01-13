@@ -50,7 +50,7 @@ p {
     box-sizing:border-box; 
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (min-width:280px) and (max-width:1024px) {
     .cover {
         width:100%;
     }
@@ -70,17 +70,12 @@ p {
     }
 }
 
-@media only screen and (min-width:1367px) and (max-width:1920) {
+@media only screen and (min-width:1367px) {
     #container {
         width:1366px;
     }
 }
 
-@media only screen and (min-width:1921px) {
-    #container {
-        width:1920px;
-    }
-}
 
 .rectangle {
     width:100%;
