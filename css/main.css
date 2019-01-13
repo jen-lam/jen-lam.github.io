@@ -71,11 +71,14 @@ p {
     float:right;
     width:70%;
     margin-bottom:300px;
+    line-height:1.5em;
+}
+
+#intro b {
+    font-weight:600;
 }
 
 .rectangle {
-    position:relative;
-    top:40vh;
     float:right;
     width:70%;
     height:auto;
