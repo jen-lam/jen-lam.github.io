@@ -35,6 +35,20 @@ p {
     color:#333333;
 }
 
+#logo {
+    font-family:'Open Sans', sans-serif;
+    font-size:3em;
+    font-weight:bold;
+    position:fixed;
+    left:0px;
+    top:0px;
+}
+
+#intro {
+    float:right;
+    width:70%;
+}
+
 #first {
     width:100%;
     height:100%;
@@ -46,7 +60,7 @@ p {
 
 #container {
     margin:0 auto;
-    padding:100px;
+    padding:80px;
     box-sizing:border-box; 
 }
 
