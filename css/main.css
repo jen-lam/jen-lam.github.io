@@ -47,6 +47,7 @@ p {
     }
 }
 
+
 #logo {
     font-family:'Open Sans', sans-serif;
     font-size:3em;
@@ -57,7 +58,7 @@ p {
 
 #nav {
     position:fixed;
-    bottom:80px;
+    bottom:0px;
     display:block;
 }
 
@@ -72,6 +73,7 @@ p {
     width:70%;
     margin-bottom:300px;
     line-height:1.5em;
+    margin-top:20px;
 }
 
 #intro b {
