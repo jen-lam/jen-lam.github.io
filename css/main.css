@@ -47,20 +47,21 @@ p {
     }
 }
 
+/* TODO: FOR MIN-WIDTH 360 AND MAX-WIDTH 800 */
 
 #logo {
     font-family:'Open Sans', sans-serif;
     font-size:3em;
     font-weight:800;
     position:fixed;
-    top:200px;
+    top:160px;
 }
 
 #nav {
     position:fixed;
     bottom:0px;
     display:block;
-    top:400px;
+    top:470px;
 }
 
 #nav a {
@@ -73,7 +74,7 @@ p {
     float:right;
     width:70%;
     line-height:1.5em;
-    margin:120px 0px 50px 0px;
+    margin:80px 0px 160px 0px;
 }
 
 #intro b {
