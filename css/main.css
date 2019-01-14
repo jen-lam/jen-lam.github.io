@@ -1,6 +1,7 @@
 body {
     font-family:'Roboto', sans-serif ;
     background:#fff;
+    line-height:1.5em;
     overflow-x:hidden;
 }
 nav ul, footer ul {
@@ -76,10 +77,6 @@ p {
     position:relative;
 }
 
-#intro b {
-    font-weight:600;
-}
-
 #works {
     position:relative;
     float:right;
@@ -94,12 +91,9 @@ p {
 }
 
 .info {
+    margin-top:10px;
     width:100%;
 } 
-
-.info c {
-    font-family:'Open Sans', sans-serif;
-}
 
 .cover {
     width:100%;
