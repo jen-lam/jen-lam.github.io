@@ -53,13 +53,14 @@ p {
     font-size:3em;
     font-weight:800;
     position:fixed;
-    top:80px;
+    top:100px;
 }
 
 #nav {
     position:fixed;
     bottom:0px;
     display:block;
+    bototm:100px;
 }
 
 #nav a {
@@ -71,7 +72,7 @@ p {
     font-family:'Open Sans', sans-serif;    
     float:right;
     width:70%;
-    margin-bottom:300px;
+    margin-bottom:250px;
     line-height:1.5em;
     margin-top:20px;
 }
