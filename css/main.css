@@ -37,7 +37,7 @@ p {
 }
 
 #container {
-    margin:100 auto;
+    margin:100px auto;
     padding:80px;
     box-sizing:border-box; 
 }
@@ -82,7 +82,7 @@ p {
 }
 
 #works {
-    position:absolute;
+    position:relative;
     float:right;
     width:70%;
     top:calc(40vh - 150px);
