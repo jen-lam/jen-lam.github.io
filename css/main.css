@@ -84,7 +84,7 @@ p {
     position:relative;
     float:right;
     width:70%;
-    top:calc(40vh - 150px);
+    top:30vh;
 }
 
 .rectangle {
