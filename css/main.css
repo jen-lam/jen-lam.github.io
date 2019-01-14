@@ -60,11 +60,12 @@ p {
 
 #nav {
     display:inline;
+    float:right;
 }
 
 #nav a {
     display:inline;
-    line-height:1.5em;
+    margin-right:20px;
 }
 
 #intro {
