@@ -26,6 +26,10 @@ a.focus:link, a.focus:visited
     color:#68caff;
 }
 
+b {
+    font-weight:600;
+}
+
 h1 {
     font-size:2em;
     font-family:'Open Sans', sans-serif;
