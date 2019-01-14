@@ -1,6 +1,7 @@
 body {
     font-family:'Roboto', sans-serif ;
     background:#fff;
+    overflow-x:hidden;
 }
 nav ul, footer ul {
     padding:0px;
@@ -36,7 +37,7 @@ p {
 }
 
 #container {
-    margin:0 auto;
+    margin:100 auto;
     padding:80px;
     box-sizing:border-box; 
 }
@@ -55,7 +56,6 @@ p {
     font-weight:800;
     position:fixed;
     line-height:1em;
-    top:20vh;
 }
 
 #nav {
@@ -66,17 +66,15 @@ p {
 
 #nav a {
     display:block;
-    line-height:2em;
+    line-height:1.5em;
 }
 
 #intro {
     font-family:'Open Sans', sans-serif;
     float:right;
-    left:30vw;
     width:70%;
     line-height:1.5em;
-    position:absolute;
-    top:20vh;
+    position:relative;
 }
 
 #intro b {
@@ -85,14 +83,13 @@ p {
 
 #works {
     position:absolute;
+    float:right;
     width:70%;
-    left:30vw;
-    top:40vh;
+    top:calc(40vh - 150px);
 }
 
 .rectangle {
-    float:right;
-    width:70%;
+    width:100%;
     height:auto;
     margin-bottom:200px;
 }
