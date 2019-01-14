@@ -59,13 +59,11 @@ p {
 }
 
 #nav {
-    position:fixed;
-    display:block;
-    top:40vh;
+    display:inline;
 }
 
 #nav a {
-    display:block;
+    display:inline;
     line-height:1.5em;
 }
 
