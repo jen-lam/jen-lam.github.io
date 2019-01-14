@@ -21,6 +21,7 @@ a {
 a.focus:link, a.focus:visited, a:hover
 {
     font-weight:600;
+    color:#000;
 }
 
 strong, b {
@@ -94,6 +95,7 @@ p {
 .info {
     margin-top:10px;
     width:100%;
+    font-family:'Open Sans', sans-serif;
 } 
 
 .cover {
