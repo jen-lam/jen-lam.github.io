@@ -99,10 +99,10 @@ p {
 } 
 
 .cover {
-    position:absolute;
     width:100%;
     height:auto;
-    overflow:hidden;
+    top:0px;
+    left:0px;
 }
  
  .cover img {
@@ -110,7 +110,7 @@ p {
     transition: 0.6s ease;
  }
  
- .rectangle:hover .cover img {
+ .container:hover .cover img {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
  }
