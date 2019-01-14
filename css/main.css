@@ -97,6 +97,10 @@ p {
     width:100%;
 } 
 
+.info c {
+    font-family:'Open Sans', sans-serif;
+}
+
 .cover {
     width:100%;
     height:auto;
