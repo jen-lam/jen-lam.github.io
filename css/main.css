@@ -91,7 +91,6 @@ p {
     width:100%;
     height:auto;
     margin-bottom:200px;
-    overflow:hidden;
 }
 
 .info {
@@ -101,16 +100,5 @@ p {
 .cover {
     width:100%;
     height:auto;
-    top:0px;
-    left:0px;
 }
- 
- .cover img {
-    -webkit-transition: 0.6s ease;
-    transition: 0.6s ease;
- }
- 
- .container:hover .cover img {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
- }
+
