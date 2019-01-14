@@ -23,7 +23,7 @@ a:hover {
 
 a.focus:link, a.focus:visited
 {
-    color:#68caff;
+    font-weight:600;
 }
 
 b {
