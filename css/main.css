@@ -45,9 +45,9 @@ p {
     box-sizing:border-box; 
 }
 
-@media only screen and (min-width:1921px) {
+@media only screen and (min-width:1681px) {
     #container {
-        width:1920px;
+        width:1680px;
     }
 }
 
