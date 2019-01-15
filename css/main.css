@@ -3,6 +3,7 @@ body {
     background:#fff;
     line-height:1.5em;
     overflow-x:hidden;
+    overflow-y:scroll;
 }
 nav ul, footer ul {
     padding:0px;
