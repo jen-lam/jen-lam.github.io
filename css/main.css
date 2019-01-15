@@ -40,7 +40,7 @@ p {
 }
 
 #container {
-    margin:100px auto;
+    margin:0 auto;
     padding:80px;
     box-sizing:border-box; 
 }
@@ -84,7 +84,7 @@ p {
     position:relative;
     float:right;
     width:70%;
-    top:30vh;
+    top:40vh;
 }
 
 .rectangle {
