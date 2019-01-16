@@ -83,15 +83,19 @@ p {
 
 #works {
     position:relative;
-    float:right;
-    width:70%;
+    width:80%;
     top:40vh;
+    margin:0 auto;
 }
 
 .rectangle {
-    width:100%;
+    width:70%;
     height:auto;
     margin-bottom:200px;
+}
+
+.rectangle:nth-child(even) {
+    float:right;
 }
 
 .info {
