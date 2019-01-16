@@ -25,7 +25,7 @@
 			</div>
 
 
-		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		<button onclick="topFunction()" id="scrtop" title="Restart">↑</button>
 		
 		<div id="works">
  
@@ -45,9 +45,6 @@
 			</div>
 
 		</div>
-<!--
-
--->
 
 		</div>
 
@@ -56,10 +53,10 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("myBtn").style.display = "block";
+  if (document.body.scrollTop > 40% || document.documentElement.scrollTop > 40%) {
+    document.getElementById("scrtop").style.display = "block";
   } else {
-    document.getElementById("myBtn").style.display = "none";
+    document.getElementById("scrtop").style.display = "none";
   }
 }
 
