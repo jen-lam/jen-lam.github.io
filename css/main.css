@@ -60,11 +60,18 @@ p {
 
 #logo {
     font-family:'Open Sans', sans-serif;
-    font-size:3em;
+    font-size:1em;
     font-weight:800;
     position:absolute;
+    color:#000;
+}
+
+#logo c {
+    font-weight:600;
     color:#999;
 }
+
+
 
 #nav {
     display:inline;
