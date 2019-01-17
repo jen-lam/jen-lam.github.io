@@ -42,7 +42,7 @@ p {
 
 #container {
     margin:0 auto;
-    padding:80px;
+    padding:100px;
     box-sizing:border-box; 
 }
 
@@ -58,7 +58,7 @@ p {
     font-family:'Open Sans', sans-serif;
     font-size:3em;
     font-weight:800;
-    position:fixed;
+    position:absolute;
     line-height:1em;
 }
 
@@ -83,7 +83,6 @@ p {
 
 #works {
     position:relative;
-    width:80%;
     top:40vh;
     margin:0 auto;
 }
