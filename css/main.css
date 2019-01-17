@@ -89,13 +89,19 @@ p {
 }
 
 .rectangle {
-    width:70%;
+    width:100%;
     height:auto;
-    margin-bottom:200px;
+    margin-bottom:10px;
 }
 
-.rectangle:nth-child(even) {
+.rectangle:nth-child(3n+2) {
+    float:left;
+    width:calc(50% - 5px);
+}
+
+.rectangle:nth-child(3n+3) {
     float:right;
+    width:calc(50% - 5px);
 }
 
 .info {
