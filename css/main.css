@@ -86,9 +86,11 @@ p {
     margin:0 auto;
 }
 
-.rectangle:nth-child(3n+1) {
+.rectangle {
     float:left;
+    position:relative;
     width:100%;
+    height:auto;
 }
 
 .rectangle:nth-child(3n+2) {
