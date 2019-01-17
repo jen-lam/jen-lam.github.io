@@ -45,6 +45,7 @@ p {
 }
 
 #container {
+    position:relative;
     margin:0 auto;
     padding:100px;
 }
@@ -84,8 +85,9 @@ p {
 }
 
 #works {
-    position:relative;
-    top:40vh;
+    position:absolute;
+    top:80vh;
+    padding: 100px 100px 100px 0px;
     margin:0 auto;
 }
 
