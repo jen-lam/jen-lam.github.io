@@ -79,7 +79,8 @@ p {
 
 #intro {
     font-family:'Open Sans', sans-serif;
-    width:100%;
+    width:90%;
+    float:right;
     line-height:1.5em;
     position:relative;
 }
@@ -88,7 +89,7 @@ p {
     position:absolute;
     top:40vh;
     left:0px;
-    padding:140px;
+    padding:140px 140px 280px 140px;
     margin:0 auto;
 }
 
