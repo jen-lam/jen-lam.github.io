@@ -75,10 +75,9 @@ p {
 
 #intro {
     font-family:'Open Sans', sans-serif;
-    float:right;
     width:70%;
     line-height:1.5em;
-    position:relative;
+    position:absolute;
 }
 
 #works {
