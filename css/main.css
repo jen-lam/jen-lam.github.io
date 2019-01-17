@@ -63,7 +63,7 @@ p {
     font-size:3em;
     font-weight:800;
     position:absolute;
-    line-height:1em;
+    color:#999;
 }
 
 #nav {
@@ -79,7 +79,7 @@ p {
 
 #intro {
     font-family:'Open Sans', sans-serif;
-    width:90%;
+    width:100%;
     float:right;
     line-height:1.5em;
     position:relative;
