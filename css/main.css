@@ -81,7 +81,7 @@ p {
     font-family:'Open Sans', sans-serif;
     width:70%;
     line-height:1.5em;
-    position:absolute;
+    position:relative;
 }
 
 #works {
