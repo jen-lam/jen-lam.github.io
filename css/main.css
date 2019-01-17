@@ -95,12 +95,12 @@ p {
 
 .rectangle:nth-child(3n+2) {
     float:left;
-    width:calc(50% - 5px);
+    width:calc(50% - 4px);
 }
 
 .rectangle:nth-child(3n+3) {
     float:right;
-    width:calc(50% - 5px);
+    width:calc(50% - 4px);
 }
 
 .info {
