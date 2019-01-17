@@ -86,10 +86,9 @@ p {
     margin:0 auto;
 }
 
-.rectangle {
-    position:relative;
+.rectangle:nth-child(3n+1) {
+    float:left;
     width:100%;
-    height:auto;
 }
 
 .rectangle:nth-child(3n+2) {
@@ -103,8 +102,8 @@ p {
 }
 
 .info {
-    top:80px;
-    left:35px;
+    top:40px;
+    left:40px;
     position:absolute;
     font-family:'Open Sans', sans-serif;
 } 
