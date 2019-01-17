@@ -112,13 +112,21 @@ p {
     width:calc(50% - 3px);
 }
 
-.info {
+.name {
     top:40px;
     left:40px;
     position:absolute;
     font-weight:800;
     font-family:'Open Sans', sans-serif;
 } 
+
+.type {
+    bottom:40px;
+    left:40px;
+    position:absolute;
+    font-weight:800;
+    font-family:'Open Sans', sans-serif;
+}
 
 .info c {
     bottom:40px;
