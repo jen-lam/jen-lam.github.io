@@ -91,7 +91,6 @@ p {
     position:relative;
     width:100%;
     height:auto;
-    margin-bottom:-45px;
 }
 
 .rectangle:nth-child(3n+2) {
@@ -108,7 +107,6 @@ p {
     top:80px;
     left:35px;
     position:absolute;
-    width:100%;
     font-family:'Open Sans', sans-serif;
 } 
 
