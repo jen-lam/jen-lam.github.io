@@ -26,23 +26,23 @@ a {
 
 a.focus:link, a.focus:visited, a:hover
 {
-    font-weight:600;
+    font-weight:700;
     color:#000;
 }
 
 strong, b {
-    font-weight:600;
+    font-weight:700;
 }
 
 h1 {
     font-size:2em;
-    font-family:'Open Sans', sans-serif;
+    font-family:'PT Sans', sans-serif;
 }
 
 p {
     font-size:1em;
     line-height:1.4em;
-    color:#333333;
+    color:#333;
 }
 
 #container {
@@ -57,12 +57,12 @@ p {
     }
 }
 
-/* TODO: FOR MIN-WIDTH 360 AND MAX-WIDTH 800 */
+/* TODO: FOR MIN-WIDTH 360 AND MAX-WIDTH 960 */
 
 #logo {
-    font-family:'Open Sans', sans-serif;
+    font-family:'PT Sans', sans-serif;
     font-size:1em;
-    font-weight:800;
+    font-weight:700;
     position:absolute;
     color:#000;
 }
@@ -74,13 +74,13 @@ p {
 
 #nav a {
     display:inline;
-    font-family:'Open Sans', sans-serif;
-    font-weight:600;
+    font-family:'PT Sans', sans-serif;
+    font-weight:400;
     margin-left:20px;
 }
 
 #intro {
-    font-family:'Open Sans', sans-serif;
+    font-family:'PT Sans', sans-serif;
     width:100%;
     float:right;
     line-height:1.5em;
@@ -113,19 +113,20 @@ p {
 }
 
 .name {
+    font-size:0.8em ;
     top:40px;
     left:40px;
     position:absolute;
-    font-weight:800;
-    font-family:'Open Sans', sans-serif;
+    font-weight:700;
+    font-family:'PT Sans', sans-serif;
 } 
 
 .type {
     bottom:40px;
     left:40px;
     position:absolute;
-    font-weight:800;
-    font-family:'Open Sans', sans-serif;
+    font-weight:400;
+    font-family:'PT Sans', sans-serif;
 }
 
 .info c {
