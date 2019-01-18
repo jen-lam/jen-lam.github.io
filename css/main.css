@@ -112,6 +112,13 @@ p {
     width:calc(50% - 3px);
 }
 
+.info {
+    position:absolute;
+    top:30px;
+    left:30px;
+    font-family:'PT Sans', sans-serif;
+}
+
 .name {
     font-size:0.8em ;
     top:40px;
