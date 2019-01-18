@@ -54,7 +54,7 @@ p {
 @media only screen and (max-width:961px) {
     .rectangle:nth-child(3n+2),
     .rectangle:nth-child(3n+3) {
-        width:100%;
+        width:100% !important;
     }
 }
 
@@ -97,7 +97,7 @@ p {
     position:absolute;
     top:40vh;
     left:0px;
-    padding:8vw 12vw 8vw 8vw;
+    padding:8vw 8vw 16vw 8vw;
     margin:0 auto;
 }
 
