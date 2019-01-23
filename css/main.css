@@ -36,7 +36,7 @@ strong, b {
 
 h1 {
     font-size:2em;
-    font-family:'PT Sans', sans-serif;
+    font-family:'Source Sans Pro', sans-serif;
 }
 
 p {
@@ -67,7 +67,7 @@ p {
 /* TODO: FOR MIN-WIDTH 360 AND MAX-WIDTH 960 */
 
 #logo {
-    font-family:'PT Sans', sans-serif;
+    font-family:'Source Sans Pro', sans-serif;
     font-size:1em;
     font-weight:700;
     position:absolute;
@@ -81,12 +81,12 @@ p {
 
 #nav a {
     display:inline;
-    font-family:'PT Sans', sans-serif;
+    font-family:'Source Sans Pro', sans-serif;
     margin-left:20px;
 }
 
 #intro {
-    font-family:'PT Sans', sans-serif;
+    font-family:'Source Sans Pro', sans-serif;
     width:100%;
     float:right;
     line-height:1.5em;
@@ -123,7 +123,7 @@ p {
     position:absolute;
     top:30px;
     left:30px;
-    font-family:'PT Sans', sans-serif;
+    font-family:'Source Sans Pro', sans-serif;
 }
 
 .name {
@@ -132,7 +132,7 @@ p {
     left:40px;
     position:absolute;
     font-weight:700;
-    font-family:'PT Sans', sans-serif;
+    font-family:'Source Sans Pro', sans-serif;
 } 
 
 .type {
@@ -140,7 +140,7 @@ p {
     left:40px;
     position:absolute;
     font-weight:400;
-    font-family:'PT Sans', sans-serif;
+    font-family:'Source Sans Pro', sans-serif;
 }
 
 .info c {
