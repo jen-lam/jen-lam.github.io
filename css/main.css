@@ -124,24 +124,7 @@ p {
     position:absolute;
     top:30px;
     left:30px;
-    font-family:'Source Sans Pro', sans-serif;
-}
-
-.name {
-    font-size:0.8em ;
-    top:40px;
-    left:40px;
-    position:absolute;
     font-weight:700;
-    font-family:'Source Sans Pro', sans-serif;
-} 
-
-.type {
-    bottom:40px;
-    left:40px;
-    position:absolute;
-    font-weight:400;
-    font-family:'Source Sans Pro', sans-serif;
 }
 
 .info c {
