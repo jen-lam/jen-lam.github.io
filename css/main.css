@@ -110,12 +110,12 @@ p {
     margin-bottom:14px;
 }
 
-.rectangle:nth-child(3n+2) {
+.rectangle:nth-child(odd) {
     float:left;
     width:calc(50% - 10px);
 }
 
-.rectangle:nth-child(3n+3) {
+.rectangle:nth-child(even) {
     float:right;
     width:calc(50% - 10px);
 }
@@ -151,6 +151,7 @@ p {
 .cover {
     width:100%;
     height:auto;
+    border-radius:10px;
 }
 
 #footer {
