@@ -67,7 +67,7 @@ p {
 /* TODO: FOR MIN-WIDTH 360 AND MAX-WIDTH 960 */
 
 #logo {
-    font-family:'Source Sans Pro', sans-serif;
+    font-family:'Oswald', sans-serif;
     font-size:1em;
     font-weight:700;
     position:absolute;
@@ -81,13 +81,13 @@ p {
 
 #nav a {
     display:inline;
-    font-family:'Source Sans Pro', sans-serif;
+    font-family:'Oswald', sans-serif;
     margin-left:20px;
     font-weight:700;
 }
 
 #intro {
-    font-family:'Source Sans Pro', sans-serif;
+    font-family:'Oswald', sans-serif;
     width:100%;
     float:right;
     line-height:1.5em;
@@ -124,7 +124,6 @@ p {
     position:absolute;
     top:30px;
     left:30px;
-    font-weight:700;
 }
 
 .info c {
