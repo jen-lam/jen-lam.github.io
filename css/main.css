@@ -48,6 +48,10 @@ section {
    padding:8vw; 
 }
 
+article {
+    background:#e8f3f7;
+}
+
 #container {
     position:relative;
     margin:0 auto;
