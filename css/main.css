@@ -45,12 +45,7 @@ p {
 }
 
 section {
-   padding:16vw; 
-}
-
-article {
-    background:#f4f4f4;
-    width:100%;
+   padding:4vw 16vw; 
 }
 
 #container {
@@ -155,6 +150,10 @@ article {
     background:#000;
     bottom:0px;
     left:0px;
+}
+
+.accent {
+    background:#f4f4f4;
 }
 
 .slideshow-container {
