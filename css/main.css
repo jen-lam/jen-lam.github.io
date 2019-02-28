@@ -45,11 +45,12 @@ p {
 }
 
 section {
-   padding:8vw; 
+   padding:16vw; 
 }
 
 article {
     background:#f4f4f4;
+    width:100%;
 }
 
 #container {
