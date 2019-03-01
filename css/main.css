@@ -138,9 +138,8 @@ section {
 
 .cover {
     width:100%;
-    top:0px;
+    height:500px;
     left:0px;
-    position:relative;
     background:#f4f1ab;
 }
 
@@ -154,7 +153,9 @@ section {
 
 .accent {
     background:#f4f4f4;
-    width:calc(100% + 10px);
+    left:-10px;
+    position:relative;
+    width:calc(100% + 20px);
 }
 
 .slideshow-container {
