@@ -152,7 +152,6 @@ section {
 }
 
 .accent {
-    background:#f4f4f4;
     left:-10px;
     position:relative;
     width:calc(100% + 20px);
