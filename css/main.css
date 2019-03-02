@@ -5,7 +5,7 @@
 body {
     font-family:'Chivo', sans-serif ;
     background:#fff;
-    line-height:1.5em;
+    line-height:1.8em;
     overflow-x:hidden;
     overflow-y:scroll;
 }
@@ -36,12 +36,6 @@ strong, b {
 
 h1 {
     font-size:2em;
-}
-
-p {
-    font-size:1em;
-    line-height:1.4em;
-    color:#333;
 }
 
 section {
