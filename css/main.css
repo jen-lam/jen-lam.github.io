@@ -53,6 +53,15 @@ section {
     .placeholder:nth-child(even) {
         width:100% !important;
     }
+
+    .part {
+        width:100% !important;
+        margin-left:0px !important;
+    }
+
+    .vid {
+        display:block !important;
+    }
 }
 
 @media only screen and (min-width:1681px) {
