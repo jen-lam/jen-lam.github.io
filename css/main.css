@@ -26,7 +26,6 @@ a {
 
 a.focus:link, a.focus:visited, a:hover
 {
-    font-weight:700;
     color:#000;
 }
 
@@ -87,7 +86,6 @@ section {
 #nav a {
     display:inline;
     margin-left:20px;
-    font-weight:700;
 }
 
 #intro {
