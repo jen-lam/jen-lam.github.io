@@ -65,9 +65,36 @@
 
 		<section>
 			<h2>Empathise</h2>
-			<b>Interviews</b><br>
-			While we were unable
-			<b>Empathy Maps</b>
+			At the beginning of our project, it was imperative that we learned about the users of the Huli information system and mobile application - the forest guards, chief conservators, and the team at headquarters. This would typically involve user interviews however, as we were not in contact with the users, we interviewed our Lecturer-in-Charge, Sandeep Mysore, who had first-hand experience with the routes and supplied us with screenshots of the original mobile application.<p>
+			<b>Interviews + Roleplay</b><br>
+			Through interviewing Sandeep, we were able to better understand what the forest guards do. We asked how routes were chosen, who had a mobile phone and access to the application, how reliable Internet connectivity was (if any), and how familiar the forest guards were with technology. Bearing these answers in mind, we used roleplay to understand the perspective of forest guards. In particular, we roleplayed the patrol routine to identfiy user touch points, and potential opportunities to streamline these processes.<p>
+			<b>Empathy Maps</b><br>
+			We created empathy maps to develop an even deeper understanding of Huli's users, which were guided by our interview and roleplay findings.
+
+		<div class="accent" style="background:#f4f4f4; padding:4vw">
+			<div class="slideshow-container">
+			<div class="mySlides fade">
+				<img src="" style="width:100%; border:10px solid #fff">
+				<div class="text" style="text-align:center; margin:10px auto">User Journey Map - Jessica Pham</div>
+			</div>
+
+			<div class="mySlides fade">
+				<img src="" style="width:100%; border:10px solid #fff">
+				<div class="text" style="text-align:center; margin:10px auto">User Journey Map - Natalie Oh</div>
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			</div>
+
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span> 
+				<span class="dot" onclick="currentSlide(2)"></span>
+			</div>
+		</div>
+
+
 		</section>
 
 		<section>
@@ -89,7 +116,37 @@
 		<section>
 			<h2>Key takeaway</h2>
 		</section>
+		
+	<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
 
+	// Next/previous controls
+	function plusSlides(n) {
+  	showSlides(slideIndex += n);
+	}
+
+	// Thumbnail image controls
+	function currentSlide(n) {
+  	showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+  		var i;
+  		var slides = document.getElementsByClassName("mySlides");
+  		var dots = document.getElementsByClassName("dot");
+  		if (n > slides.length) {slideIndex = 1} 
+  		if (n < 1) {slideIndex = slides.length}
+  		for (i = 0; i < slides.length; i++) {
+      		slides[i].style.display = "none"; 
+  		}
+  		for (i = 0; i < dots.length; i++) {
+      		dots[i].className = dots[i].className.replace(" active", "");
+  		}
+  		slides[slideIndex-1].style.display = "block"; 
+  		dots[slideIndex-1].className += " active";
+	}
+	</script>
 
 	</body>
 </html>
