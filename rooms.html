@@ -198,42 +198,46 @@
 				<li>Prototyping - the software I used to create the prototypes felt quite limiting and did not truly represent the transitions and micro-interactions that would make the application better. A more sophisticated software may assist in creating them.</li>
 				<li>Features - an opportunity I mentioned that I did not implement was attaching or displaying floor plans to help students find rooms faster</li>
 			</ul> 
-
-			<p>
-			<h2>Key takeaway</h2>
-			Research shouldn't stop at the first step. Allow yourself to be flexible and take on research opportunities that arise during other steps.
 		</section>
 
-<script>
+		<div class="accent" style="background:#f4f4f4; padding:4vw 16vw">
+			<div class="text" style="left:10px">
+				<h2>Key takeaway</h2>
+				Research shouldn't stop at the first step. Allow yourself to be flexible and take on research opportunities that arise during other steps.
+			</div>
+		</div>
+
+
+	<script>
 	var slideIndex = 1;
-showSlides(slideIndex);
+	showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+	// Next/previous controls
+	function plusSlides(n) {
+  	showSlides(slideIndex += n);
+	}
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+	// Thumbnail image controls
+	function currentSlide(n) {
+  	showSlides(slideIndex = n);
+	}
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1} 
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none"; 
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block"; 
-  dots[slideIndex-1].className += " active";
-}
-</script>
+	function showSlides(n) {
+  		var i;
+  		var slides = document.getElementsByClassName("mySlides");
+  		var dots = document.getElementsByClassName("dot");
+  		if (n > slides.length) {slideIndex = 1} 
+  		if (n < 1) {slideIndex = slides.length}
+  		for (i = 0; i < slides.length; i++) {
+      		slides[i].style.display = "none"; 
+  		}
+  		for (i = 0; i < dots.length; i++) {
+      		dots[i].className = dots[i].className.replace(" active", "");
+  		}
+  		slides[slideIndex-1].style.display = "block"; 
+  		dots[slideIndex-1].className += " active";
+	}
+	</script>
 
 	</body>
 </html>
