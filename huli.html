@@ -78,14 +78,14 @@
 
 		<div class="accent" style="background:#f4f4f4; padding:4vw">
 			<div class="slideshow-container">
-			<div class="mySlides1">
-				<img src="cjm-jp.png" style="width:100%; border:10px solid #fff">
-				<div class="text" style="text-align:center; margin:10px auto">User Journey Map - Jessica Pham</div>
+			<div class="mySlides fade">
+				<img src="" style="width:100%; border:10px solid #fff">
+				<div class="text" style="text-align:center; margin:10px auto">Empathy Map - Headquarters Team</div>
 			</div>
 
-			<div class="mySlides1">
-				<img src="cjm-jp.png" style="width:100%; border:10px solid #fff">
-				<div class="text" style="text-align:center; margin:10px auto">User Journey Map - Jessica Pham</div>
+			<div class="mySlides fade">
+				<img src="" style="width:100%; border:10px solid #fff">
+				<div class="text" style="text-align:center; margin:10px auto">Empathy Map - Forest Conservator</div>
 			</div>
 
 			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -104,16 +104,16 @@
 			We then created Point of View statements that formed the basis of our design decisions, assisting us in the ideation stage.
 		</section>
 
-		<div class="accent" style="background:#f4f4f4; padding:4vw">
+<!--		<div class="accent" style="background:#f4f4f4; padding:4vw">
 			<div class="slideshow-container">
-			<div class="mySlides2">
-				<img src="cjm-jp.png" style="width:100%; border:10px solid #fff">
-				<div class="text" style="text-align:center; margin:10px auto">User Journey Map - Jessica Pham</div>
+			<div class="mySlides fade">
+				<img src="" style="width:100%; border:10px solid #fff">
+				<div class="text" style="text-align:center; margin:10px auto">Empathy Map - Headquarters Team</div>
 			</div>
 
-			<div class="mySlides2">
-				<img src="cjm-jp.png" style="width:100%; border:10px solid #fff">
-				<div class="text" style="text-align:center; margin:10px auto">User Journey Map - Jessica Pham</div>
+			<div class="mySlides fade">
+				<img src="" style="width:100%; border:10px solid #fff">
+				<div class="text" style="text-align:center; margin:10px auto">Empathy Map - Forest Conservator</div>
 			</div>
 
 			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -126,7 +126,7 @@
 				<span class="dot" onclick="currentSlide(2)"></span>
 			</div>
 		</div>
-
+-->
 
 		<section>
 			<h2>Ideate</h2>
@@ -143,35 +143,28 @@
 		</section>
 
 	<script>
-	var slideIndex = [1,1];
-	var slideId = ["mySlides1", "mySlides2"]
-	showSlides(1,0);
-	showSlides(1,1);
+	var slideIndex = 1;
+	showSlides(slideIndex);
 
 	// Next/previous controls
 	function plusSlides(n) {
-  		showSlides(slideIndex += n);
+  	showSlides(slideIndex += n);
 	}
 
 	// Thumbnail image controls
 	function currentSlide(n) {
-  		showSlides(slideIndex = n);
+  	showSlides(slideIndex = n);
 	}
-	
-function plusSlides(n, no) {
-  showSlides(slideIndex[no] += n, no);
-}
 
-function showSlides(n, no) {
-  var i;
-  var x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}    
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";  
-  }
-  x[slideIndex[no]-1].style.display = "block";  
-}
+	function showSlides(n) {
+  		var i;
+  		var slides = document.getElementsByClassName("mySlides");
+  		var dots = document.getElementsByClassName("dot");
+  		if (n > slides.length) {slideIndex = 1} 
+  		if (n < 1) {slideIndex = slides.length}
+  		for (i = 0; i < slides.length; i++) {
+      		slides[i].style.display = "none"; 
+  		}
   		for (i = 0; i < dots.length; i++) {
       		dots[i].className = dots[i].className.replace(" active", "");
   		}
