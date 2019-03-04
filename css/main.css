@@ -48,11 +48,6 @@ section {
 }
 
 @media only screen and (max-width:961px) {
-    .placeholder:nth-child(odd),
-    .placeholder:nth-child(even) {
-        width:100% !important;
-    }
-
     .part {
         width:100% !important;
         margin-left:0px !important;
@@ -109,16 +104,6 @@ section {
     width:100%;
     height:auto;
     margin-bottom:14px;
-}
-
-.placeholder:nth-child(odd) {
-    float:left;
-    width:calc(50% - 10px);
-}
-
-.placeholder:nth-child(even) {
-    float:right;
-    width:calc(50% - 10px);
 }
 
 .picture {
