@@ -124,7 +124,7 @@ section {
 
 .info {
     position:absolute;
-    left:30px;
+    left:6vw;
     top:50%;
     transform: translateY(-50%);
 }
