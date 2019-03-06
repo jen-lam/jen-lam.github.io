@@ -60,6 +60,10 @@ section {
     section {
         padding:4vw !important;
     }
+
+    .accent {
+        padding:4vw !important;
+    }
 }
 
 @media only screen and (min-width:1681px) {
