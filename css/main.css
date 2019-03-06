@@ -84,11 +84,13 @@ section {
 #nav {
     display:inline;
     float:right;
+    z-index:9999;
 }
 
 #nav a {
     display:inline;
     margin-left:20px;
+    z-index:9999;
 }
 
 #intro {
