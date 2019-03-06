@@ -124,12 +124,9 @@ section {
 
 .info {
     position:absolute;
-    top:30px;
     left:30px;
-}
-
-.info c {
-    bottom:40px;
+    top:50%;
+    transform: translateY(-50%);
 }
 
 .cover {
