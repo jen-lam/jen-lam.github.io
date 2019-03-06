@@ -50,7 +50,7 @@ section {
 @media only screen and (max-width:961px) {
     .part {
         width:100% !important;
-        margin-left:0px !important;
+        margin-left:10px !important;
     }
 
     .vid {
@@ -124,7 +124,7 @@ section {
 
 .info {
     position:absolute;
-    padding:6vw;
+    padding:0 6vw;
     top:50%;
     transform:translateY(-50%);
 }
