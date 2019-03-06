@@ -38,7 +38,7 @@ h1 {
 }
 
 section {
-   padding:4vw 16vw; 
+    padding:4vw 16vw; 
 }
 
 #container {
@@ -57,6 +57,10 @@ section {
         display:block !important;
     }
 
+    #about {
+        padding:8vw 4vw !important;
+    }
+
     section {
         padding:4vw !important;
     }
@@ -73,6 +77,10 @@ section {
 }
 
 /* TODO: FOR MIN-WIDTH 360 AND MAX-WIDTH 960 */
+
+#about {
+    padding:8vw 16vw; 
+}
 
 #logo {
     font-size:1em;
