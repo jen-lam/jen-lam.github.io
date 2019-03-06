@@ -131,7 +131,7 @@ section {
 
 .info {
     position:absolute;
-    padding:0 6vw;
+    padding:0 4vw;
     top:50%;
     transform:translateY(-50%);
 }
