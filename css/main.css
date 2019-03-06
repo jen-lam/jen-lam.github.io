@@ -124,9 +124,9 @@ section {
 
 .info {
     position:absolute;
-    left:6vw;
+    padding:6vw;
     top:50%;
-    transform: translateY(-50%);
+    transform:translateY(-50%);
 }
 
 .cover {
