@@ -123,6 +123,10 @@ section {
     margin-bottom:16px;
 }
 
+.placeholder a {
+    color:#000;
+}
+
 .picture {
     width:100%;
     height:auto;
