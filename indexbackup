@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<title>Jen Lam</title>
+		<link rel="stylesheet" type="text/css" href="/css/main.css">		
+		<link rel="shortcut icon" type="image/png" href="favicon.png" sizes="24x24">
+		<link href="https://fonts.googleapis.com/css?family=Chivo:400,700" rel="stylesheet">			
+	</head>
+	
+	<body>
+
+		<div id="container">
+			<div id="logo">Jen Lam</div>
+			<div id="nav">
+				<a href="/" class="focus">Work</a>
+				<a href="/about">About</a>				
+			</div>
+			<div class="text" style="font-weight:400; top:20vh; font-size:1.5em; position:relative">I enjoy designing digital <b>products</b> and <b>experiences.</b></div>
+
+		<div id="works">
+ 
+			<div class="placeholder">
+				<a href="/rooms"><img src="rooms-cover.png" class="picture"/>
+				<div class="info"><b>UNSW Rooms</b><br>Product | UX | Concept</div></a>
+			</div>
+
+			<div class="placeholder" style="margin-bottom:10vh">
+				<a href="/huli"><img src="huli-cover.png" class="picture"/>
+				<div class="info"><b>Huli</b><br>Product | UX | Redesign</div></a>
+			</div>
+
+			<div id="placeholder">		
+				<a href="mailto:jenlam137@gmail.com" style="font-size:1.5em; color:#000">Get in touch →</a>
+			</div>
+		</div>
+		</div>
+
+	</body>
+</html>
