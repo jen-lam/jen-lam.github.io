@@ -23,7 +23,7 @@ a {
 }
 
 nav {
-  padding:4vw 16vw; 
+  padding:2vw 16vw; 
   display:flex;
   justify-content:space-between;
 }
@@ -39,7 +39,7 @@ nav {
 
 header {
   margin-top:30vh;
-  padding:2vw 16vw; 
+  padding:4vw 16vw; 
   display:flex;
   justify-content:space-between;
 }
@@ -55,4 +55,9 @@ header {
   font-size:1.6em;
   font-weight:700;
   line-height:110%;
+}
+
+section {
+  padding:4vw 16vw; 
+  background:#0f0f0f;
 }
