@@ -3,32 +3,25 @@
 }
 
 body {
-    font-family:'Chivo', sans-serif ;
-    background:#fff;
-    line-height:1.8em;
-    overflow-x:hidden;
-    overflow-y:scroll;
+  font-family:'Chivo', sans-serif ;
+  background:#fff;
+  line-height:1.8em;
+  overflow-x:hidden;
+  overflow-y:scroll;
 }
 
 a {
-    text-decoration:none;
-    color:#999;
+  text-decoration:none;
+  color:#999;
 }
 
 nav {
-    height:80px;
-    background:#eee;
-    width:100%;
-    top:0px;
-    left:0px;
+  display:flex;
+  justify-content:space-between;
+  height:80px;
+  background:#eee;
+  width:100%;
+  top:0px;
+  left:0px;
 }
 
-nav ul, footer ul {
-    padding:0px;
-    list-style:none;
-    font-weight:bold;
-}
-nav ul li, footer ul li {
-    display:block;
-    margin-right:20px;
-}
