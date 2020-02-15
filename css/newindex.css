@@ -34,6 +34,6 @@ nav {
 }
 
 .nav a {
-  display:block;
+  display:inline;
   margin-right:20px;
 }
