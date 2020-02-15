@@ -23,9 +23,10 @@ a {
 }
 
 nav {
-  padding:2vw 16vw; 
+  padding:4vh 16vw; 
   display:flex;
   justify-content:space-between;
+  position:fixed;
 }
 
 .nav {
@@ -39,7 +40,7 @@ nav {
 
 header {
   margin-top:30vh;
-  padding:4vw 16vw; 
+  padding:16vh 16vw; 
   display:flex;
   justify-content:space-between;
 }
@@ -58,6 +59,6 @@ header {
 }
 
 section {
-  padding:4vw 16vw; 
+  padding:16vh 16vw; 
   background:#0f0f0f;
 }
