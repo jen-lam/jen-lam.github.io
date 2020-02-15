@@ -38,19 +38,19 @@ nav {
 
 
 header {
-  padding:4vw 16vw; 
-  background:#eee;
+  margin-top:30vh;
+  padding:2vw 16vw; 
   display:flex;
   justify-content:space-between;
 }
 
 #introduction, #description {
   display:flex;
-  padding:40px;
   width:50%;
 }
 
 #introduction {
+  padding-right:80px;
   font-family:'Lato', sans-serif;
   font-size:1.6em;
   font-weight:700;
