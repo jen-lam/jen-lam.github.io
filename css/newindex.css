@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family:'Chivo', sans-serif ;
+  font-family:'Roboto', sans-serif ;
   background:#fff;
   line-height:1.8em;
   overflow-x:hidden;
@@ -15,7 +15,6 @@ ul {
   padding:0;
   list-style:none;
 }
-
 
 a {
   text-decoration:none;
@@ -39,4 +38,10 @@ nav {
 header {
   padding:4vw 16vw; 
   background:#eee;
+  display:flex;
+  justify-content:space-between;
+}
+
+#introduction, #description {
+  display:flex;
 }
