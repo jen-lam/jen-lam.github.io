@@ -26,11 +26,11 @@ nav {
   padding:4vh 16vw; 
   display:flex;
   justify-content:space-between;
-  position:fixed;
 }
 
 .nav {
   display:flex;
+  position:fixed;
 }
 
 .nav a {
