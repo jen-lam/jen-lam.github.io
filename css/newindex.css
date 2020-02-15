@@ -45,7 +45,7 @@ header {
 
 #introduction, #description {
   display:flex;
-  padding:20px;
+  padding:40px;
   width:50%;
 }
 
@@ -54,4 +54,8 @@ header {
   font-size:2em;
   font-weight:700;
   line-height:110%;
+}
+
+#description {
+  font-size:1.6em;
 }
