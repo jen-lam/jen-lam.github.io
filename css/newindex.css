@@ -23,6 +23,7 @@ a {
 }
 
 nav {
+  padding:4vw 16vw; 
   display:flex;
   justify-content:space-between;
 }
