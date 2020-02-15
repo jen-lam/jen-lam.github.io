@@ -15,6 +15,14 @@ a {
     color:#999;
 }
 
+nav {
+    height:80px;
+    background:#eee;
+    width:100%;
+    top:0px;
+    left:0px;
+}
+
 nav ul, footer ul {
     padding:0px;
     list-style:none;
@@ -23,11 +31,4 @@ nav ul, footer ul {
 nav ul li, footer ul li {
     display:block;
     margin-right:20px;
-}
-
-#navigation {
-  width:100%;
-  height:80px;
-  position:fixed;
-  background:#eee;
 }
