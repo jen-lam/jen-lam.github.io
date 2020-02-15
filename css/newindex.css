@@ -46,3 +46,7 @@ header {
 #introduction, #description {
   display:flex;
 }
+
+#introduction {
+  width:30%;
+}
