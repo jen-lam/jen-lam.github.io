@@ -34,3 +34,9 @@ nav {
 .nav a {
   margin-right:20px;
 }
+
+
+header {
+  padding:4vw 16vw; 
+  background:#eee;
+}
