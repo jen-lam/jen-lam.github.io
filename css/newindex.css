@@ -24,7 +24,6 @@ a {
 
 nav {
   display:flex;
-  flex-direction:row;
   justify-content:space-between;
   background:#fff;
 }
@@ -33,7 +32,11 @@ nav {
   margin:0px;
 }
 
+.nav {
+  display:flex;
+}
+
 .nav a {
-  display:inline;
+  display:block;
   margin-right:20px;
 }
