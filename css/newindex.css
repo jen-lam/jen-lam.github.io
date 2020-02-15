@@ -45,11 +45,13 @@ header {
 
 #introduction, #description {
   display:flex;
+  padding:20px;
+  width:50%;
 }
 
 #introduction {
   font-family:'Lato', sans-serif;
   font-size:2em;
   font-weight:700;
-  line-height:120%;
+  line-height:110%;
 }
