@@ -71,10 +71,11 @@ section:nth-child(odd) {
 }
 
 section:nth-child(even) {
+  padding:16vh 16vw; 
   background:#ECE8E4;
 }
 
 
 footer {
-  
+  padding:4vh 16vw; 
 }
