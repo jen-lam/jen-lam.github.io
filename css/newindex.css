@@ -103,10 +103,12 @@ section:nth-child(even) {
 
 .project a:hover {
   color:#D7A145;
+  transition: all 0.5s ease;
 }
 
 .project a:hover + .preview {
   display:block;  
+  transition: all 0.5s ease;
 }
 
 footer {
