@@ -101,10 +101,6 @@ section:nth-child(even) {
   transform:translateY(-50%);
 }
 
-.active a {
-  color:#D7A145;
-}
-
 .project a:hover + .preview {
   display:block;  
 }
