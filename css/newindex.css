@@ -81,7 +81,11 @@ section:nth-child(even) {
   font-size:1.4em;
   display:block;
   width:30%;
-  margin:20px 80px 20px 0px;
+  margin:80px 0px;
+}
+
+.project a:first-child, .project a:last-child {
+  margin:0px;
 }
 
 .project span {
@@ -102,10 +106,12 @@ section:nth-child(even) {
 
 .project a:hover {
   color:#D7A145;
+  transition:1000s;
 }
 
 .project a:hover + .preview {
   display:block;  
+  transition:1000s;
 }
 
 footer {
