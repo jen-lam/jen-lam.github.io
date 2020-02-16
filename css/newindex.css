@@ -68,19 +68,24 @@ header {
 section:nth-child(odd) {
   padding:16vh 16vw; 
   background:#191919;
+  display:flex;
 }
 
 section:nth-child(even) {
   padding:16vh 16vw; 
   background:#ECE8E4;
+  display:flex;
+  justify-content:space-between;
 }
 
-span {
+.preview {
+  display:flex;
   display:none;
 }
 
-.project a:hover + span {
+.project a:hover + .preview {
   display:block;
+  display:flex;
 }
 
 footer {
