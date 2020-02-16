@@ -65,7 +65,8 @@ header {
 }
 
 section:nth-child(odd) {
-  padding:16vh 16vw; 
+  width:calc(100% - 8vw);
+  padding:16vh 8vw; 
   background:#191919;
   position:relative;
 }
@@ -74,6 +75,10 @@ section:nth-child(even) {
   padding:16vh 16vw; 
   background:#ECE8E4;
   position:relative;
+}
+
+section span {
+  text-transform:uppercase;
 }
 
 .project a {
