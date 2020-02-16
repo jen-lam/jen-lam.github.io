@@ -68,7 +68,9 @@ header {
 section:nth-child(odd) {
   padding:16vh 16vw; 
   background:#191919;
-  display:flex;
+  display:inline-block;
+  position: relative;
+
 }
 
 section:nth-child(even) {
@@ -83,17 +85,18 @@ section:nth-child(even) {
 
 .project a {
   display:block;
-  float:left;
   width:30%;
   margin:20px 80px 20px 0px;
 }
 
 .preview {
   display:none;
-  float:right;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
-.project a:hover ~ .preview {
+.project a:hover + .preview {
   display:block;  
 }
 
