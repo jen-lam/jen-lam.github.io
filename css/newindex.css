@@ -79,12 +79,11 @@ section:nth-child(even) {
 
 .works {
   width:100%;
-  display:flex;
-  justify-content:space-between;
 }
 
 .project a {
-  display:flex;
+  display:block;
+  float: left;
   width:30%;
   margin:20px 80px 20px 0px;
 }
@@ -96,6 +95,7 @@ section:nth-child(even) {
 
 .project a:hover + .preview {
   display:block;
+  float: right;
 }
 
 footer {
