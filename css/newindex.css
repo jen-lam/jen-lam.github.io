@@ -77,8 +77,14 @@ section:nth-child(even) {
   position:relative;
 }
 
-section span {
+section:nth-child(odd) span {
   text-transform:uppercase;
+  color:#fff;
+}
+
+section:nth-child(even) span {
+  text-transform:uppercase;
+  color:#191919;
 }
 
 .project a {
