@@ -89,6 +89,7 @@ section:nth-child(even) {
 
 .preview {
   display:none;
+  background:#191919;
   position:absolute;
   width:40%;
   height:calc(100% - 16vh);
