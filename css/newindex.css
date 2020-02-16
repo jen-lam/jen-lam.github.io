@@ -78,15 +78,14 @@ section:nth-child(even) {
   justify-content:space-between;
 }
 
-.preview {
+/*.preview {
   display:flex;
   display:none;
 }
 
 .project a:hover + .preview {
   display:block;
-  display:flex;
-}
+}*/
 
 footer {
   padding:4vh 16vw; 
