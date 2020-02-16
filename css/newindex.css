@@ -83,7 +83,7 @@ section:nth-child(even) {
 
 .project a {
   display:block;
-  float: left;
+  float:left;
   width:30%;
   margin:20px 80px 20px 0px;
 }
@@ -93,7 +93,7 @@ section:nth-child(even) {
   float:right;
 }
 
-.project a:hover + .preview {
+.project a:hover ~ .preview {
   display:block;  
 }
 
