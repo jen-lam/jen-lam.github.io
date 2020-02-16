@@ -103,7 +103,6 @@ section:nth-child(even) {
 
 .project a:hover {
   color:#D7A145;
-  transition:1000s;
 }
 
 .project a:hover + .preview {
