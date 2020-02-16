@@ -87,7 +87,7 @@ section:nth-child(even) {
   display:flex;
 }
 
-.project {
+.project a {
   width:30%;
   margin:20px 80px 20px 0px;
 }
