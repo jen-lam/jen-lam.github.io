@@ -84,6 +84,15 @@ section:nth-child(even) {
   margin:20px 80px 20px 0px;
 }
 
+.type {
+  font-size:0.6em;
+  text-transform:uppercase;
+}
+
+.brief {
+  font-size:1em;
+}
+
 .preview {
   display:none;
   background:#D7A145;
@@ -97,7 +106,7 @@ section:nth-child(even) {
 
 .project a:hover + .preview {
   display:block;  
-  color:#ECE8E4;
+  color:#D7A145;
 }
 
 footer {
