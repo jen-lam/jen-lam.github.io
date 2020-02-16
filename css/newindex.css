@@ -85,16 +85,20 @@ section:nth-child(even) {
 
 .project, .preview {
   display:flex;
-  width:50%;
 }
-/*.preview {
-  display:flex;
+
+.project {
+  width:30%;
+  margin:20px 80px 20px 0px;
+}
+
+.preview {
   display:none;
 }
 
 .project a:hover + .preview {
   display:block;
-}*/
+}
 
 footer {
   padding:4vh 16vw; 
