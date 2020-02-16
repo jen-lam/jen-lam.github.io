@@ -89,20 +89,13 @@ section:nth-child(even) {
 
 .preview {
   display:none;
+  background:#D7A145;
   position:absolute;
   width:40%;
   height:calc(100% - 16vh);
   right:16vw;
   top:50%;
   transform:translateY(-50%);
-}
-
-.preview:nth-child(odd) {
-  background:#ECE8E4;
-}
-
-.preview:nth-child(even) {
-  background:#191919;
 }
 
 .project a:hover + .preview {
