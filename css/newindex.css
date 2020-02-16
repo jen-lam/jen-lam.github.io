@@ -78,7 +78,7 @@ section:nth-child(even) {
 
 .project a {
   font-family:'Lato', sans-serif;
-  font-size:1.6em;
+  font-size:1.4em;
   display:block;
   width:30%;
   margin:20px 80px 20px 0px;
@@ -87,10 +87,6 @@ section:nth-child(even) {
 .type {
   font-size:0.6em;
   text-transform:uppercase;
-}
-
-.brief {
-  font-size:1em;
 }
 
 .preview {
