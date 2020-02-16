@@ -81,7 +81,7 @@ section:nth-child(even) {
   font-size:1.4em;
   display:block;
   width:30%;
-  margin-top:100px;
+  margin-top:80px;
 }
 
 .project span {
@@ -99,6 +99,10 @@ section:nth-child(even) {
   right:16vw;
   top:50%;
   transform:translateY(-50%);
+}
+
+.project a:hover {
+  color:#ECE8E4;
 }
 
 .project a:hover + .preview {
