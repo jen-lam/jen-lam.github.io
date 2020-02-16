@@ -83,8 +83,8 @@ section:nth-child(even) {
   margin:20px 80px 20px 0px;
 }
 
-.project .preview:first-child {
-  display:block !important;
+.preview:first-child {
+  display: block;
 }
 
 .preview {
