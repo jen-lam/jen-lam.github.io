@@ -102,7 +102,7 @@ section:nth-child(even) {
 }
 
 .project a:hover {
-  color:#ECE8E4;
+  color:#D7A145;
 }
 
 .project a:hover + .preview {
