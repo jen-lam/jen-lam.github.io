@@ -90,9 +90,11 @@ section:nth-child(even) {
 .preview {
   display:none;
   position:absolute;
-  right:0;
-  top:0;
-  padding:0 16vw; 
+  width:40%;
+  height:calc(100% - 16vh);
+  right:16vw;
+  top:50%;
+  transform:translateY(-50%);
 }
 
 .project a:hover + .preview {
