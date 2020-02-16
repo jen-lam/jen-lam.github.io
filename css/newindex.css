@@ -83,11 +83,8 @@ section:nth-child(even) {
   justify-content:space-between;
 }
 
-.project, .preview {
-  display:flex;
-}
-
 .project a {
+  display:flex;
   width:30%;
   margin:20px 80px 20px 0px;
 }
@@ -97,7 +94,7 @@ section:nth-child(even) {
 }
 
 .project a:hover + .preview {
-  display:block;
+  display:flex;
 }
 
 footer {
