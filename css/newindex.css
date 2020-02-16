@@ -89,11 +89,12 @@ section:nth-child(even) {
   margin:20px 80px 20px 0px;
 }
 
-span {
+.preview {
   display:none;
+  position:absolute;
 }
 
-.project a:hover + span {
+.project a:hover + .preview {
   display:block;
 }
 
