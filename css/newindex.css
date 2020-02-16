@@ -100,9 +100,12 @@ section:nth-child(even) {
   transform:translateY(-50%);
 }
 
+.project a:hover {
+  color:#D7A145;
+}
+
 .project a:hover + .preview {
   display:block;  
-  color:#D7A145;
 }
 
 footer {
