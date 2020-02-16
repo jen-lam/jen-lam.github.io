@@ -101,7 +101,7 @@ section:nth-child(even) {
   transform:translateY(-50%);
 }
 
-.active a{
+.active a {
   color:#D7A145;
 }
 
