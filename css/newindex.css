@@ -61,7 +61,15 @@ header {
   line-height:110%;
 }
 
-section {
+#description {
+  font-size:1.2em;
+}
+
+section:nth-child(odd) {
   padding:16vh 16vw; 
-  background:#0f0f0f;
+  background:#191919;
+}
+
+section:nth-child(even) {
+  background:#ECE8E4;
 }
