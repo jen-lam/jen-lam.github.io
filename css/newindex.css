@@ -81,7 +81,7 @@ section:nth-child(even) {
   font-size:1.4em;
   display:block;
   width:30%;
-  margin:80px 0px;
+  margin-bottom:100px;
 }
 
 .project span {
