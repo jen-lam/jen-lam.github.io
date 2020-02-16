@@ -84,14 +84,6 @@ section:nth-child(even) {
   margin:80px 0px;
 }
 
-.project a:first-child {
-  margin-top:0px;
-}
-
-.project a:last-child {
-  margin-bottom:0px;
-}
-
 .project span {
   font-size:0.6em;
   text-transform:uppercase;
