@@ -93,7 +93,7 @@ section:nth-child(even) {
   display:none;
 }
 
-.project a:hover + .preview {
+.project a:hover + span {
   display:flex;
 }
 
