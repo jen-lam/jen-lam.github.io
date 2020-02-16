@@ -98,6 +98,10 @@ section:nth-child(even) {
   transform:translateY(-50%);
 }
 
+.preview:nth-child(1) {
+  display: block;
+}
+
 .project a:hover + .preview {
   display:block;  
 }
