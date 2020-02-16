@@ -77,14 +77,14 @@ section:nth-child(even) {
   position:relative;
 }
 
-.works {
-  width:100%;
-}
-
 .project a {
   display:block;
   width:30%;
   margin:20px 80px 20px 0px;
+}
+
+section .preview:first-child {
+  display:block !important;
 }
 
 .preview {
@@ -96,10 +96,6 @@ section:nth-child(even) {
   right:16vw;
   top:50%;
   transform:translateY(-50%);
-}
-
-.preview:first-child {
-  display: block !important;
 }
 
 .project a:hover + .preview {
