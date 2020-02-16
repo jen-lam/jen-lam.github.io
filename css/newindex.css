@@ -65,8 +65,8 @@ header {
 }
 
 section:nth-child(odd) {
-  margin:40px;
-  padding:16vh 8vw; 
+  margin:80px;
+  padding:16vh 16vw; 
   background:#191919;
   position:relative;
 }
