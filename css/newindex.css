@@ -68,15 +68,14 @@ header {
 section:nth-child(odd) {
   padding:16vh 16vw; 
   background:#191919;
-  display:inline-block;
-  position: relative;
 
 }
 
 section:nth-child(even) {
   padding:16vh 16vw; 
   background:#ECE8E4;
-  display:block;
+  display:inline-block;
+  position: relative;
 }
 
 .works {
