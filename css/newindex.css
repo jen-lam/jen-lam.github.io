@@ -75,7 +75,16 @@ section:nth-child(even) {
   background:#ECE8E4;
 }
 
+div {
+  display:none;
+}
+
+.project a:hover + div {
+  display:block;
+}
 
 footer {
   padding:4vh 16vw; 
+  font-size:0.6em;
+  text-align:center;
 }
