@@ -101,7 +101,7 @@ section:nth-child(even) {
   transform:translateY(-50%);
 }
 
-.project a:hover {
+.active {
   color:#D7A145;
 }
 
