@@ -90,12 +90,11 @@ section:nth-child(even) {
 
 .preview {
   display:none;
-  position:absolute;
+  float:right;
 }
 
 .project a:hover + .preview {
-  display:block;
-  float: right;
+  display:block;  
 }
 
 footer {
