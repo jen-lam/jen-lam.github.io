@@ -78,6 +78,10 @@ section:nth-child(even) {
   justify-content:space-between;
 }
 
+.project, .preview {
+  display:flex;
+  width:50%;
+}
 /*.preview {
   display:flex;
   display:none;
