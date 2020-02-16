@@ -72,7 +72,8 @@ section:nth-child(odd) {
 }
 
 section:nth-child(even) {
-  padding:16vh 16vw; 
+  margin:8vw;
+  padding:16vh 8vw; 
   background:#ECE8E4;
   position:relative;
 }
@@ -107,7 +108,7 @@ section:nth-child(even) span {
   position:absolute;
   width:40%;
   height:calc(100% - 16vh);
-  right:16vw;
+  right:8vw;
   top:50%;
   transform:translateY(-50%);
 }
