@@ -75,16 +75,16 @@ section:nth-child(even) {
   background:#ECE8E4;
 }
 
-div {
+span {
   display:none;
 }
 
-.project a:hover + div {
+.project a:hover + span {
   display:block;
 }
 
 footer {
   padding:4vh 16vw; 
-  font-size:0.6em;
+  font-size:0.8em;
   text-align:center;
 }
