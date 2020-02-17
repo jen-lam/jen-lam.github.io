@@ -79,10 +79,6 @@ section:nth-child(odd) span {
   color:#F7F2F2;
 }
 
-section:nth-child(odd) a, .type {
-  color:#F7F2F2;
-}
-
 section:nth-child(even)  {
   margin:8vw;
   padding:16vh 8vw; 
@@ -105,7 +101,6 @@ section:nth-child(even) a, .type {
 
 .type {
   font-size:1.6em;
-  border-bottom:2px solid #00B5B0;
 }
 
 
