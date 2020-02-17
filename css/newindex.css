@@ -64,7 +64,7 @@ header {
   font-size:1.2em;
 }
 
-body:nth-child(odd) section {
+section:nth-child(odd)  {
   margin:8vw;
   padding:16vh 8vw; 
   background:#191919;
@@ -76,7 +76,7 @@ section:nth-child(odd) span {
   color:#ECE8E4;
 }
 
-body:nth-child(even) section {
+section:nth-child(even)  {
   margin:8vw;
   padding:16vh 8vw; 
   background:#ECE8E4;
