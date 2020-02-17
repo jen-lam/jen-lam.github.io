@@ -71,7 +71,7 @@ section:nth-child(odd) {
   position:relative;
 }
 
-section span:nth-child(odd) {
+section:nth-child(odd) span {
   text-transform:uppercase;
   color:#ECE8E4;
 }
@@ -83,7 +83,7 @@ section:nth-child(even) {
   position:relative;
 }
 
-section span {
+section:nth-child(even) span {
   text-transform:uppercase;
   color:#191919;
 }
