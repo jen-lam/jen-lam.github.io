@@ -64,14 +64,14 @@ header {
   font-size:1.2em;
 }
 
-section:nth-child(even) {
+section:nth-child(odd) {
   margin:8vw;
   padding:16vh 8vw; 
   background:#191919;
   position:relative;
 }
 
-section:nth-child(odd) {
+section:nth-child(even) {
   margin:8vw;
   padding:16vh 8vw; 
   background:#ECE8E4;
