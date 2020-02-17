@@ -98,6 +98,10 @@ section:nth-child(even) a, .type {
   color:#171A26;
 }
 
+section:nth-child(odd) .type {
+  color:#F7F2F2;
+  
+}
 
 .type {
   font-size:1.6em;
