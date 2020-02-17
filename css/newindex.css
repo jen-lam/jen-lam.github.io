@@ -64,7 +64,7 @@ header {
   font-size:1.2em;
 }
 
-section:nth-child(odd) {
+section:nth-child(1) {
   margin:8vw;
   padding:16vh 8vw; 
   background:#191919;
