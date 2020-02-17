@@ -69,6 +69,7 @@ section:nth-child(odd)  {
   padding:16vh 8vw; 
   background:#171A26;
   position:relative;
+  border-radius:8px;
 }
 
 section:nth-child(odd) span {
@@ -81,6 +82,7 @@ section:nth-child(even)  {
   padding:16vh 8vw; 
   background:#F7F2F2;
   position:relative;
+  border-radius:8px;
 }
 
 section:nth-child(even) span {
