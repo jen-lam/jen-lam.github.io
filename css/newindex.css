@@ -22,11 +22,11 @@ a {
   color:#999;
 }
 
-#nav {
+nav {
   padding:4vh 16vw; 
   display:flex;
   justify-content:space-between; 
-  position:fixed;
+  position:relative;
   top:0;
   left:0;
   right:0;
