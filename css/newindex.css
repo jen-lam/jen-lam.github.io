@@ -64,16 +64,24 @@ header {
   font-size:1.2em;
 }
 
-section {
+section:nth-child(odd) {
   margin:8vw;
   padding:16vh 8vw; 
   background:#191919;
   position:relative;
 }
 
-section span {
+section span:nth-child(odd) {
   text-transform:uppercase;
   color:#fff;
+}
+
+section:nth-child(even) {
+  margin:8vw;
+  padding:16vh 8vw; 
+  background:#191919;
+  position:relative;
+  
 }
 
 .project a {
