@@ -104,7 +104,7 @@ section:nth-child(even) span {
 
 .preview {
   display:none;
-  background:#BA4033;
+  background:#C1A37E;
   position:absolute;
   width:40%;
   height:calc(100% - 16vh);
@@ -114,7 +114,7 @@ section:nth-child(even) span {
 }
 
 .project a:hover {
-  color:#BA4033;
+  color:#C1A37E;
   transition: all 0.5s ease;
 }
 
