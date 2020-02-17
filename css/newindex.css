@@ -22,11 +22,11 @@ a {
   color:#999;
 }
 
-nav {
+#nav {
   padding:4vh 16vw; 
   display:flex;
   justify-content:space-between; 
-  position:relative;
+  position:fixed;
   top:0;
   left:0;
   right:0;
@@ -66,7 +66,7 @@ header {
 
 section:nth-child(odd)  {
   margin:8vw;
-  padding:16vh 8vw; 
+  padding:120px 8vw; 
   background:#171A26;
   position:relative;
   border-radius:8px;
@@ -81,7 +81,7 @@ section:nth-child(odd) span {
 
 section:nth-child(even)  {
   margin:8vw;
-  padding:16vh 8vw; 
+  padding:120px 8vw; 
   background:#F7F2F2;
   position:relative;
   border-radius:8px;
@@ -107,7 +107,6 @@ section:nth-child(odd) .type {
   font-size:1.8em;
   font-weight:700;
 }
-
 
 .project a {
   font-family:'Lato', sans-serif;

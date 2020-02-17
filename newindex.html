@@ -10,14 +10,14 @@
 	
 	<body>
 
-	<nav>
+	<div id="nav">
 		<div class="logo">JL</div>
 		<ul class="nav">
 			<li><a href="/">Work</a></li>
 			<li><a href="/About">About</a></li>
 			<li><a href="/Contact">Contact</a></li>
 		</ul>
-	</nav>
+	</div>
 
 	<header>
 		<div id="introduction">Hello, I'm Jen — a user experience designer.</div>
@@ -64,6 +64,22 @@
 	<footer>
 		Copyright © 2020 Jen Lam
 	</footer>
+
+
+
+	<script>
+	// When the user scrolls down 20px from the top of the document, slide down the navbar
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 20 || document.documentElement.scrollTop < 20) {
+	    document.getElementById("nav").style.top = "0px";
+	  } else {
+	    document.getElementById("nav").style.top = "-50px";
+	  }
+	}
+	</script>
+
 
 	</body>
 
