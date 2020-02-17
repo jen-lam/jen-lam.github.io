@@ -98,8 +98,7 @@ section:nth-child(even) a {
   color:#171A26;
 }
 
-.type {
-  font-size:1.6em;
+.type:nth-child(even) {
   color:#171A26;
 }
 
@@ -107,10 +106,11 @@ section:nth-child(even) a {
   color:#F7F2F2;
 }
 
-.type::first-letter {
-  text-decoration:underline #00B5B0;
-}
 
+.type::before {
+  content:"— ";
+  color:#00B5B0;
+}
 
 .project a {
   font-family:'Lato', sans-serif;
