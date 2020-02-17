@@ -67,25 +67,25 @@ header {
 section:nth-child(odd)  {
   margin:8vw;
   padding:16vh 8vw; 
-  background:#191919;
+  background:#171A26;
   position:relative;
 }
 
 section:nth-child(odd) span {
   text-transform:uppercase;
-  color:#ECE8E4;
+  color:#F9F5F1;
 }
 
 section:nth-child(even)  {
   margin:8vw;
   padding:16vh 8vw; 
-  background:#ECE8E4;
+  background:#F9F5F1;
   position:relative;
 }
 
 section:nth-child(even) span {
   text-transform:uppercase;
-  color:#191919;
+  color:#171A26;
 }
 
 .project a {
@@ -104,7 +104,7 @@ section:nth-child(even) span {
 
 .preview {
   display:none;
-  background:#D7A145;
+  background:#BA4033;
   position:absolute;
   width:40%;
   height:calc(100% - 16vh);
@@ -114,7 +114,7 @@ section:nth-child(even) span {
 }
 
 .project a:hover {
-  color:#D7A145;
+  color:#BA4033;
   transition: all 0.5s ease;
 }
 
