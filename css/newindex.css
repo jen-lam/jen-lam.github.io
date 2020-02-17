@@ -100,14 +100,12 @@ section:nth-child(even) a {
 
 .type {
   font-size:1.6em;
+  border-bottom:2px solid #E47676;
+  color:#171A26;
 }
 
-.type::before {
-  height:100%;
-  width:100%;
-  position:relative;
-  margin-right:20px;
-  background:#E47676;
+.type:nth-child(even) {
+  color:#F7F2F2;
 }
 
 .project a {
