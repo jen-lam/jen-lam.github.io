@@ -94,18 +94,14 @@ section:nth-child(even) span {
   color:#171A26;
 }
 
-section:nth-child(even) a {
+section:nth-child(even) a, .type {
   color:#171A26;
 }
 
-.type:nth-child(even) {
-  color:#171A26;
-}
 
-.type:nth-child(odd) {
-  color:#F7F2F2;
+.type {
+  font-size:1.6em;
 }
-
 
 .type::before {
   content:"— ";
@@ -130,16 +126,17 @@ section:nth-child(even) a {
   right:8vw;
   top:50%;
   transform:translateY(-50%);
+  transition: all 0.2s ease;
 }
 
 .project a:hover {
   color:#00B5B0;
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 
 .project a:hover + .preview {
   display:block;  
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
 }
 
 footer {
