@@ -64,11 +64,16 @@ header {
   font-size:1.2em;
 }
 
-section:nth-child(odd) {
+section {
   margin:8vw;
   padding:16vh 8vw; 
   background:#191919;
   position:relative;
+}
+
+section span {
+  text-transform:uppercase;
+  color:#fff;
 }
 
 section:nth-child(even) {
@@ -77,16 +82,11 @@ section:nth-child(even) {
   background:#ECE8E4;
   position:relative;
 }
-/*
-section:nth-child(odd) span {
-  text-transform:uppercase;
-  color:#fff;
-}
 
 section:nth-child(even) span {
   text-transform:uppercase;
   color:#191919;
-}*/
+}
 
 .project a {
   font-family:'Lato', sans-serif;
