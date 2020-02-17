@@ -73,6 +73,8 @@ section:nth-child(odd)  {
 }
 
 section:nth-child(odd) span {
+  font-size:0.6em;
+  letter-spacing:0.1em;
   text-transform:uppercase;
   color:#F7F2F2;
 }
@@ -86,11 +88,26 @@ section:nth-child(even)  {
 }
 
 section:nth-child(even) span {
+  font-size:0.6em;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
   color:#171A26;
 }
 
 section:nth-child(even) a {
   color:#171A26;
+}
+
+.type {
+  font-size:1.6em;
+}
+
+.type::before {
+  height:100%;
+  width:100%;
+  position:relative;
+  margin-right:20px;
+  background:#E47676;
 }
 
 .project a {
@@ -100,12 +117,6 @@ section:nth-child(even) a {
   width:30%;
   margin-top:80px;
   color:#F7F2F2;
-}
-
-.project span {
-  font-size:0.6em;
-  letter-spacing:0.1em;
-  text-transform:uppercase;
 }
 
 .preview {
