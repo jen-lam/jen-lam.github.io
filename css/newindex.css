@@ -67,14 +67,14 @@ header {
 section:nth-child(odd) {
   margin:8vw;
   padding:16vh 8vw; 
-  background:#ECE8E4;
+  background:#191919;
   position:relative;
 }
 
 section:nth-child(even) {
   margin:8vw;
   padding:16vh 8vw; 
-  background:#191919;
+  background:#ECE8E4;
   position:relative;
 }
 
