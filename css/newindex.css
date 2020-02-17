@@ -102,9 +102,8 @@ section:nth-child(even) a {
 }
 
 .project span {
-  font-size:0.6em;
+  font-size:1em;
   letter-spacing:0.1em;
-  text-transform:uppercase;
 }
 
 .preview {
