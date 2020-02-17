@@ -83,7 +83,7 @@ section:nth-child(even) {
   position:relative;
 }
 
-section span:nth-child(even) {
+section span {
   text-transform:uppercase;
   color:#191919;
 }
