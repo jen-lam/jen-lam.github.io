@@ -86,7 +86,6 @@ section:nth-child(even)  {
 }
 
 section:nth-child(even) span {
-  text-transform:uppercase;
   color:#171A26;
 }
 
@@ -104,8 +103,9 @@ section:nth-child(even) a {
 }
 
 .project span {
-  font-size:1em;
+  font-size:0.6em;
   letter-spacing:0.1em;
+  text-transform:uppercase;
 }
 
 .preview {
