@@ -73,15 +73,19 @@ section:nth-child(odd) {
 
 section span:nth-child(odd) {
   text-transform:uppercase;
-  color:#fff;
+  color:#ECE8E4;
 }
 
 section:nth-child(even) {
   margin:8vw;
   padding:16vh 8vw; 
-  background:#fff;
+  background:#ECE8E4;
   position:relative;
+}
 
+section span:nth-child(even) {
+  text-transform:uppercase;
+  color:#191919;
 }
 
 .project a {
