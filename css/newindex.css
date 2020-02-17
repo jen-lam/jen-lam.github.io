@@ -100,13 +100,17 @@ section:nth-child(even) a {
 
 .type {
   font-size:1.6em;
-  border-bottom:2px solid #E47676;
   color:#171A26;
 }
 
-.type:nth-child(even) {
+.type:nth-child(odd) {
   color:#F7F2F2;
 }
+
+.type::first-letter {
+  text-decoration:underline #E47676;
+}
+
 
 .project a {
   font-family:'Lato', sans-serif;
