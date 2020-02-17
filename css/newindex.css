@@ -75,7 +75,7 @@ section span {
   text-transform:uppercase;
   color:#fff;
 }
-
+/*
 section:nth-child(even) {
   margin:8vw;
   padding:16vh 8vw; 
@@ -86,7 +86,7 @@ section:nth-child(even) {
 section:nth-child(even) span {
   text-transform:uppercase;
   color:#191919;
-}
+}*/
 
 .project a {
   font-family:'Lato', sans-serif;
