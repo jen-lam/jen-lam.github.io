@@ -28,10 +28,11 @@
         }
 
         .staticrypt-form {
-            position: relative;
+            position: absolute;
             z-index: 1;
             max-width: 360px;
-            margin: 0 auto 100px;
+            top:50%;
+            transform:translateY(-50%);
             padding: 45px;
             text-align: center;
         }
@@ -68,11 +69,6 @@
 
         .staticrypt-body {
             margin-bottom: 1em;
-            background: #76b852; /* fallback for old browsers */
-            background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-            background: -moz-linear-gradient(right, #76b852, #8DC26F);
-            background: -o-linear-gradient(right, #76b852, #8DC26F);
-            background: linear-gradient(to left, #76b852, #8DC26F);
             font-family: "Arial", sans-serif;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
