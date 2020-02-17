@@ -79,9 +79,9 @@ section span:nth-child(odd) {
 section:nth-child(even) {
   margin:8vw;
   padding:16vh 8vw; 
-  background:#191919;
+  background:#fff;
   position:relative;
-  
+
 }
 
 .project a {
