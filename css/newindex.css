@@ -77,7 +77,7 @@ section:nth-child(even) {
   background:#ECE8E4;
   position:relative;
 }
-
+/*
 section:nth-child(odd) span {
   text-transform:uppercase;
   color:#fff;
@@ -86,7 +86,7 @@ section:nth-child(odd) span {
 section:nth-child(even) span {
   text-transform:uppercase;
   color:#191919;
-}
+}*/
 
 .project a {
   font-family:'Lato', sans-serif;
