@@ -48,6 +48,7 @@ nav {
   transition:all 0.2s ease;
   text-transform:uppercase;
   padding-bottom:10px;
+  font-size:0.8em;
 }
 
 .nav a:hover {
