@@ -27,7 +27,7 @@ a {
   position:fixed;
   width:100%;
   transition:top 0.5s;
-  z-idnex:1;
+  z-idnex:9999999;
 }
 
 nav {
