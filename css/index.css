@@ -46,14 +46,12 @@ nav {
   margin-left:40px;
   color:#F7F2F2;
   transition:all 0.2s ease;
+  text-transform:uppercase;
+  font-family:'Lato', sans-serif;
 }
 
 .nav a:hover {
-  color:#F7F2F2;
-}
-
-.nav a: {
-
+  color:#00B5B0;
 }
 
 header {
@@ -109,11 +107,11 @@ section:nth-child(even) span {
   font-size:0.6em;
   letter-spacing:0.1em;
   text-transform:uppercase;
-  color:#171A26;
+  color:#191919;
 }
 
 section:nth-child(even) a, .type {
-  color:#171A26;
+  color:#191919;
 }
 
 section:nth-child(odd) .type {
