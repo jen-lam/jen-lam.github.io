@@ -4,11 +4,12 @@
 
 body {
   font-family:'Roboto', sans-serif ;
-  background:#fff;
+  background:#191919;
   line-height:1.8em;
   margin:0px;
   overflow-x:hidden;
   overflow-y:scroll;
+  color:#F7F2F2;
 }
 
 ul {
@@ -78,6 +79,7 @@ section:nth-child(odd)  {
   background:#171A26;
   position:relative;
   border-radius:8px;
+  border:1px solid #F7F2F2;
 }
 
 section:nth-child(even)  {
