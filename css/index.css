@@ -132,7 +132,7 @@ section:nth-child(odd) .type {
   background:#00B5B0;
   position:absolute;
   width:40%;
-  height:calc(100% - 16vh);
+  height:calc(100% - 100px);
   right:8vw;
   top:50%;
   transform:translateY(-50%);
