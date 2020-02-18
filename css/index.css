@@ -48,6 +48,8 @@ nav {
   transition:all 0.2s ease;
   text-transform:uppercase;
   font-family:'Lato', sans-serif;
+  padding:10px;
+  border-radius:8px;
 }
 
 .nav a:hover {
