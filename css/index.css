@@ -36,9 +36,6 @@ nav {
   display:flex;
   justify-content:space-between; 
   position:relative;
-  top:0;
-  left:0;
-  right:0;
 }
 
 .nav {
@@ -47,6 +44,16 @@ nav {
 
 .nav a {
   margin-left:40px;
+  color:#F7F2F2;
+  transition:all 0.2s ease;
+}
+
+.nav a:hover {
+  color:#F7F2F2;
+}
+
+.nav a: {
+
 }
 
 header {
@@ -78,7 +85,7 @@ section:nth-child(odd)  {
   padding:100px 8vw; 
 /*  background:#171A26;*/
   position:relative;
-  border-radius:4px;
+  border-radius:8px;
   border:1px solid #F7F2F2;
 }
 
@@ -87,7 +94,7 @@ section:nth-child(even)  {
   padding:100px 8vw; 
   background:#F7F2F2;
   position:relative;
-  border-radius:4px;
+  border-radius:8px;
 }
 
 section:nth-child(odd) span {
@@ -127,6 +134,7 @@ section:nth-child(odd) .type {
   width:30%;
   margin-top:40px;
   color:#F7F2F2;
+  transition:all 0.2s ease;
 }
 
 .preview {
@@ -134,21 +142,19 @@ section:nth-child(odd) .type {
   background:#00B5B0;
   position:absolute;
   width:40%;
-  height:calc(100% - 100px);
+  height:calc(100% - 200px);
   right:8vw;
   top:50%;
   transform:translateY(-50%);
-  transition: all 0.2s ease;
+  transition:all 0.2s ease;
 }
 
 .project a:hover {
   color:#00B5B0;
-  transition: all 0.2s ease;
 }
 
 .project a:hover + .preview {
   display:block;  
-  transition: all 0.2s ease;
 }
 
 footer {
