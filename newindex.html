@@ -11,6 +11,7 @@
 	
 	<body>
 
+	<div id="navbar">
 	<nav>
 		<div class="logo">JL</div>
 		<ul class="nav">
@@ -19,6 +20,7 @@
 			<li><a href="/Contact">Contact</a></li>
 		</ul>
 	</nav>
+	</div>
 
 	<header>
 		<div id="introduction">Hello, I'm Jen — a user experience designer.</div>
@@ -72,9 +74,9 @@
 	window.onscroll = function() {
 	var currentScrollPos = window.pageYOffset;
 	  if (prevScrollpos > currentScrollPos) {
-	    document.getElementsByTagName("nav").style.top = "0";
+	    document.getElementById("navbar").style.top = "0";
 	  } else {
-	    document.getElementsByTagName("nav").style.top = "-100px";
+	    document.getElementById("navbar").style.top = "-100px";
 	  }
 	  prevScrollpos = currentScrollPos;
 	}

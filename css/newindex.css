@@ -24,23 +24,19 @@ a {
 
 #navbar {
   position:fixed;
-  top:0;
   width:100%;
-  display:block;
   transition:top 0.5s;
+  z-idnex:1;
 }
 
 nav {
   padding:4vh 16vw; 
   display:flex;
   justify-content:space-between; 
-  position:fixed;
+  position:relative;
   top:0;
   left:0;
   right:0;
-  transition:top 0.5s;
-  z-index:1;
-  width:100%;
 }
 
 .nav {
