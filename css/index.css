@@ -43,11 +43,10 @@ nav {
 }
 
 .nav a {
-  margin-left:40px;
+  margin-left:20px;
   color:#F7F2F2;
   transition:all 0.2s ease;
   text-transform:uppercase;
-  font-family:'Lato', sans-serif;
 }
 
 .nav a:hover {
