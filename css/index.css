@@ -74,7 +74,7 @@ header {
 
 section:nth-child(odd)  {
   margin:8vw;
-  padding:80px 8vw; 
+  padding:100px 8vw; 
   background:#171A26;
   position:relative;
   border-radius:8px;
@@ -82,7 +82,7 @@ section:nth-child(odd)  {
 
 section:nth-child(even)  {
   margin:8vw;
-  padding:80px 8vw; 
+  padding:100px 8vw; 
   background:#F7F2F2;
   position:relative;
   border-radius:8px;
