@@ -11,7 +11,6 @@
 	
 	<body>
 
-	<div id="navbar">
 	<nav>
 		<div class="logo">JL</div>
 		<ul class="nav">
@@ -20,7 +19,6 @@
 			<li><a href="/Contact">Contact</a></li>
 		</ul>
 	</nav>
-	</div>
 
 	<header>
 		<div id="introduction">Hello, I'm Jen — a user experience designer.</div>
@@ -43,7 +41,7 @@
 	</section>
 
 
-	<section data-aos="fade-right">
+	<section data-aos="fade-up">
 		<div class="type">Development</div>
 
 		<div class="project"><a href="/triangles"><span>Capstone Project</span><br><b>TriAngles</b> — Progression planning application for UNSW students</a>
@@ -74,9 +72,9 @@
 	window.onscroll = function() {
 	var currentScrollPos = window.pageYOffset;
 	  if (prevScrollpos > currentScrollPos) {
-	    document.getElementById("navbar").style.top = "0";
+	    document.getElementsByTagName("nav").style.top = "0";
 	  } else {
-	    document.getElementById("navbar").style.top = "-100px";
+	    document.getElementsByTagName("nav").style.top = "-100px";
 	  }
 	  prevScrollpos = currentScrollPos;
 	}
