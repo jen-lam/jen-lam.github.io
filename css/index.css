@@ -74,8 +74,16 @@ header {
 
 section:nth-child(odd)  {
   margin:8vw;
-  padding:120px 8vw; 
+  padding:80px 8vw; 
   background:#171A26;
+  position:relative;
+  border-radius:8px;
+}
+
+section:nth-child(even)  {
+  margin:8vw;
+  padding:80px 8vw; 
+  background:#F7F2F2;
   position:relative;
   border-radius:8px;
 }
@@ -87,13 +95,6 @@ section:nth-child(odd) span {
   color:#F7F2F2;
 }
 
-section:nth-child(even)  {
-  margin:8vw;
-  padding:120px 8vw; 
-  background:#F7F2F2;
-  position:relative;
-  border-radius:8px;
-}
 
 section:nth-child(even) span {
   font-size:0.6em;
@@ -122,7 +123,7 @@ section:nth-child(odd) .type {
   font-size:1.4em;
   display:block;
   width:30%;
-  margin-top:80px;
+  margin-top:40px;
   color:#F7F2F2;
 }
 
