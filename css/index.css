@@ -4,7 +4,7 @@
 
 body {
   font-family:'Roboto', sans-serif ;
-  background:#232328;
+  background:#131313;
   line-height:1.8em;
   margin:0px;
   overflow-x:hidden;
@@ -83,10 +83,11 @@ header {
 }
 
 section {
-  margin:16vw;
-  padding:100px 0;
-  background:#262626;
+  margin:16vh 8vw;
+  padding:0 8vw 80px;
+  background:#191919;
   position:relative;
+  border-radius:16px;
 }
 
 section span {
