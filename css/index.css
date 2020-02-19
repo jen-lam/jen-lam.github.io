@@ -47,6 +47,7 @@ nav {
 .logo a::after {
   content:'.';
   color:#00B5B0;
+  font-size:1.4em;
 }
 
 .nav {
@@ -134,7 +135,7 @@ header {
 
 section {
   margin:240px 8vw;
-  padding:0 8vw 80px;
+  padding:0 8vw 120px;
   background:#191919;
   position:relative;
   border-radius:16px;
@@ -146,46 +147,6 @@ section span {
   text-transform:uppercase;
   color:#F7F2F2;
 }
-
-/*
-section:nth-child(odd)  {
-  margin:16vw;
-  padding:100px 0; 
-  background:#171A26;
-  position:relative;
-  border-top:1px solid #F7F2F2;
-}
-
-section:nth-child(even)  {
-  margin:8vw;
-  padding:100px 8vw; 
-  background:#F7F2F2;
-  position:relative;
-  border-radius:8px;
-}
-
-section:nth-child(odd) span {
-  font-size:0.6em;
-  letter-spacing:0.1em;
-  text-transform:uppercase;
-  color:#F7F2F2;
-}
-
-section:nth-child(even) span {
-  font-size:0.6em;
-  letter-spacing:0.1em;
-  text-transform:uppercase;
-  color:#191919;
-}
-
-section:nth-child(even) a, .type {
-  color:#191919;
-}
-
-section:nth-child(odd) .type {
-  color:#F7F2F2;
-}
-*/
 
 .type {
   top:-100px;
@@ -202,7 +163,7 @@ section:nth-child(odd) .type {
   font-size:1.2em;
   display:block;
   width:30%;
-  margin-top:40px;
+  margin-top:80px;
   color:#F7F2F2;
   transition:all 0.2s ease;
 }
@@ -212,7 +173,7 @@ section:nth-child(odd) .type {
   background:#00B5B0;
   position:absolute;
   width:40%;
-  height:calc(100% - 160px);
+  height:calc(100% - 240px);
   right:8vw;
   top:50%;
   transform:translateY(-50%);
