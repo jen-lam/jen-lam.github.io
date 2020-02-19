@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family:'Roboto', sans-serif ;
+  font-family:'Lato', sans-serif ;
   background:#131313;
   line-height:1.8em;
   margin:0px;
@@ -67,7 +67,7 @@ header {
 }
 
 #introduction {
-  font-family:'Lato', sans-serif;
+  font-family:'PT Serif', serif;
   font-size:2em;
   font-weight:700;
   line-height:110%;
@@ -181,6 +181,7 @@ section:nth-child(odd) .type {
   font-size:1.8em;
   font-weight:700;
   color:#F7F2F2;
+  font-family:'PT Serif', serif;
 }
 
 .project a {
