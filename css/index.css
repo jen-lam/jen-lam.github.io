@@ -41,6 +41,12 @@ nav {
 .logo a {
   font-family:'PT Serif', serif;
   font-weight:700;
+  color:#FFFFFF;
+}
+
+.logo a::after {
+  content:'.';
+  color:#00B5B0;
 }
 
 .nav {
