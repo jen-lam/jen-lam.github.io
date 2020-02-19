@@ -82,7 +82,7 @@ header {
   display:inline;
 }
 
-.scroll, .scroll:before {
+.scroll:before {
   position:absolute;
   left:50%;
 }
@@ -90,7 +90,7 @@ header {
 .scroll {
   width:32px;
   height:56px;
-  left:16vw;
+  position:relative;
   margin-top:80px;
   border:1px solid #CCCCCC;
   border-radius:25px;
