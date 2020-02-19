@@ -4,12 +4,12 @@
 
 body {
   font-family:'Roboto', sans-serif ;
-  background:#191919;
+  background:#232328;
   line-height:1.8em;
   margin:0px;
   overflow-x:hidden;
   overflow-y:scroll;
-  color:#F7F2F2;
+  color:#E6EBF4;
 }
 
 ul {
@@ -85,8 +85,8 @@ header {
 section {
   margin:16vw;
   padding:100px 0;
+  background:#262626;
   position:relative;
-  border-top:1px solid #F7F2F2;
 }
 
 section span {
@@ -137,6 +137,8 @@ section:nth-child(odd) .type {
 */
 
 .type {
+  top:-100px;
+  position:relative;
   font-size:1.8em;
   font-weight:700;
   color:#F7F2F2;
