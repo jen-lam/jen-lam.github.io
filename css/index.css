@@ -82,8 +82,47 @@ header {
   display:inline;
 }
 
+.scroll, .scroll:before {
+  position:absolute;
+  left:50%;
+}
+
+.scroll {
+  width:32px;
+  height:56px;
+  margin-left:20px;
+  top: 50%
+  margin-top: -35px
+  box-shadow: inset 0 0 0 1px #fff
+  border-radius: 25px
+}
+
+.scroll:before {
+  content:'';
+  width:8px;
+  height:8px;
+  background:#00B5B0;
+  margin-left:-4px;
+  top:8px;
+  border-radius:4px;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  animation-name:scroll;
+}
+
+@keyframes scroll {
+  0% { 
+    opacity:1; 
+  }
+  
+  100% { 
+    opacity:0;
+    transform:translateY(46px);
+  }
+}
+
 section {
-  margin:16vh 8vw;
+  margin:240px 8vw;
   padding:0 8vw 80px;
   background:#191919;
   position:relative;
@@ -161,7 +200,7 @@ section:nth-child(odd) .type {
   background:#00B5B0;
   position:absolute;
   width:40%;
-  height:calc(100% - 200px);
+  height:calc(100% - 160px);
   right:8vw;
   top:50%;
   transform:translateY(-50%);
