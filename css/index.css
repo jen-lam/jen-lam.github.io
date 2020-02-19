@@ -38,6 +38,11 @@ nav {
   position:relative;
 }
 
+.logo a {
+  font-family:'PT Serif', serif;
+  font-weight:700;
+}
+
 .nav {
   display:flex;
 }
