@@ -56,7 +56,7 @@ nav {
 }
 
 header {
-  margin-top:20vh;
+  margin-top:40vh;
   padding:16vh 16vw; 
   display:flex;
   justify-content:space-between;
@@ -105,7 +105,6 @@ section:nth-child(odd) span {
   text-transform:uppercase;
   color:#F7F2F2;
 }
-
 
 section:nth-child(even) span {
   font-size:0.6em;
