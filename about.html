@@ -16,12 +16,17 @@
 		<ul class="nav">
 			<li><a href="/">Work</a></li>
 			<li><a href="/about" style="border-bottom:1px solid #5AC8FA">About</a></li>
-			<li><a href="/Contact">Contact</a></li>
+			<li><a href="mailto:jenlam137@gmail.com">Contact</a></li>
 		</ul>
 	</nav>
 	</div>
 
-	<div class="container" style="padding:32vh 16vw; background:#1F1F1F">
+	<div class="container" style="padding:32vh 16vw; font-size:1.2em">
+		the basics
+		hobbies
+		experience
+		skills/tools
+		<p>
 		Hi! I'm Jen Lam, a Commerce & Information Systems student based in Sydney. I aim to design for people through creating engaging digital products and experiences that will positively impact their daily lives. When I'm not trying to solve design problems, you'd probably find me playing some sort of sport, taking photos, or just relaxing with a nice cup of cold water.
 		<p>
 		Growing up, I was always interested in two things - technology and design. While it was never my first career choice, I came to explore and enjoy both. My earliest, most vivid memory of the two combined was using Microsoft Paint when I was 6. Since then, I have learnt so much more - I taught myself Adobe Photoshop which helped me become a member of the yearbook publication team in high school, being part of a wonderful team of 20 people for 5 years. With this knowledge, it became a mission to expand my skillset to cover design, web development and programming. 
@@ -29,6 +34,30 @@
 		I can never be certain where my life will be heading next but I'm definitely excited and hope to come across many design opportunities in the future.
 
 	</div>
+
+	<script>
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function() {
+	var currentScrollPos = window.pageYOffset;
+	  if (prevScrollpos > currentScrollPos) {
+	    document.getElementById("navbar").style.top = "0";
+	  } else {
+	    document.getElementById("navbar").style.top = "-100px";
+	  }
+	  prevScrollpos = currentScrollPos;
+	}
+	</script>
+
+
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+	<script>
+		AOS.init({
+		  duration: 1000,
+		})
+	</script>
+
+
 
 	</body>
 </html>
