@@ -47,7 +47,7 @@ nav {
 
 .logo a::after {
   content:'.';
-  color:#00B5B0;
+  color:#5AC8FA;
   font-size:1.4em;
 }
 
@@ -66,7 +66,7 @@ nav {
 }
 
 .nav a:hover {
-  color:#00B5B0;
+  color:#5AC8FA;
 }
 
 header {
@@ -92,7 +92,7 @@ header {
 }
 
 .text-accent {
-  color:#00B5B0;
+  color:#5AC8FA;
   display:inline;
 }
 
@@ -115,7 +115,7 @@ header {
   content:'';
   width:8px;
   height:8px;
-  background:#00B5B0;
+  background:#5AC8FA;
   margin-left:-4px;
   top:8px;
   border-radius:4px;
@@ -172,7 +172,7 @@ section span {
 
 .preview {
   display:none;
-  background:#00B5B0;
+  background:#5AC8FA;
   position:absolute;
   width:40%;
   height:calc(100% - 240px);
@@ -183,7 +183,7 @@ section span {
 }
 
 .project a:hover {
-  color:#00B5B0;
+  color:#5AC8FA;
 }
 
 .project a:hover + .preview {
