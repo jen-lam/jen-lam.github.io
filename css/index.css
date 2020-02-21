@@ -221,11 +221,11 @@ section span {
 
 .experience {
   margin-left:80px;
-  width:70%;
+  width:60%;
 }
 
 .skills {
-  width:calc(30% - 80px);
+  width:calc(40% - 80px);
 }
 
 footer {
