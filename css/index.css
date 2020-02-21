@@ -167,7 +167,8 @@ section span {
 }
 
 .container .type {
-  margin-top:0;
+  top:0;
+  margin-bottom:24px;
   font-size:1.6em;
 }
 
