@@ -212,6 +212,10 @@ section span {
   width:calc(50% - 40px);
 }
 
+.experience {
+  margin-right:80px;
+}
+
 footer {
   padding:4vh 16vw; 
   font-size:0.8em;
