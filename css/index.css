@@ -9,7 +9,7 @@ body {
   margin:0px;
   overflow-x:hidden;
   overflow-y:scroll;
-  color:#E6EBF4;
+  color:#D0D0D0;
 }
 
 ul {
@@ -206,7 +206,7 @@ section span {
 .about {
   display:flex;
   justify-content:flex-start;
-  margin-top:32vh;
+  margin-top:16vh;
 }
 
 .experience, .skills {
