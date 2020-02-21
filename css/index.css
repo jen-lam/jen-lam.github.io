@@ -166,6 +166,10 @@ section span {
   font-family:'PT Serif', serif;
 }
 
+.container .type {
+  font-size:1.6em;
+}
+
 .project a {
   font-family:'Lato', sans-serif;
   font-weight:300;
@@ -199,7 +203,11 @@ section span {
 
 .about {
   display:flex;
-  justify-content:space-between;
+  justify-content:flex-start;
+}
+
+.experience, .skills {
+  margin-left:16vw;
 }
 
 footer {
