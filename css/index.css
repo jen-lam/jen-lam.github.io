@@ -150,6 +150,13 @@ section span {
   color:#F7F2F2;
 }
 
+.container span {
+  font-size:0.6em;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:#F7F2F2;
+}
+
 .type {
   top:-100px;
   position:relative;
@@ -188,6 +195,11 @@ section span {
 
 .project a:hover + .preview {
   display:block;  
+}
+
+.about {
+  display:flex;
+  justify-content:space-between;
 }
 
 footer {
