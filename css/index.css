@@ -219,12 +219,17 @@ section span {
   margin-top:16vh;
 }
 
-.experiences, .skills {
+.experience, .skills {
   width:calc(50% - 40px);
 }
 
-.experiences {
+.experience {
   margin-right:80px;
+  width:60%;
+}
+
+.skills {
+  width:calc(40% - 80px);
 }
 
 footer {
