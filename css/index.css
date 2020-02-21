@@ -167,6 +167,7 @@ section span {
 }
 
 .container .type {
+  margin-top:0;
   font-size:1.6em;
 }
 
@@ -204,10 +205,11 @@ section span {
 .about {
   display:flex;
   justify-content:flex-start;
+  margin-top:32vh;
 }
 
 .experience, .skills {
-  margin-right:16vw;
+  width:calc(50% - 40px);
 }
 
 footer {
