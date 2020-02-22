@@ -145,6 +145,10 @@ header {
   border-radius:16px;
 }
 
+.huli section, .rooms section, .creativelab section, .triangles section {
+  padding:0 16vw;
+}
+
 .index section span {
   font-size:0.6em;
   letter-spacing:0.1em;
