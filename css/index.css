@@ -137,7 +137,7 @@ header {
   }
 }
 
-section {
+.index section {
   margin:240px 8vw;
   padding:0 8vw 120px;
   background:#1F1F1F;
@@ -145,7 +145,7 @@ section {
   border-radius:16px;
 }
 
-section span {
+.index section span {
   font-size:0.6em;
   letter-spacing:0.1em;
   text-transform:uppercase;
