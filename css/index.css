@@ -6,7 +6,7 @@ body {
   font-family:'Barlow', sans-serif ;
   background:#131313;
   line-height:1.6em;
-  font-size:16px;
+  font-size:18px;
   margin:0px;
   overflow-x:hidden;
   overflow-y:scroll;
@@ -41,7 +41,7 @@ nav {
 }
 
 .logo a {
-  font-family:'Playfair Display';
+  font-family:'Tinos';
   font-weight:700;
   color:#FFFFFF;
 }
@@ -81,7 +81,7 @@ header {
 }
 
 #introduction {
-  font-family:'Playfair Display';
+  font-family:'Tinos';
   font-size:2.2em;
   font-weight:700;
   line-height:110%;
@@ -168,7 +168,7 @@ header {
   font-size:1.8em;
   font-weight:700;
   color:#F7F2F2;
-  font-family:'Playfair Display';
+  font-family:'Tinos';
 }
 
 .container .type {
