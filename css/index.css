@@ -45,9 +45,9 @@ nav {
 }
 
 .logo a {
-  font-family:'Rufina';
+  font-family:'Playfair Display';
   color:#FFFFFF;
-  font-weight:700;
+  font-weight:900;
 }
 
 .logo a::after {
@@ -86,9 +86,9 @@ header {
 }
 
 #introduction {
-  font-family:'Rufina';
+  font-family:'Playfair Display';
   font-size:2.2em;
-  font-weight:700;
+  font-weight:900;
   line-height:110%;
   color:#FFFFFF;
 }
@@ -172,8 +172,8 @@ header {
   position:relative;
   font-size:32px;
   color:#F7F2F2;
-  font-family:'Rufina';
-  font-weight:700;
+  font-family:'Playfair Display';
+  font-weight:900;
 }
 
 .container .type {
