@@ -6,6 +6,7 @@ body {
   font-family:'Barlow', sans-serif ;
   background:#131313;
   line-height:1.6em;
+  font-size:16px;
   margin:0px;
   overflow-x:hidden;
   overflow-y:scroll;
@@ -61,7 +62,6 @@ nav {
   transition:all 0.2s ease;
   text-transform:uppercase;
   padding-bottom:10px;
-  font-size:0.8em;
   letter-spacing:0.1em;
 }
 
@@ -89,7 +89,6 @@ header {
 }
 
 #description {
-  font-size:1.2em;
   line-height:1.6em;
 }
 
@@ -175,12 +174,10 @@ header {
 .container .type {
   top:0;
   font-weight:400;
-  font-size:1.2em;
   font-family:'Barlow', sans-serif;
 }
 
 .container .description {
-  font-size:0.8em;
   padding-bottom:32px;
   border-bottom:1px solid #1F1F1F;
   margin:8px 0 32px;
@@ -189,7 +186,6 @@ header {
 .project a {
   font-family:'Barlow', sans-serif;
   font-weight:300;
-  font-size:1.2em;
   display:block;
   width:30%;
   margin-top:80px;
@@ -234,6 +230,5 @@ header {
 
 footer {
   padding:4vh 16vw; 
-  font-size:0.8em;
   text-align:center;
 }
