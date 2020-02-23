@@ -45,8 +45,9 @@ nav {
 }
 
 .logo a {
-  font-family:'Noto Serif SC';
+  font-family:'Rufina';
   color:#FFFFFF;
+  font-weight:700;
 }
 
 .logo a::after {
@@ -85,7 +86,7 @@ header {
 }
 
 #introduction {
-  font-family:'Noto Serif SC';
+  font-family:'Rufina';
   font-size:2.2em;
   font-weight:700;
   line-height:110%;
@@ -171,7 +172,8 @@ header {
   position:relative;
   font-size:32px;
   color:#F7F2F2;
-  font-family:'Noto Serif SC';
+  font-family:'Rufina';
+  font-weight:700;
 }
 
 .container .type {
