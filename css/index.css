@@ -45,7 +45,7 @@ nav {
 }
 
 .logo a {
-  font-family:'Playfair Display';
+  font-family:'Merriweather';
   color:#FFFFFF;
   font-weight:900;
 }
@@ -86,8 +86,8 @@ header {
 }
 
 #introduction {
-  font-family:'Playfair Display';
-  font-size:2.2em;
+  font-family:'Merriweather';
+  font-size:32px;
   font-weight:900;
   line-height:110%;
   color:#FFFFFF;
@@ -172,7 +172,7 @@ header {
   position:relative;
   font-size:32px;
   color:#F7F2F2;
-  font-family:'Playfair Display';
+  font-family:'Merriweather';
   font-weight:900;
 }
 
