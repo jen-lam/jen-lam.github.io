@@ -248,6 +248,11 @@
 		</div>
 	</div>
 
+	<footer>
+		Copyright © 2020 Jen Lam
+	</footer>
+
+
 	<script>
 	var slideIndex = 1;
 	showSlides(slideIndex);
@@ -277,6 +282,28 @@
   		slides[slideIndex-1].style.display = "block"; 
   		dots[slideIndex-1].className += " active";
 	}
+	</script>
+
+	<script>
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function() {
+	var currentScrollPos = window.pageYOffset;
+	  if (prevScrollpos > currentScrollPos) {
+	    document.getElementById("navbar").style.top = "0";
+	  } else {
+	    document.getElementById("navbar").style.top = "-100px";
+	  }
+	  prevScrollpos = currentScrollPos;
+	}
+	</script>
+
+
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+	<script>
+		AOS.init({
+		  duration: 1000,
+		})
 	</script>
 
 	</body>
