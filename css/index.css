@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family:'Nunito', sans-serif ;
+  font-family:'Barlow', sans-serif ;
   background:#131313;
   line-height:1.6em;
   margin:0px;
@@ -176,7 +176,7 @@ header {
   top:0;
   font-weight:400;
   font-size:1.2em;
-  font-family:'Nunito', sans-serif;
+  font-family:'Barlow', sans-serif;
 }
 
 .container .description {
@@ -187,7 +187,7 @@ header {
 }
 
 .project a {
-  font-family:'Nunito', sans-serif;
+  font-family:'Barlow', sans-serif;
   font-weight:300;
   font-size:1.2em;
   display:block;
