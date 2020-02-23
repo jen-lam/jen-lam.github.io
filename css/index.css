@@ -45,8 +45,7 @@ nav {
 }
 
 .logo a {
-  font-family:'Tinos';
-  font-weight:700;
+  font-family:'Noto Serif SC';
   color:#FFFFFF;
 }
 
@@ -86,7 +85,7 @@ header {
 }
 
 #introduction {
-  font-family:'Tinos';
+  font-family:'Noto Serif SC';
   font-size:2.2em;
   font-weight:700;
   line-height:110%;
@@ -171,9 +170,8 @@ header {
   top:-100px;
   position:relative;
   font-size:32px;
-  font-weight:700;
   color:#F7F2F2;
-  font-family:'Tinos';
+  font-family:'Noto Serif SC';
 }
 
 .container .type {
