@@ -63,6 +63,7 @@ nav {
   text-transform:uppercase;
   padding-bottom:10px;
   letter-spacing:0.1em;
+  font-size:14px;
 }
 
 .nav a:hover {
@@ -156,7 +157,7 @@ header {
 }
 
 .container span {
-  font-size:0.6em;
+  font-size:12px;
   letter-spacing:0.1em;
   text-transform:uppercase;
   color:#F7F2F2;
@@ -165,7 +166,7 @@ header {
 .type {
   top:-100px;
   position:relative;
-  font-size:1.8em;
+  font-size:32px;
   font-weight:700;
   color:#F7F2F2;
   font-family:'Tinos';
@@ -173,6 +174,7 @@ header {
 
 .container .type {
   top:0;
+  font-size:20px;
   font-weight:400;
   font-family:'Barlow', sans-serif;
 }
@@ -217,6 +219,7 @@ header {
   display:flex;
   justify-content:flex-start;
   margin-top:16vh;
+  font-size:16px;
 }
 
 .experience {
