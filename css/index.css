@@ -240,6 +240,12 @@ header {
   width:calc(40% - 120px);
 }
 
+
+.huli .background {
+  display:flex;
+  justify-content:flex-start;
+}
+
 footer {
   padding:4vh 16vw; 
   text-align:center;
