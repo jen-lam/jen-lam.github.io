@@ -49,7 +49,7 @@ nav {
 }
 
 .logo a {
-  font-family:'Merriweather';
+  font-family:'Yeseva One';
   color:#FFFFFF;
   font-weight:900;
 }
@@ -90,7 +90,7 @@ header {
 }
 
 #introduction {
-  font-family:'Merriweather';
+  font-family:'Yeseva One';
   font-size:32px;
   font-weight:900;
   line-height:110%;
@@ -176,7 +176,7 @@ header {
   position:relative;
   font-size:32px;
   color:#F7F2F2;
-  font-family:'Merriweather';
+  font-family:'Yeseva One';
   font-weight:900;
 }
 
@@ -242,19 +242,21 @@ header {
 
 .huli h1 {
   font-size:48px;
-  font-family:'Merriweather';
+  font-family:'Yeseva One';
   font-weight:900;
+  color:#FFFFFF;
 }
 
 .huli h2 {
   font-size:32px;
-  font-family:'Merriweather';
+  font-family:'Yeseva One';
   font-weight:900;
+  color:#FFFFFF;
 }
 
 .huli h3 {
   font-family:'Barlow', sans-serif;
-  font-weight:400;
+  font-weight:700;
   font-size:20px;
 }
 
