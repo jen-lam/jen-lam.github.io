@@ -240,6 +240,23 @@ header {
   width:calc(40% - 120px);
 }
 
+.huli h1 {
+  font-size:48px;
+  font-family:'Merriweather';
+  font-weight:900;
+}
+
+.huli h2 {
+  font-size:32px;
+  font-family:'Merriweather';
+  font-weight:900;
+}
+
+.huli h3 {
+  font-family:'Barlow', sans-serif;
+  font-weight:400;
+  font-size:20px;
+}
 
 .huli .background {
   display:flex;
