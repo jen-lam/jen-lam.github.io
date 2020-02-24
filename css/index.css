@@ -49,7 +49,7 @@ nav {
 }
 
 .logo a {
-  font-family:'Yeseva One';
+  font-family:'Playfair Display';
   color:#FFFFFF;
   font-weight:900;
 }
@@ -90,7 +90,7 @@ header {
 }
 
 #introduction {
-  font-family:'Yeseva One';
+  font-family:'Playfair Display';
   font-size:32px;
   font-weight:900;
   line-height:110%;
@@ -176,7 +176,7 @@ header {
   position:relative;
   font-size:32px;
   color:#F7F2F2;
-  font-family:'Yeseva One';
+  font-family:'Playfair Display';
   font-weight:900;
 }
 
@@ -242,14 +242,14 @@ header {
 
 .huli h1 {
   font-size:48px;
-  font-family:'Yeseva One';
+  font-family:'Playfair Display';
   font-weight:900;
   color:#FFFFFF;
 }
 
 .huli h2 {
   font-size:32px;
-  font-family:'Yeseva One';
+  font-family:'Playfair Display';
   font-weight:900;
   color:#FFFFFF;
 }
