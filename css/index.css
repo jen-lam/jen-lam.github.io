@@ -23,6 +23,32 @@ ul {
   list-style-type:square;
 }
 
+h1 {
+  font-size:48px;
+  font-family:'Playfair Display';
+  font-weight:900;
+  color:#FFFFFF;
+}
+
+h2 {
+  font-size:36px;
+  font-family:'Playfair Display';
+  font-weight:900;
+  color:#FFFFFF;
+}
+
+.index h2 {
+  top:-100px;
+  position:relative;
+  color:#F7F2F2;
+}
+
+.huli h3 {
+  font-family:'Barlow', sans-serif;
+  font-weight:700;
+  font-size:20px;
+}
+
 a {
   text-decoration:none;
   color:#FFFFFF;
@@ -238,32 +264,6 @@ header {
 
 .skills {
   width:calc(40% - 120px);
-}
-
-.huli h1 {
-  font-size:48px;
-  font-family:'Playfair Display';
-  font-weight:900;
-  color:#FFFFFF;
-}
-
-h2 {
-  font-size:36px;
-  font-family:'Playfair Display';
-  font-weight:900;
-  color:#FFFFFF;
-}
-
-.index h2 {
-  top:-100px;
-  position:relative;
-  color:#F7F2F2;
-}
-
-.huli h3 {
-  font-family:'Barlow', sans-serif;
-  font-weight:700;
-  font-size:20px;
 }
 
 .huli .background {
