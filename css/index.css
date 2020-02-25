@@ -188,7 +188,7 @@ header {
 }
 
 .huli section, .rooms section {
-  margin:16vh 16vw;
+  margin:16vh 16vw 16vh 24vw;
 }
 
 .index section span {
