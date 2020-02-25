@@ -21,6 +21,7 @@ ul {
 
 .huli ul {
   list-style-type:square;
+  margin-left:20px;
 }
 
 h1 {
@@ -187,7 +188,7 @@ header {
 }
 
 .huli section, .rooms section {
-  margin:0 16vw;
+  margin:16vh 16vw;
 }
 
 .index section span {
@@ -276,7 +277,66 @@ header {
 .huli .background {
   display:flex;
   justify-content:flex-start;
-  margin-bottom:16vh;
+}
+
+.slideshow-container {
+    max-width:100%;
+    position:relative;
+    margin:auto;
+}
+
+.mySlides {
+    display:none;
+}
+
+.prev, .next {
+    cursor:pointer;
+    position:absolute;
+    top:50%;
+    margin-top:-22px;
+    width:auto;
+    padding:16px;
+    color:#000;
+    font-weight:bold;
+    font-size:18px;
+    transition:0.2s ease;
+    user-select:none;
+}
+
+.next {
+    right:0;
+}
+
+.dot {
+    cursor:pointer;
+    height:10px;
+    width:10px;
+    margin:0 2px;
+    border-radius:50%;
+    background:#999;
+    display:inline-block;
+    transition:background 0.3s ease;
+}
+
+.active, .dot:hover {
+    background:#000;
+}
+
+.fade {
+    -webkit-animation-name:fade;
+    -webkit-animation-duration:0.5s;
+    animation-name:fade;
+    animation-duration:0.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity:.4} 
+    to {opacity:1}
+}
+
+@keyframes fade {
+    from {opacity:.4} 
+    to {opacity:1}
 }
 
 footer {
