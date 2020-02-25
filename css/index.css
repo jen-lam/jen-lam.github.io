@@ -247,11 +247,17 @@ header {
   color:#FFFFFF;
 }
 
-.huli h2 {
+h2 {
   font-size:36px;
   font-family:'Playfair Display';
   font-weight:900;
   color:#FFFFFF;
+}
+
+.index h2 {
+  top:-100px;
+  position:relative;
+  color:#F7F2F2;
 }
 
 .huli h3 {
