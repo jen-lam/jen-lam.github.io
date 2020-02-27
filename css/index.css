@@ -279,6 +279,13 @@ header {
   justify-content:flex-start;
 }
 
+.pov {
+  display:flex; 
+  justify-content:space-between;
+  padding-bottom:32px;
+  border-bottom:1px solid #1F1F1F;
+}
+
 .slideshow-container {
     max-width:100%;
     position:relative;
