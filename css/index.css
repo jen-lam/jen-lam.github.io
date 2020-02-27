@@ -286,6 +286,10 @@ header {
   border-bottom:1px solid #1F1F1F;
 }
 
+.statement {
+  width:30%;
+}
+
 .slideshow-container {
     max-width:100%;
     position:relative;
@@ -320,13 +324,13 @@ header {
     width:10px;
     margin:0 2px;
     border-radius:50%;
-    background:#999;
+    background:#1F1F1F;
     display:inline-block;
     transition:background 0.3s ease;
 }
 
 .active, .dot:hover {
-    background:#000;
+    background:#F7923A;
 }
 
 .fade {
