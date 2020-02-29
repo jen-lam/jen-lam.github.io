@@ -301,24 +301,6 @@ header {
     display:none;
 }
 
-.prev, .next {
-    cursor:pointer;
-    position:absolute;
-    top:50%;
-    margin-top:-22px;
-    width:auto;
-    padding:16px;
-    color:#000;
-    font-weight:bold;
-    font-size:18px;
-    transition:0.2s ease;
-    user-select:none;
-}
-
-.next {
-    right:0;
-}
-
 .dot {
     cursor:pointer;
     height:10px;
