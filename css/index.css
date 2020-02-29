@@ -291,6 +291,13 @@ header {
   width:30%;
 }
 
+.huli span {
+  font-size:0.6em;
+  letter-spacing:0.1em;
+  text-transform:uppercase;
+  color:#F7923A;
+}
+
 .slideshow-container {
     max-width:100%;
     position:relative;
