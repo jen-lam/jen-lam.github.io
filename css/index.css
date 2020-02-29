@@ -114,7 +114,7 @@ nav {
 
 header {
   height:100vh;
-  padding:50vh 16vw 0; 
+  margin:50vh 16vw 0; 
   display:flex;
   justify-content:space-between;
 }
@@ -360,24 +360,37 @@ footer {
 @media only screen and (max-width:961px) {
     header {
       display:block;
+      margin:40vh 16vw 0; 
+      height:70vh;
     }
+
+    .index section {
+      margin:200px 10vw 100px;
+    }
+
+    .index .type {
+      padding:0 4vw;
+    }
+
+
 
     #introduction, #description {
       width:100%
+      margin-bottom:20px;
     }
 
-    #scroll {
-      display:none;
-    }
-
-    .preview {
+    .scroll {
       display:none;
     }
 
     .project a {
       width:100%;
+      padding:4vw;
     }
 
+    .project a:hover + .preview {
+      display:none;  
+    }
 
     .part {
         width:100% !important;
