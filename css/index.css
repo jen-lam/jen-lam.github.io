@@ -36,6 +36,7 @@ h2 {
   font-family:'Playfair Display';
   font-weight:900;
   color:#FFFFFF;
+  line-height:100%;
 }
 
 .index h2 {
@@ -187,7 +188,7 @@ header {
   border-radius:16px;
 }
 
-.huli section, .rooms section {
+.huli section, .rooms section, .wx section, .creative section, .triangles section {
   margin:16vh 16vw 0 16vw;
 }
 
@@ -358,18 +359,28 @@ footer {
 
 
 @media only screen and (max-width:961px) {
+    nav {
+      padding:4vh 8vw;
+    }
+
     header {
       display:block;
-      margin:40vh 16vw 0; 
-      height:70vh;
+      margin:40vh 8vw 0; 
+      height:40vh;
     }
 
     .index section {
-      margin:200px 10vw 100px;
+      margin:120px 4vw;
+      padding:none;
+      background:none;
+      border-radius:none;
+
     }
 
     .index .type {
       padding:0 4vw;
+      line-height:100%;
+      top:0;
     }
 
     #introduction, #description {
@@ -384,6 +395,7 @@ footer {
     .project a {
       width:100%;
       padding:4vw;
+      margin-top:40px;
     }
 
     .project a:hover + .preview {
@@ -392,12 +404,32 @@ footer {
 
     .part {
         width:100% !important;
-        margin-left:10px !important;
+        margin-left:0 !important;
+    }
+
+    video {
+      width:100%;
     }
 
     .vid {
         display:block !important;
     }
+
+    .huli section, .rooms section, .wx section, .creative section, .triangles section {
+      margin:16vh 8vw 0;
+    }
+
+    .pov {
+      display:block; 
+      padding-bottom:32px;
+      border-bottom:1px solid #1F1F1F;
+    }
+
+    .statement {
+      width:100%;
+      margin-top:20px;
+    }
+
 
     .about {
       display:block;
