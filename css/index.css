@@ -291,9 +291,10 @@ header {
   width:30%;
 }
 
-.huli span {
+.huli section span {
   font-size:0.6em;
   letter-spacing:0.1em;
+  margin-bottom:-10px;
   text-transform:uppercase;
   color:#F7923A;
 }
