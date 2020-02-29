@@ -359,90 +359,87 @@ footer {
 
 
 @media only screen and (max-width:961px) {
-    nav {
-      padding:4vh 8vw;
-    }
+  nav {
+    padding:4vh 8vw;
+  }
 
-    header {
-      display:block;
-      margin:40vh 8vw 0; 
-      height:40vh;
-    }
+  header {
+    display:block;
+    margin:40vh 8vw 0; 
+    height:40vh;
+  }
 
-    .index section {
-      margin:120px 4vw;
-      padding:none;
-      background:none;
-      border-radius:none;
+  .index section {
+    margin:120px 4vw;
+    padding:0;
+    background:none;
+  }
 
-    }
+  .index .type {
+    padding:0 4vw;
+    line-height:100%;
+    top:0;
+  }
 
-    .index .type {
-      padding:0 4vw;
-      line-height:100%;
-      top:0;
-    }
+  #introduction, #description {
+    width:100%;
+    margin-bottom:20px;
+  }
 
-    #introduction, #description {
-      width:100%;
-      margin-bottom:20px;
-    }
+  .scroll {
+    display:none;
+  }
 
-    .scroll {
-      display:none;
-    }
+  .project a {
+    width:100%;
+    padding:4vw;
+    margin-top:40px;
+  }
 
-    .project a {
-      width:100%;
-      padding:4vw;
-      margin-top:40px;
-    }
+  .project a:hover + .preview {
+    display:none;  
+  }
 
-    .project a:hover + .preview {
-      display:none;  
-    }
+  .part {
+     width:100% !important;
+     margin-left:0 !important;
+  }
 
-    .part {
-        width:100% !important;
-        margin-left:0 !important;
-    }
+  video {
+    width:100%;
+  }
 
-    video {
-      width:100%;
-    }
+  .vid {
+    display:block !important;
+  }
 
-    .vid {
-        display:block !important;
-    }
+  .huli section, .rooms section, .wx section, .creative section, .triangles section {
+    margin:16vh 8vw 0;
+  }
 
-    .huli section, .rooms section, .wx section, .creative section, .triangles section {
-      margin:16vh 8vw 0;
-    }
+  .pov {
+    display:block; 
+    padding-bottom:32px;
+    border-bottom:1px solid #1F1F1F;
+  }
 
-    .pov {
-      display:block; 
-      padding-bottom:32px;
-      border-bottom:1px solid #1F1F1F;
-    }
+  .statement {
+    width:100%;
+    margin-top:20px;
+  }
 
-    .statement {
-      width:100%;
-      margin-top:20px;
-    }
+  .about {
+    display:block;
+  }
 
+  .skills {
+    width:100%;
+  }
 
-    .about {
-      display:block;
-    }
-
-    .skills {
-      width:100%;
-    }
-
-    .experience {
-      margin-left:0;
-      width:100%;
-    }
+  .experience {
+    margin-left:0;
+    width:100%;
+  }
 
 }
 
