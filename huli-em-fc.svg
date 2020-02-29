@@ -1,0 +1,281 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-FC);
+      }
+
+      .cls-2, .cls-9 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        stroke: #fff;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #1f1f1f;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        font-size: 20px;
+        font-family: Barlow-Medium, Barlow;
+        font-weight: 500;
+      }
+
+      .cls-7 {
+        font-size: 16px;
+        font-family: Barlow-Regular, Barlow;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-FC">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="FC" class="cls-1">
+    <rect class="cls-4" width="1920" height="1080"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" class="cls-2">
+      <rect class="cls-8" width="945" height="340"/>
+      <rect class="cls-9" x="1" y="1" width="943" height="338"/>
+    </g>
+    <g id="Rectangle_2" data-name="Rectangle 2" class="cls-2" transform="translate(0 370)">
+      <rect class="cls-8" width="945" height="340"/>
+      <rect class="cls-9" x="1" y="1" width="943" height="338"/>
+    </g>
+    <g id="Rectangle_3" data-name="Rectangle 3" class="cls-2" transform="translate(0 740)">
+      <rect class="cls-8" width="945" height="340"/>
+      <rect class="cls-9" x="1" y="1" width="943" height="338"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" class="cls-2" transform="translate(975)">
+      <rect class="cls-8" width="945" height="340"/>
+      <rect class="cls-9" x="1" y="1" width="943" height="338"/>
+    </g>
+    <g id="Rectangle_5" data-name="Rectangle 5" class="cls-2" transform="translate(975 370)">
+      <rect class="cls-8" width="945" height="340"/>
+      <rect class="cls-9" x="1" y="1" width="943" height="338"/>
+    </g>
+    <g id="Rectangle_6" data-name="Rectangle 6" class="cls-2" transform="translate(975 740)">
+      <rect class="cls-8" width="945" height="340"/>
+      <rect class="cls-9" x="1" y="1" width="943" height="338"/>
+    </g>
+    <g id="Ellipse_1" data-name="Ellipse 1" class="cls-3" transform="translate(840 235)">
+      <circle class="cls-8" cx="120" cy="120" r="120"/>
+      <circle class="cls-9" cx="120" cy="120" r="119"/>
+    </g>
+    <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-4" width="30" height="710" transform="translate(945)"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-4" width="30" height="710" transform="translate(1315 340) rotate(90)"/>
+    <g id="Group_4" data-name="Group 4">
+      <g id="Group_1" data-name="Group 1" transform="translate(917.021 298)">
+        <g id="Ellipse_2" data-name="Ellipse 2" class="cls-5" transform="translate(27.027)">
+          <circle class="cls-8" cx="15.015" cy="15.015" r="15.015"/>
+          <circle class="cls-9" cx="15.015" cy="15.015" r="14.515"/>
+        </g>
+        <g id="Ellipse_3" data-name="Ellipse 3" class="cls-5" transform="translate(12.012 36.035)">
+          <circle class="cls-8" cx="30.03" cy="30.03" r="30.03"/>
+          <circle class="cls-9" cx="30.03" cy="30.03" r="29.53"/>
+        </g>
+        <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-4" width="86.335" height="42.792" transform="translate(0 57.807)"/>
+      </g>
+      <text id="Forest_Conservator" data-name="Forest
+Conservator" class="cls-6" transform="translate(960 385)"><tspan x="-28.3" y="0">Forest</tspan><tspan x="-53.89" y="24">Conservator</tspan></text>
+    </g>
+    <g id="Group_35" data-name="Group 35" transform="translate(100 38)">
+      <text id="SAYS" class="cls-6" transform="translate(348 60)"><tspan x="0" y="0">SAYS</tspan></text>
+      <g id="Group_5" data-name="Group 5" transform="translate(0 2)">
+        <g id="Rectangle_10" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Please_cover_these_routes" data-name="Please cover these routes" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Please cover </tspan><tspan x="0" y="35">these routes</tspan></text>
+      </g>
+      <g id="Group_6" data-name="Group 6" transform="translate(136 2)">
+        <g id="Rectangle_10-2" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Have_you_uploaded_all_your_data_" data-name="Have you uploaded all your data?" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Have you </tspan><tspan x="0" y="35">uploaded all </tspan><tspan x="0" y="54">your data?</tspan></text>
+      </g>
+      <g id="Group_7" data-name="Group 7" transform="translate(272 2)">
+        <g id="Rectangle_10-3" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="I_can_t_understand" data-name="I can&apos;t understand" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">I can&apos;t </tspan><tspan x="0" y="35">understand</tspan></text>
+      </g>
+      <g id="Group_8" data-name="Group 8" transform="translate(408 2)">
+        <g id="Rectangle_10-4" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Any_routes_you_are_interested_in_" data-name="Any routes you are interested in?" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Any routes </tspan><tspan x="0" y="35">you are </tspan><tspan x="0" y="54">interested </tspan><tspan x="0" y="73">in?</tspan></text>
+      </g>
+      <g id="Group_9" data-name="Group 9" transform="translate(544 2)">
+        <g id="Rectangle_10-5" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="This_data_is_incomplete" data-name="This data is incomplete" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">This data is </tspan><tspan x="0" y="35">incomplete</tspan></text>
+      </g>
+    </g>
+    <g id="Group_34" data-name="Group 34" transform="translate(-168 38)">
+      <text id="THINKS" class="cls-6" transform="translate(1648 60)"><tspan x="-66.76" y="0">THINKS</tspan></text>
+      <g id="Group_11" data-name="Group 11" transform="translate(1312 2)">
+        <g id="Rectangle_10-6" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Have_I_covered_all_areas_" data-name="Have I covered all areas?" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Have I </tspan><tspan x="0" y="35">covered all </tspan><tspan x="0" y="54">areas?</tspan></text>
+      </g>
+      <g id="Group_12" data-name="Group 12" transform="translate(1448 2)">
+        <g id="Rectangle_10-7" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Any_areas_with_high_activity_" data-name="Any areas with high activity?" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Any areas </tspan><tspan x="0" y="35">with high </tspan><tspan x="0" y="54">activity?</tspan></text>
+      </g>
+      <g id="Group_13" data-name="Group 13" transform="translate(1584 2)">
+        <g id="Rectangle_10-8" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Is_this_patrol_possible_" data-name="Is this patrol possible?" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Is this patrol </tspan><tspan x="0" y="35">possible?</tspan></text>
+      </g>
+      <g id="Group_14" data-name="Group 14" transform="translate(1720 2)">
+        <g id="Rectangle_10-9" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Why_is_it_only_me_" data-name="Why is it only me?" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Why is it </tspan><tspan x="0" y="35">only me?</tspan></text>
+      </g>
+    </g>
+    <g id="Group_37" data-name="Group 37" transform="translate(-100 32)">
+      <text id="FEELS" class="cls-6" transform="translate(1516 430)"><tspan x="0" y="0">FEELS</tspan></text>
+      <g id="Group_15" data-name="Group 15" transform="translate(1312 372)">
+        <g id="Rectangle_10-10" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Varying_levels_of_organisation" data-name="Varying levels of organisation" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Varying </tspan><tspan x="0" y="35">levels of </tspan><tspan x="0" y="54">organisation</tspan></text>
+      </g>
+      <g id="Group_16" data-name="Group 16" transform="translate(1448 372)">
+        <g id="Rectangle_10-11" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Worried_about_patrol_success" data-name="Worried about patrol success" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Worried </tspan><tspan x="0" y="35">about patrol </tspan><tspan x="0" y="54">success</tspan></text>
+      </g>
+      <g id="Group_17" data-name="Group 17" transform="translate(1584 372)">
+        <g id="Rectangle_10-12" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Pressure" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Pressure</tspan></text>
+      </g>
+      <g id="Group_18" data-name="Group 18" transform="translate(1720 372)">
+        <g id="Rectangle_10-13" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Varying_levels_of_hope" data-name="Varying levels of hope" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Varying </tspan><tspan x="0" y="35">levels of </tspan><tspan x="0" y="54">hope</tspan></text>
+      </g>
+      <g id="Group_19" data-name="Group 19" transform="translate(1176 372)">
+        <g id="Rectangle_10-14" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Relieved_when_done" data-name="Relieved when done" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Relieved </tspan><tspan x="0" y="35">when done</tspan></text>
+      </g>
+    </g>
+    <g id="Group_36" data-name="Group 36" transform="translate(100 32)">
+      <text id="DOES" class="cls-6" transform="translate(348 430)"><tspan x="0" y="0">DOES</tspan></text>
+      <g id="Group_20" data-name="Group 20" transform="translate(0 372)">
+        <g id="Rectangle_10-15" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Review_APCs" data-name="Review APCs" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Review </tspan><tspan x="0" y="35">APCs</tspan></text>
+      </g>
+      <g id="Group_21" data-name="Group 21" transform="translate(136 372)">
+        <g id="Rectangle_10-16" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Review_patrol_information" data-name="Review patrol information" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Review </tspan><tspan x="0" y="35">patrol </tspan><tspan x="0" y="54">information</tspan></text>
+      </g>
+      <g id="Group_22" data-name="Group 22" transform="translate(272 372)">
+        <g id="Rectangle_10-17" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Assigns_route" data-name="Assigns route" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Assigns </tspan><tspan x="0" y="35">route</tspan></text>
+      </g>
+      <g id="Group_23" data-name="Group 23" transform="translate(408 372)">
+        <g id="Rectangle_10-18" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Reviews_area" data-name="Reviews area" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Reviews </tspan><tspan x="0" y="35">area</tspan></text>
+      </g>
+      <g id="Group_24" data-name="Group 24" transform="translate(544 372)">
+        <g id="Rectangle_10-19" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Liaise_with_Forest_Guard" data-name="Liaise with Forest Guard" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Liaise with </tspan><tspan x="0" y="35">Forest Guard</tspan></text>
+      </g>
+    </g>
+    <g id="Group_38" data-name="Group 38" transform="translate(100 38)">
+      <text id="PAINS" class="cls-6" transform="translate(345 800)"><tspan x="0" y="0">PAINS</tspan></text>
+      <g id="Group_26" data-name="Group 26" transform="translate(136 742)">
+        <g id="Rectangle_10-20" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Assigning_routes" data-name="Assigning routes" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Assigning </tspan><tspan x="0" y="35">routes</tspan></text>
+      </g>
+      <g id="Group_27" data-name="Group 27" transform="translate(272 742)">
+        <g id="Rectangle_10-21" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Covering_all_routes" data-name="Covering all routes" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Covering all </tspan><tspan x="0" y="35">routes</tspan></text>
+      </g>
+      <g id="Group_28" data-name="Group 28" transform="translate(408 742)">
+        <g id="Rectangle_10-22" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Motivating_teams" data-name="Motivating teams" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Motivating </tspan><tspan x="0" y="35">teams</tspan></text>
+      </g>
+    </g>
+    <g id="Group_39" data-name="Group 39" transform="translate(-169 38)">
+      <text id="GAINS" class="cls-6" transform="translate(1588 800)"><tspan x="0" y="0">GAINS</tspan></text>
+      <g id="Group_31" data-name="Group 31" transform="translate(1449 742)">
+        <g id="Rectangle_10-23" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Effective_patrol_routes" data-name="Effective patrol routes" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Effective </tspan><tspan x="0" y="35">patrol routes</tspan></text>
+      </g>
+      <g id="Group_32" data-name="Group 32" transform="translate(1585 742)">
+        <g id="Rectangle_10-24" data-name="Rectangle 10" class="cls-5" transform="translate(40 102)">
+          <rect class="cls-8" width="120" height="120"/>
+          <rect class="cls-9" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Easier_to_assign" data-name="Easier to assign" class="cls-7" transform="translate(56 118)"><tspan x="0" y="16">Easier to </tspan><tspan x="0" y="35">assign</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

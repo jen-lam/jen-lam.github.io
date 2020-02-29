@@ -1,0 +1,307 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-FG);
+      }
+
+      .cls-10, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-6 {
+        stroke: #fff;
+      }
+
+      .cls-2 {
+        stroke-width: 2px;
+      }
+
+      .cls-3, .cls-4, .cls-6 {
+        fill: #1f1f1f;
+      }
+
+      .cls-5 {
+        opacity: 0.2;
+      }
+
+      .cls-11, .cls-7, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        font-size: 20px;
+        font-family: Barlow-Medium, Barlow;
+        font-weight: 500;
+      }
+
+      .cls-8 {
+        font-size: 16px;
+        font-family: Barlow-Regular, Barlow;
+      }
+
+      .cls-11, .cls-9 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-FG">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="FG" class="cls-1">
+    <rect class="cls-4" width="1920" height="1080"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" class="cls-2">
+      <rect class="cls-9" width="945" height="340"/>
+      <rect class="cls-10" x="1" y="1" width="943" height="338"/>
+    </g>
+    <g id="Rectangle_2" data-name="Rectangle 2" class="cls-2" transform="translate(0 370)">
+      <rect class="cls-9" width="945" height="340"/>
+      <rect class="cls-10" x="1" y="1" width="943" height="338"/>
+    </g>
+    <g id="Rectangle_3" data-name="Rectangle 3" class="cls-2" transform="translate(0 740)">
+      <rect class="cls-9" width="945" height="340"/>
+      <rect class="cls-10" x="1" y="1" width="943" height="338"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" class="cls-2" transform="translate(975)">
+      <rect class="cls-9" width="945" height="340"/>
+      <rect class="cls-10" x="1" y="1" width="943" height="338"/>
+    </g>
+    <g id="Rectangle_5" data-name="Rectangle 5" class="cls-2" transform="translate(975 370)">
+      <rect class="cls-9" width="945" height="340"/>
+      <rect class="cls-10" x="1" y="1" width="943" height="338"/>
+    </g>
+    <g id="Rectangle_6" data-name="Rectangle 6" class="cls-2" transform="translate(975 740)">
+      <rect class="cls-9" width="945" height="340"/>
+      <rect class="cls-10" x="1" y="1" width="943" height="338"/>
+    </g>
+    <g id="Path_1" data-name="Path 1" class="cls-3" transform="translate(840 235)">
+      <path class="cls-9" d="M 120 239 C 111.9253463745117 239 103.8560638427734 238.1865692138672 96.01628112792969 236.5823364257813 C 88.37628173828125 235.0189666748047 80.86131286621094 232.6861877441406 73.68015289306641 229.6488189697266 C 66.62912750244141 226.6664733886719 59.82831192016602 222.9751281738281 53.46665573120117 218.6772766113281 C 47.16518783569336 214.4200592041016 41.23953247070313 209.5309753417969 35.85431289672852 204.1457214355469 C 30.46906280517578 198.7604675292969 25.57993698120117 192.8348083496094 21.32275009155273 186.5333404541016 C 17.02490615844727 180.1716918945313 13.33353137969971 173.3709106445313 10.35118770599365 166.3198699951172 C 7.313812732696533 159.1387176513672 4.981062412261963 151.6237487792969 3.41768741607666 143.9837188720703 C 1.813437461853027 136.1439361572266 1 128.0746612548828 1 120 C 1 111.9253463745117 1.813437461853027 103.8560638427734 3.41768741607666 96.01628112792969 C 4.981062412261963 88.37628173828125 7.313812732696533 80.86131286621094 10.35118770599365 73.68015289306641 C 13.33353137969971 66.62912750244141 17.02490615844727 59.82831192016602 21.32275009155273 53.46665573120117 C 25.57993698120117 47.16518783569336 30.46906280517578 41.23953247070313 35.85431289672852 35.85431289672852 C 41.23953247070313 30.46906280517578 47.16518783569336 25.57993698120117 53.46665573120117 21.32275009155273 C 59.82831192016602 17.02490615844727 66.62912750244141 13.33353137969971 73.68015289306641 10.35118770599365 C 80.86131286621094 7.313812732696533 88.37628173828125 4.981062412261963 96.01628112792969 3.41768741607666 C 103.8560638427734 1.813437461853027 111.9253463745117 1 120 1 C 128.0746612548828 1 136.1439361572266 1.813437461853027 143.9837188720703 3.41768741607666 C 151.6237487792969 4.981062412261963 159.1387176513672 7.313812732696533 166.3198699951172 10.35118770599365 C 173.3709106445313 13.33353137969971 180.1716918945313 17.02490615844727 186.5333404541016 21.32275009155273 C 192.8348083496094 25.57993698120117 198.7604675292969 30.46906280517578 204.1457214355469 35.85431289672852 C 209.5309753417969 41.23953247070313 214.4200592041016 47.16518783569336 218.6772766113281 53.46665573120117 C 222.9751281738281 59.82831192016602 226.6664733886719 66.62912750244141 229.6488189697266 73.68015289306641 C 232.6861877441406 80.86131286621094 235.0189666748047 88.37628173828125 236.5823364257813 96.01628112792969 C 238.1865692138672 103.8560638427734 239 111.9253463745117 239 120 C 239 128.0746612548828 238.1865692138672 136.1439361572266 236.5823364257813 143.9837188720703 C 235.0189666748047 151.6237487792969 232.6861877441406 159.1387176513672 229.6488189697266 166.3198699951172 C 226.6664733886719 173.3709106445313 222.9751281738281 180.1716918945313 218.6772766113281 186.5333404541016 C 214.4200592041016 192.8348083496094 209.5309753417969 198.7604675292969 204.1457214355469 204.1457214355469 C 198.7604675292969 209.5309753417969 192.8348083496094 214.4200592041016 186.5333404541016 218.6772766113281 C 180.1716918945313 222.9751281738281 173.3709106445313 226.6664733886719 166.3198699951172 229.6488189697266 C 159.1387176513672 232.6861877441406 151.6237487792969 235.0189666748047 143.9837188720703 236.5823364257813 C 136.1439361572266 238.1865692138672 128.0746612548828 239 120 239 Z"/>
+      <path class="cls-11" d="M 120 2 C 111.9925384521484 2 103.99072265625 2.806594848632813 96.21675109863281 4.397369384765625 C 88.64140319824219 5.947494506835938 81.1900634765625 8.260528564453125 74.06968688964844 11.27218627929688 C 67.078125 14.2293701171875 60.33462524414063 17.88966369628906 54.02647399902344 22.15133666992188 C 47.77772521972656 26.37290954589844 41.90162658691406 31.22116088867188 36.5614013671875 36.5614013671875 C 31.22116088867188 41.90162658691406 26.37290954589844 47.77772521972656 22.15133666992188 54.02647399902344 C 17.88966369628906 60.33462524414063 14.2293701171875 67.078125 11.27218627929688 74.06968688964844 C 8.260528564453125 81.1900634765625 5.947494506835938 88.64140319824219 4.397369384765625 96.21675109863281 C 2.806594848632813 103.99072265625 2 111.9925384521484 2 120 C 2 128.0074768066406 2.806594848632813 136.00927734375 4.397369384765625 143.7832183837891 C 5.947494506835938 151.3585968017578 8.260528564453125 158.8099365234375 11.27218627929688 165.9303131103516 C 14.2293701171875 172.9218444824219 17.88966369628906 179.6653747558594 22.15133666992188 185.9735260009766 C 26.37290954589844 192.2222595214844 31.22116088867188 198.0983428955078 36.5614013671875 203.4385986328125 C 41.90162658691406 208.7788391113281 47.77772521972656 213.6270599365234 54.02647399902344 217.8486328125 C 60.33462524414063 222.1103515625 67.078125 225.7706298828125 74.06968688964844 228.727783203125 C 81.1900634765625 231.7394714355469 88.64140319824219 234.0525054931641 96.21675109863281 235.6026306152344 C 103.99072265625 237.1934051513672 111.9925384521484 238 120 238 C 128.0074768066406 238 136.00927734375 237.1934051513672 143.7832183837891 235.6026306152344 C 151.3585968017578 234.0525054931641 158.8099365234375 231.7394714355469 165.9303131103516 228.727783203125 C 172.9218444824219 225.7706298828125 179.6653747558594 222.1103515625 185.9735260009766 217.8486328125 C 192.2222595214844 213.6270599365234 198.0983428955078 208.7788391113281 203.4385986328125 203.4385986328125 C 208.7788391113281 198.0983428955078 213.6270599365234 192.2222595214844 217.8486328125 185.9735260009766 C 222.1103515625 179.6653747558594 225.7706298828125 172.9218444824219 228.727783203125 165.9303131103516 C 231.7394714355469 158.8099365234375 234.0525054931641 151.3585968017578 235.6026306152344 143.7832183837891 C 237.1934051513672 136.00927734375 238 128.0074768066406 238 120 C 238 111.9925384521484 237.1934051513672 103.99072265625 235.6026306152344 96.21675109863281 C 234.0525054931641 88.64140319824219 231.7394714355469 81.1900634765625 228.727783203125 74.06968688964844 C 225.7706298828125 67.078125 222.1103515625 60.33462524414063 217.8486328125 54.02647399902344 C 213.6270599365234 47.77772521972656 208.7788391113281 41.90162658691406 203.4385986328125 36.5614013671875 C 198.0983428955078 31.22116088867188 192.2222595214844 26.37290954589844 185.9735260009766 22.15133666992188 C 179.6653747558594 17.88966369628906 172.9218444824219 14.2293701171875 165.9303131103516 11.27218627929688 C 158.8099365234375 8.260528564453125 151.3585968017578 5.947494506835938 143.7832183837891 4.397369384765625 C 136.00927734375 2.806594848632813 128.0074768066406 2 120 2 M 120 0 C 186.2741546630859 0 240 53.72581481933594 240 120 C 240 186.2741546630859 186.2741546630859 240 120 240 C 53.72581481933594 240 0 186.2741546630859 0 120 C 0 53.72581481933594 53.72581481933594 0 120 0 Z"/>
+    </g>
+    <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-4" width="30" height="710" transform="translate(945)"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-4" width="30" height="710" transform="translate(1315 340) rotate(90)"/>
+    <g id="Group_4" data-name="Group 4">
+      <g id="Group_2" data-name="Group 2" class="cls-5" transform="translate(963.566 304.682)">
+        <g id="Ellipse_2" data-name="Ellipse 2" class="cls-6" transform="translate(18.777)">
+          <circle class="cls-9" cx="10.432" cy="10.432" r="10.432"/>
+          <circle class="cls-10" cx="10.432" cy="10.432" r="9.932"/>
+        </g>
+        <g id="Ellipse_3" data-name="Ellipse 3" class="cls-6" transform="translate(8.346 25.037)">
+          <circle class="cls-9" cx="20.864" cy="20.864" r="20.864"/>
+          <circle class="cls-10" cx="20.864" cy="20.864" r="20.364"/>
+        </g>
+        <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-4" width="59.983" height="29.731" transform="translate(0 40.163)"/>
+      </g>
+      <g id="Group_3" data-name="Group 3" class="cls-5" transform="translate(896 304.682)">
+        <g id="Ellipse_2-2" data-name="Ellipse 2" class="cls-6" transform="translate(18.777)">
+          <circle class="cls-9" cx="10.432" cy="10.432" r="10.432"/>
+          <circle class="cls-10" cx="10.432" cy="10.432" r="9.932"/>
+        </g>
+        <g id="Ellipse_3-2" data-name="Ellipse 3" class="cls-6" transform="translate(8.346 25.037)">
+          <circle class="cls-9" cx="20.864" cy="20.864" r="20.864"/>
+          <circle class="cls-10" cx="20.864" cy="20.864" r="20.364"/>
+        </g>
+        <rect id="Rectangle_9-2" data-name="Rectangle 9" class="cls-4" width="59.983" height="29.731" transform="translate(0 40.163)"/>
+      </g>
+      <g id="Group_1" data-name="Group 1" transform="translate(917.021 298)">
+        <g id="Ellipse_2-3" data-name="Ellipse 2" class="cls-6" transform="translate(27.027)">
+          <circle class="cls-9" cx="15.015" cy="15.015" r="15.015"/>
+          <circle class="cls-10" cx="15.015" cy="15.015" r="14.515"/>
+        </g>
+        <g id="Ellipse_3-3" data-name="Ellipse 3" class="cls-6" transform="translate(12.012 36.035)">
+          <circle class="cls-9" cx="30.03" cy="30.03" r="30.03"/>
+          <circle class="cls-10" cx="30.03" cy="30.03" r="29.53"/>
+        </g>
+        <rect id="Rectangle_9-3" data-name="Rectangle 9" class="cls-4" width="86.335" height="42.792" transform="translate(0 57.807)"/>
+      </g>
+      <text id="Forest_Guard" data-name="Forest
+Guard" class="cls-7" transform="translate(960 385)"><tspan x="-28.3" y="0">Forest</tspan><tspan x="-25.63" y="24">Guard</tspan></text>
+    </g>
+    <g id="Group_35" data-name="Group 35" transform="translate(100 38)">
+      <text id="SAYS" class="cls-7" transform="translate(348 60)"><tspan x="0" y="0">SAYS</tspan></text>
+      <g id="Group_5" data-name="Group 5" transform="translate(0 2)">
+        <g id="Rectangle_10" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="How_many_have_you_spotted_" data-name="How many have you spotted?" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">How many </tspan><tspan x="0" y="35">have you </tspan><tspan x="0" y="54">spotted?</tspan></text>
+      </g>
+      <g id="Group_6" data-name="Group 6" transform="translate(136 2)">
+        <g id="Rectangle_10-2" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Am_I_missing_anything_" data-name="Am I missing anything?" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Am I missing </tspan><tspan x="0" y="35">anything?</tspan></text>
+      </g>
+      <g id="Group_7" data-name="Group 7" transform="translate(272 2)">
+        <g id="Rectangle_10-3" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="This_is_taking_forever_to_upload" data-name="This is taking forever to upload" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">This is </tspan><tspan x="0" y="35">taking </tspan><tspan x="0" y="54">forever to </tspan><tspan x="0" y="73">upload</tspan></text>
+      </g>
+      <g id="Group_8" data-name="Group 8" transform="translate(408 2)">
+        <g id="Rectangle_10-4" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="This_our_route_for_today" data-name="This our route for today" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">This our </tspan><tspan x="0" y="35">route for </tspan><tspan x="0" y="54">today</tspan></text>
+      </g>
+      <g id="Group_9" data-name="Group 9" transform="translate(544 2)">
+        <g id="Rectangle_10-5" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Show_me_your_equipment" data-name="Show me your equipment" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Show me </tspan><tspan x="0" y="35">your </tspan><tspan x="0" y="54">equipment</tspan></text>
+      </g>
+    </g>
+    <g id="Group_34" data-name="Group 34" transform="translate(-168 38)">
+      <text id="THINKS" class="cls-7" transform="translate(1648 60)"><tspan x="-66.76" y="0">THINKS</tspan></text>
+      <g id="Group_11" data-name="Group 11" transform="translate(1312 2)">
+        <g id="Rectangle_10-6" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Where_is_my_team_" data-name="Where is my team?" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Where is my </tspan><tspan x="0" y="35">team?</tspan></text>
+      </g>
+      <g id="Group_12" data-name="Group 12" transform="translate(1448 2)">
+        <g id="Rectangle_10-7" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="I_wish_we_had_another_mobile_device" data-name="I wish we had another mobile device" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">I wish we </tspan><tspan x="0" y="35">had another </tspan><tspan x="0" y="54">mobile </tspan><tspan x="0" y="73">device</tspan></text>
+      </g>
+      <g id="Group_13" data-name="Group 13" transform="translate(1584 2)">
+        <g id="Rectangle_10-8" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="I_want_to_help_the_tigers" data-name="I want to help the tigers" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">I want to </tspan><tspan x="0" y="35">help the </tspan><tspan x="0" y="54">tigers</tspan></text>
+      </g>
+      <g id="Group_14" data-name="Group 14" transform="translate(1720 2)">
+        <g id="Rectangle_10-9" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="We_ve_spotted_a_lot_today" data-name="We&apos;ve spotted a lot today" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">We&apos;ve </tspan><tspan x="0" y="35">spotted a lot </tspan><tspan x="0" y="54">today</tspan></text>
+      </g>
+    </g>
+    <g id="Group_37" data-name="Group 37" transform="translate(-100 32)">
+      <text id="FEELS" class="cls-7" transform="translate(1516 430)"><tspan x="0" y="0">FEELS</tspan></text>
+      <g id="Group_15" data-name="Group 15" transform="translate(1312 372)">
+        <g id="Rectangle_10-10" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Obliged" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Obliged</tspan></text>
+      </g>
+      <g id="Group_16" data-name="Group 16" transform="translate(1448 372)">
+        <g id="Rectangle_10-11" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Analytical" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Analytical</tspan></text>
+      </g>
+      <g id="Group_17" data-name="Group 17" transform="translate(1584 372)">
+        <g id="Rectangle_10-12" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Varying_levels_of_energy" data-name="Varying levels of energy" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Varying </tspan><tspan x="0" y="35">levels of </tspan><tspan x="0" y="54">energy</tspan></text>
+      </g>
+      <g id="Group_18" data-name="Group 18" transform="translate(1720 372)">
+        <g id="Rectangle_10-13" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Confused" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Confused</tspan></text>
+      </g>
+      <g id="Group_19" data-name="Group 19" transform="translate(1176 372)">
+        <g id="Rectangle_10-14" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Tired" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Tired</tspan></text>
+      </g>
+    </g>
+    <g id="Group_36" data-name="Group 36" transform="translate(100 32)">
+      <text id="DOES" class="cls-7" transform="translate(348 430)"><tspan x="0" y="0">DOES</tspan></text>
+      <g id="Group_20" data-name="Group 20" transform="translate(0 372)">
+        <g id="Rectangle_10-15" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Inputs_people_and_equipment_data" data-name="Inputs people and equipment data" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Inputs </tspan><tspan x="0" y="35">people and </tspan><tspan x="0" y="54">equipment </tspan><tspan x="0" y="73">data</tspan></text>
+      </g>
+      <g id="Group_21" data-name="Group 21" transform="translate(136 372)">
+        <g id="Rectangle_10-16" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Inputs_observation_data" data-name="Inputs observation data" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Inputs </tspan><tspan x="0" y="35">observation </tspan><tspan x="0" y="54">data</tspan></text>
+      </g>
+      <g id="Group_22" data-name="Group 22" transform="translate(272 372)">
+        <g id="Rectangle_10-17" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Takes_and_uploads_photos" data-name="Takes and uploads photos" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Takes and </tspan><tspan x="0" y="35">uploads </tspan><tspan x="0" y="54">photos</tspan></text>
+      </g>
+      <g id="Group_23" data-name="Group 23" transform="translate(408 372)">
+        <g id="Rectangle_10-18" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Views_reports_using_WhatsApp" data-name="Views reports using WhatsApp" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Views </tspan><tspan x="0" y="35">reports </tspan><tspan x="0" y="54">using </tspan><tspan x="0" y="73">WhatsApp</tspan></text>
+      </g>
+      <g id="Group_24" data-name="Group 24" transform="translate(544 372)">
+        <g id="Rectangle_10-19" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Walks_patrol_route" data-name="Walks patrol route" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Walks patrol </tspan><tspan x="0" y="35">route</tspan></text>
+      </g>
+    </g>
+    <g id="Group_38" data-name="Group 38" transform="translate(100 38)">
+      <text id="PAINS" class="cls-7" transform="translate(345 800)"><tspan x="0" y="0">PAINS</tspan></text>
+      <g id="Group_26" data-name="Group 26" transform="translate(136 742)">
+        <g id="Rectangle_10-20" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Only_one_mobile_device_per_team" data-name="Only one mobile device per team" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Only one </tspan><tspan x="0" y="35">mobile </tspan><tspan x="0" y="54">device per </tspan><tspan x="0" y="73">team</tspan></text>
+      </g>
+      <g id="Group_27" data-name="Group 27" transform="translate(272 742)">
+        <g id="Rectangle_10-21" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Lack_of_up-to-date_data" data-name="Lack of up-to-date data" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Lack of up-</tspan><tspan x="0" y="35">to-date data</tspan></text>
+      </g>
+      <g id="Group_28" data-name="Group 28" transform="translate(408 742)">
+        <g id="Rectangle_10-22" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Lack_of_Internet_access" data-name="Lack of Internet access" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Lack of </tspan><tspan x="0" y="35">Internet </tspan><tspan x="0" y="54">access</tspan></text>
+      </g>
+    </g>
+    <g id="Group_39" data-name="Group 39" transform="translate(-169 38)">
+      <text id="GAINS" class="cls-7" transform="translate(1588 800)"><tspan x="0" y="0">GAINS</tspan></text>
+      <g id="Group_31" data-name="Group 31" transform="translate(1449 742)">
+        <g id="Rectangle_10-23" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="More_efficient_with_technology" data-name="More efficient with technology" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">More </tspan><tspan x="0" y="35">efficient </tspan><tspan x="0" y="54">with </tspan><tspan x="0" y="73">technology</tspan></text>
+      </g>
+      <g id="Group_32" data-name="Group 32" transform="translate(1585 742)">
+        <g id="Rectangle_10-24" data-name="Rectangle 10" class="cls-6" transform="translate(40 102)">
+          <rect class="cls-9" width="120" height="120"/>
+          <rect class="cls-10" x="0.5" y="0.5" width="119" height="119"/>
+        </g>
+        <text id="Aiding_conservation_efforts" data-name="Aiding conservation efforts" class="cls-8" transform="translate(56 118)"><tspan x="0" y="16">Aiding </tspan><tspan x="0" y="35">conservation </tspan><tspan x="0" y="54">efforts</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
