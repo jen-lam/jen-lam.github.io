@@ -373,7 +373,7 @@ footer {
     }
 
     #introduction, #description {
-      width:100%
+      width:100%;
       margin-bottom:20px;
     }
 
@@ -411,7 +411,7 @@ footer {
       margin-left:0;
       width:100%;
     }
-    
+
 }
 
 @media only screen and (min-width:1681px) {
