@@ -292,9 +292,10 @@ header {
 }
 
 .huli section span {
-  font-size:0.6em;
+  font-size:0.8em;
   letter-spacing:0.1em;
-  margin-bottom:-10px;
+  position:relative;
+  top:24px;
   text-transform:uppercase;
   color:#F7923A;
 }
