@@ -324,7 +324,7 @@ header {
     width:10px;
     margin:0 2px;
     border-radius:50%;
-    background:#1F1F1F;
+    border:1px solid #F7923A;
     display:inline-block;
     transition:background 0.3s ease;
 }
@@ -354,4 +354,64 @@ footer {
   padding:4vh 16vw; 
   text-align:center;
   font-size:14px;
+}
+
+
+@media only screen and (max-width:961px) {
+    header {
+      display:block;
+    }
+
+    #introduction, #description {
+      width:100%
+    }
+
+    #scroll {
+      display:none;
+    }
+
+    .preview {
+      display:none;
+    }
+
+    .project a {
+      width:100%;
+    }
+
+
+    .part {
+        width:100% !important;
+        margin-left:10px !important;
+    }
+
+    .vid {
+        display:block !important;
+    }
+
+    .about {
+      display:block;
+    }
+
+    .skills {
+      width:100%;
+    }
+
+    .experience {
+      margin-left:0;
+      width:100%;
+    }
+
+    section {
+        padding:4vw !important;
+    }
+
+    .accent {
+        padding:4vw !important;
+    }
+}
+
+@media only screen and (min-width:1681px) {
+    #container {
+        width:1680px;
+    }
 }
