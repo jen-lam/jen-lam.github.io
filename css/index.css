@@ -19,7 +19,7 @@ ul {
   list-style-type:none;
 }
 
-.huli ul {
+.huli ul, .rooms ul, .wx ul .creative ul, .triangles ul {
   list-style-type:square;
   margin-left:20px;
 }
@@ -59,10 +59,6 @@ a {
 }
 
 b {
-  color:#FFFFFF;
-}
-
-.huli b {
   color:#FFFFFF;
   font-weight:500;
 }
@@ -321,6 +317,15 @@ header {
   color:#F7923A;
 }
 
+.rooms section span {
+  font-size:0.8em;
+  letter-spacing:0.1em;
+  position:relative;
+  top:24px;
+  text-transform:uppercase;
+  color:#FFE600;
+}
+
 .slideshow-container {
     max-width:100%;
     position:relative;
@@ -331,19 +336,27 @@ header {
     display:none;
 }
 
-.dot {
-    cursor:pointer;
-    height:10px;
-    width:10px;
-    margin:0 2px;
-    border-radius:50%;
-    border:1px solid #F7923A;
-    display:inline-block;
-    transition:background 0.3s ease;
+.huli .dot {
+  cursor:pointer;
+  height:10px;
+  width:10px;
+  margin:0 2px;
+  border-radius:50%;
+  border:1px solid #F7923A;
+  display:inline-block;
+  transition:background 0.3s ease;
+}
+
+.rooms .dot {
+  border-color:#FFE600;
 }
 
 .active, .dot:hover {
-    background:#F7923A;
+  background:#F7923A;
+}
+
+.huli .active, .huli .dot:hover {
+  background:#FFE600;
 }
 
 .fade {
