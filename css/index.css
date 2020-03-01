@@ -184,13 +184,12 @@ header {
   border-radius:16px;
 }
 
-.huli section, .rooms section, .wx section, .creative section, .triangles section {
+.huli section, .rooms section, .rooms-two section, .wx section, .creative section, .triangles section {
   margin:16vh 16vw 0 16vw;
 }
 
-.rooms-two section {
+.rooms-two {
   background:#FFFFFF;
-  padding:16vh 16vw 0 16vw;
   color:#131313;
 }
 
@@ -323,7 +322,7 @@ header {
   color:#F7923A;
 }
 
-.rooms section span {
+.rooms section span, .rooms-two section span {
   font-size:0.8em;
   letter-spacing:0.1em;
   position:relative;
