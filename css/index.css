@@ -331,6 +331,10 @@ header {
   color:#FFE600;
 }
 
+video {
+  margin:20px 0;
+}
+
 .slideshow-container {
   max-width:100%;
   position:relative;
