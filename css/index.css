@@ -275,6 +275,17 @@ header {
   width:calc(40% - 120px);
 }
 
+
+.cover {
+  background:#131313;
+  width:100%;
+  height:60vh;
+  position:relative;
+  top:0;
+  left:0;
+}
+
+
 .huli .background {
   display:flex;
   justify-content:flex-start;
@@ -391,13 +402,12 @@ footer {
     display:none;  
   }
 
-  .cover {
-    background:#131313;
+  .background {
+    display:block;
+  }
+
+  .col {
     width:100%;
-    height:60vh;
-    position:relative;
-    top:0;
-    left:0;
   }
 
   .part {
