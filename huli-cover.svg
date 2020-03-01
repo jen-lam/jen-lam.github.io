@@ -62,7 +62,7 @@
         font-size: 8px;
       }
 
-      .cls-12, .cls-13, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24, .cls-32 {
+      .cls-12, .cls-13, .cls-20, .cls-21, .cls-22, .cls-23, .cls-24 {
         opacity: 0.85;
       }
 
@@ -125,6 +125,10 @@
 
       .cls-31 {
         fill: #323232;
+      }
+
+      .cls-32 {
+        opacity: 0.9;
       }
     </style>
     <clipPath id="clip-path">
