@@ -282,10 +282,14 @@ header {
   position:relative;
   top:0;
   left:0;
-  background-image:url("huli-cover.svg");
-  background-position:center bottom;
 }
 
+.intro {
+  top:20%;
+  left:50%;
+  transform:translateX(-50%);
+  width:20vw;
+}
 
 .huli .background {
   display:flex;
