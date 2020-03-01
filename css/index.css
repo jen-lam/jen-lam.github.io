@@ -292,6 +292,10 @@ header {
   text-align:center;
 }
 
+.module {
+  margin:8vh 16vw;
+}
+
 .huli .background {
   display:flex;
   justify-content:flex-start;
@@ -409,7 +413,7 @@ footer {
   }
 
   .background {
-    display:block;
+    display:block !important;
   }
 
   .col {
