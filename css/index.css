@@ -188,6 +188,11 @@ header {
   margin:16vh 16vw 0 16vw;
 }
 
+.rooms-two {
+  margin:16vh 16vw 0 16vw;
+  color:#131313;
+}
+
 .index section span {
   font-size:0.6em;
   letter-spacing:0.1em;
