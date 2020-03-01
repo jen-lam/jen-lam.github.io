@@ -393,13 +393,9 @@ footer {
     top:0;
   }
 
-  #introduction, #description {
+  #introduction, #description, .statement {
     width:100%;
-    margin-bottom:20px;
-  }
-
-  .scroll {
-    display:none;
+    margin-top:20px;
   }
 
   .project a {
@@ -408,29 +404,25 @@ footer {
     margin-top:40px;
   }
 
-  .project a:hover + .preview {
+  .project a:hover + .preview, .scroll {
     display:none;  
   }
 
-  .background {
+  .background, .about, .vid {
     display:block !important;
   }
 
-  .col {
+  .col, video, .skills {
     width:100%;
+  }
+
+  .module {
+    margin:8vh 8vw;
   }
 
   .part {
      width:100% !important;
      margin-left:0 !important;
-  }
-
-  video {
-    width:100%;
-  }
-
-  .vid {
-    display:block !important;
   }
 
   .huli section, .rooms section, .wx section, .creative section, .triangles section {
@@ -441,19 +433,6 @@ footer {
     display:block; 
     padding-bottom:32px;
     border-bottom:1px solid #1F1F1F;
-  }
-
-  .statement {
-    width:100%;
-    margin-top:20px;
-  }
-
-  .about {
-    display:block;
-  }
-
-  .skills {
-    width:100%;
   }
 
   .experience {
