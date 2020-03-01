@@ -188,7 +188,7 @@ header {
   margin:16vh 16vw 0 16vw;
 }
 
-.rooms-two {
+.rooms-two, .rooms-two h2, .rooms-two h3 {
   background:#FFFFFF;
   color:#131313;
 }
@@ -332,13 +332,13 @@ header {
 }
 
 .slideshow-container {
-    max-width:100%;
-    position:relative;
-    margin:auto;
+  max-width:100%;
+  position:relative;
+  margin:auto;
 }
 
 .mySlides {
-    display:none;
+  display:none;
 }
 
 .huli .dot {
