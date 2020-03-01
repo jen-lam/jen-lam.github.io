@@ -189,7 +189,8 @@ header {
 }
 
 .rooms-two {
-  margin:16vh 16vw 0 16vw;
+  background:#FFFFFF;
+  padding:16vh 16vw 0 16vw;
   color:#131313;
 }
 
