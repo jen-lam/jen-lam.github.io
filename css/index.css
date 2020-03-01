@@ -398,7 +398,7 @@ footer {
     position:relative;
     top:0;
     left:0;
-    background-image:url('huli-cover.svg');
+    background-image:url("huli-cover.svg");
     background-repeat:no-repeat;
     background-position:center bottom;
   }
