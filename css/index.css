@@ -357,10 +357,10 @@ video {
   transition:background 0.3s ease;
 }
 
-.rooms .dot {
+/*.rooms .dot {
   border-color:#FFE600;
 }
-
+*/
 .active, .dot:hover {
   background:#F7923A;
 }
