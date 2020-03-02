@@ -434,6 +434,15 @@ footer {
     display:block !important;
   }
 
+  .intro {
+    position:relative;
+    top:40px;
+    left:0;
+    margin:0 8vw;
+    text-align:left;
+    transform:none;
+  }
+
   .col, video, .skills {
     width:100%;
   }
