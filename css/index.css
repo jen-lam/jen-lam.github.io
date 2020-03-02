@@ -364,11 +364,11 @@ video {
   border:1px solid #FFE600;
 }
 
-.active, .huli .dot:hover {
+.huli .active, .huli .dot:hover {
   background:#F7923A;
 }
 
-.active, .rooms .dot:hover {
+.rooms .active, .rooms .dot:hover {
   background:#FFE600;
 }
 
