@@ -441,6 +441,7 @@ footer {
     margin:0 8vw;
     text-align:left;
     transform:none;
+    width:auto;
   }
 
   .col, video, .skills {
