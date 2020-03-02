@@ -76,7 +76,7 @@
   </defs>
   <g id="custom_2" data-name="custom – 2" class="cls-3">
     <rect class="cls-10" width="1920" height="640"/>
-    <rect id="Rectangle_76" data-name="Rectangle 76" class="cls-4" width="1920" height="640"/>
+    <rect id="Rectangle_76" data-name="Rectangle 76" class="cls-4" width="1958" height="640" transform="translate(-38)"/>
     <g id="Mask_Group_4" data-name="Mask Group 4" class="cls-5" transform="translate(0 -4)">
       <g id="Group_13" data-name="Group 13">
         <ellipse id="Ellipse_7" data-name="Ellipse 7" class="cls-6" cx="366" cy="365.5" rx="366" ry="365.5" transform="translate(594 433)"/>
@@ -138,6 +138,6 @@
         <ellipse id="Ellipse_9" data-name="Ellipse 9" class="cls-15" cx="470" cy="469.5" rx="470" ry="469.5" transform="matrix(0.999, -0.035, 0.035, 0.999, 908.467, 570.996)"/>
       </g>
     </g>
-    <rect id="Rectangle_77" data-name="Rectangle 77" class="cls-16" width="1920" height="640"/>
+    <rect id="Rectangle_77" data-name="Rectangle 77" class="cls-16" width="1943" height="640" transform="translate(-23)"/>
   </g>
 </svg>
