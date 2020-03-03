@@ -195,6 +195,7 @@ header {
 }
 
 .index section span {
+  top:0;
   font-size:0.6em;
   letter-spacing:0.1em;
   text-transform:uppercase;
