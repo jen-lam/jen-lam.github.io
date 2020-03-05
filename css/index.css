@@ -244,7 +244,6 @@ header {
 
 .preview {
   display:none;
-  background:#5AC8FA;
   position:absolute;
   width:40%;
   height:calc(100% - 240px);
@@ -252,6 +251,7 @@ header {
   top:50%;
   transform:translateY(-50%);
   transition:all 0.2s ease;
+  color:#F7F2F2;
 }
 
 .project a:hover {
