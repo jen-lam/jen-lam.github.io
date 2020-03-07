@@ -117,20 +117,17 @@ header {
   justify-content:space-between;
 }
 
-#introduction, #description {
-  width:calc(50% - 40px);
-}
-
 #introduction {
   font-family:'Playfair Display';
-  font-size:32px;
+  font-size:40px;
   font-weight:900;
   line-height:110%;
   color:#FFFFFF;
 }
 
 #description {
-  font-size:18px;
+  margin-top:20px;
+  font-size:20px;
 }
 
 .text-accent {
@@ -422,7 +419,7 @@ footer {
     top:0;
   }
 
-  #introduction, #description, .statement {
+  .statement {
     width:100%;
     margin-top:20px;
   }
