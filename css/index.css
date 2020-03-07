@@ -179,7 +179,6 @@ header {
 
 .index section {
   margin:240px 24vw;
-  padding:0 8vw 120px;
   position:relative;
 }
 
@@ -241,22 +240,14 @@ header {
 }
 
 .preview {
+  display:block;
   position:absolute;
   width:60%;
   height:calc(100% - 240px);
   right:8vw;
   top:50%;
   transform:translateY(-50%);
-}
-
-.preview-hover {
-  display:none;
-  position:absolute;
-  width:460%;
-  height:calc(100% - 240px);
-  right:8vw;
-  top:50%;
-  transform:translateY(-50%);
+  filter:grayscale(100%);
 }
 
 .project a:hover {
@@ -264,7 +255,7 @@ header {
 }
 
 .project a:hover + .preview-hover {
-  display:block;  
+  filter:grayscale(0%);
 }
 
 .about {
