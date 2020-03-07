@@ -187,11 +187,12 @@ header {
 }
 
 .index section span {
-  top:0;
-  font-size:0.6em;
+  font-size:0.7em;
   letter-spacing:0.1em;
+  position:relative;
+  top:24px;
+  font-weight:bold;
   text-transform:uppercase;
-  color:#F7F2F2;
 }
 
 .container span {
@@ -303,6 +304,17 @@ header {
 
 .statement {
   width:30%;
+}
+
+.accent {
+  border-radius:8px;
+  padding:2vh 8vw;
+  margin-top:8vh;
+  text-align:center;
+}
+
+.accent h2 {
+  color:#131313;
 }
 
 section span {

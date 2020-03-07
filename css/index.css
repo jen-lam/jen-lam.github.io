@@ -315,11 +315,23 @@ header {
   width:30%;
 }
 
+.accent {
+  border-radius:8px;
+  padding:2vh 8vw;
+  margin-top:8vh;
+  text-align:center;
+}
+
+.accent h2, span {
+  color:#131313;
+}
+
 section span {
-  font-size:0.8em;
+  font-size:0.7em;
   letter-spacing:0.1em;
   position:relative;
   top:24px;
+  font-weight:bold;
   text-transform:uppercase;
 }
 
