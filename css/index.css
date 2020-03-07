@@ -6,11 +6,11 @@ body {
   font-family:'Barlow', sans-serif ;
   background:#131313;
   line-height:1.6em;
-  font-size:16px;
+  font-size:18px;
   margin:0px;
   overflow-x:hidden;
   overflow-y:scroll;
-  color:#D0D0D0;
+  color:#919191;
 }
 
 ul {
