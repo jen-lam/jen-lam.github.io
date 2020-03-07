@@ -322,7 +322,7 @@ header {
   text-align:center;
 }
 
-.accent h2, span {
+.accent h2, .accent span {
   color:#131313;
 }
 
