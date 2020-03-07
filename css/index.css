@@ -186,7 +186,7 @@ header {
 }
 
 .huli section, .rooms section, .rooms-two section, .wx section, .creative section, .triangles section {
-  margin:16vh 16vw 0 16vw;
+  margin:24vh 24vw 0 24vw;
 }
 
 .rooms-two, .rooms-two h2, .rooms-two h3 {
@@ -296,7 +296,7 @@ header {
 }
 
 .module {
-  margin:8vh 16vw;
+  margin:8vh 24vw;
 }
 
 .huli .background {
