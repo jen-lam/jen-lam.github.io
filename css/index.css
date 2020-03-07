@@ -242,25 +242,21 @@ header {
 
 .preview {
   position:absolute;
-  width:40%;
+  width:60%;
   height:calc(100% - 240px);
   right:8vw;
   top:50%;
   transform:translateY(-50%);
-  transition:all 0.2s ease;
-  color:#F7F2F2;
 }
 
 .preview-hover {
   display:none;
   position:absolute;
-  width:40%;
+  width:460%;
   height:calc(100% - 240px);
   right:8vw;
   top:50%;
   transform:translateY(-50%);
-  transition:all 0.2s ease;
-  color:#F7F2F2;
 }
 
 .project a:hover {
