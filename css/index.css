@@ -112,20 +112,25 @@ nav {
 
 header {
   height:40vh;
-  margin:50vh 24vw 0; 
+  margin:50vh 16vw 0; 
+  display:flex;
+  justify-content:space-between;
+}
+
+#introduction, #description {
+  width:calc(50% - 40px);
 }
 
 #introduction {
   font-family:'Playfair Display';
-  font-size:48px;
+  font-size:32px;
   font-weight:900;
   line-height:110%;
   color:#FFFFFF;
 }
 
 #description {
-  margin-top:20px;
-  font-size:20px;
+  font-size:18px;
 }
 
 .text-accent {
@@ -143,7 +148,7 @@ header {
   height:56px;
   position:absolute;
   bottom:16vh;
-  left:24vw;
+  left:16vw;
   border:1px solid #CCCCCC;
   border-radius:25px;
 }
@@ -173,8 +178,11 @@ header {
 }
 
 .index section {
-  margin:240px 24vw;
+  margin:240px 8vw;
+  padding:0 8vw 120px;
+  background:#1F1F1F;
   position:relative;
+  border-radius:16px;
 }
 
 .huli section, .rooms section, .rooms-two section, .wx section, .creative section, .triangles section {
@@ -202,6 +210,7 @@ header {
 }
 
 .type {
+  top:-100px;
   position:relative;
   font-size:32px;
   color:#F7F2F2;
@@ -210,6 +219,7 @@ header {
 }
 
 .container .type {
+  top:0;
   font-size:20px;
   font-weight:400;
   font-family:'Barlow', sans-serif;
@@ -221,11 +231,6 @@ header {
   margin:8px 0 32px;
 }
 
-.entry {
-  display:flex;
-  justify-content:space-between;
-}
-
 .project a {
   font-family:'Barlow', sans-serif;
   font-weight:300;
@@ -235,13 +240,18 @@ header {
   margin-top:80px;
   color:#F7F2F2;
   transition:all 0.2s ease;
-  height:500px;
 }
 
 .preview {
-  position:relative;
-  width:60%;
-  filter:grayscale(100%);
+  display:none;
+  position:absolute;
+  width:40%;
+  height:calc(100% - 240px);
+  right:8vw;
+  top:50%;
+  transform:translateY(-50%);
+  transition:all 0.2s ease;
+  color:#F7F2F2;
 }
 
 .project a:hover {
@@ -249,7 +259,7 @@ header {
 }
 
 .project a:hover + .preview {
-  filter:none;
+  display:block;  
 }
 
 .about {
@@ -416,7 +426,7 @@ footer {
     top:0;
   }
 
-  .statement {
+  #introduction, #description, .statement {
     width:100%;
     margin-top:20px;
   }
