@@ -254,8 +254,8 @@ header {
   color:#5AC8FA;
 }
 
-.project a:hover + .preview-hover {
-  filter:grayscale(0%);
+.project a:hover + .preview {
+  filter:none;
 }
 
 .about {
