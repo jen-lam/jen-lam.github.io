@@ -235,17 +235,13 @@ header {
   margin-top:80px;
   color:#F7F2F2;
   transition:all 0.2s ease;
+  height:500px;
 }
 
 .preview {
   position:relative;
   width:60%;
-  height:calc(100% - 240px);
-  right:8vw;
-  top:50%;
-  transform:translateY(-50%);
   filter:grayscale(100%);
-  background:#000;
 }
 
 .project a:hover {
