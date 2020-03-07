@@ -221,6 +221,11 @@ header {
   margin:8px 0 32px;
 }
 
+.entry {
+  display:flex;
+  justify-content:space-between;
+}
+
 .project a {
   font-family:'Barlow', sans-serif;
   font-weight:300;
