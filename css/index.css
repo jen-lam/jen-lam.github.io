@@ -178,11 +178,9 @@ header {
 }
 
 .index section {
-  margin:240px 8vw;
+  margin:240px 32vw;
   padding:0 8vw 120px;
-  background:#1F1F1F;
   position:relative;
-  border-radius:16px;
 }
 
 .huli section, .rooms section, .rooms-two section, .wx section, .creative section, .triangles section {
@@ -243,6 +241,17 @@ header {
 }
 
 .preview {
+  position:absolute;
+  width:40%;
+  height:calc(100% - 240px);
+  right:8vw;
+  top:50%;
+  transform:translateY(-50%);
+  transition:all 0.2s ease;
+  color:#F7F2F2;
+}
+
+.preview-hover {
   display:none;
   position:absolute;
   width:40%;
@@ -258,7 +267,7 @@ header {
   color:#5AC8FA;
 }
 
-.project a:hover + .preview {
+.project a:hover + .preview-hover {
   display:block;  
 }
 
