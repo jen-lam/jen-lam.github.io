@@ -173,7 +173,7 @@ header {
 }
 
 .index section {
-  margin:240px 24vw;
+  margin:240px 20vw;
   position:relative;
 }
 
@@ -216,7 +216,9 @@ header {
 .entry {
   display:flex;
   justify-content:space-between;
-  height:48vh;
+  margin-top:16vh;
+  background:#191919;
+  padding:4vw;
 }
 
 .project {
