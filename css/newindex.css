@@ -173,7 +173,7 @@ header {
 }
 
 .index section {
-  margin:240px 20vw;
+  margin:240px 8vw 240px 40vw;
   position:relative;
 }
 
@@ -220,6 +220,10 @@ header {
   margin-top:16vh;
   background:#191919;
   padding:4vw;
+}
+
+.entry:nth-child(even) {
+	flex-direction:row-reverse;
 }
 
 .project {
@@ -417,21 +421,22 @@ footer {
     background:none;
   }
 
-  .index .type {
-    padding:0 4vw;
-    line-height:100%;
-    top:0;
+  .index {
+  	margin-top:50vh;
+  }
+
+  .entry {
+  	flex-direction:column-reverse;
+  	margin-top:8vh;
+  }
+
+  .project, .preview {
+  	width:100%;
   }
 
   .statement {
     width:100%;
     margin-top:20px;
-  }
-
-  .project a {
-    width:100%;
-    padding:4vw;
-    margin-top:40px;
   }
 
   .project a:hover + .preview, .scroll {
