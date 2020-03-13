@@ -226,6 +226,7 @@ header {
   justify-content:space-between;
   margin-top:20vh;
   height:30vh;
+  transition:all 0.2s ease-in-out; }
 }
 
 /*.entry:nth-child(even) {
@@ -252,12 +253,8 @@ header {
   background:#FFFFFF;
 }
 
-.project a:hover {
-  color:#5AC8FA;
-}
-
-.project a:hover + .preview {
-  filter:none;
+.entry:hover {
+	transform: scale(1.1);
 }
 
 .about {
