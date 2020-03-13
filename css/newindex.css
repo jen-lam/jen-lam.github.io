@@ -224,7 +224,7 @@ header {
 .entry {
   display:flex;
   justify-content:space-between;
-  margin-top:26vh;
+  margin-top:20vh;
   height:30vh;
 }
 
@@ -233,11 +233,12 @@ header {
 }
 */
 .project {
-	width:70%;
+  width:60%;
 }
 
 .project a {
   font-family:'Poppins', sans-serif;
+  line-height:110%;
   font-weight:400;
   font-size:32px;
   color:#F7F2F2;
