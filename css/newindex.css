@@ -173,7 +173,7 @@ header {
 }
 
 .index section {
-  margin:240px 8vw 200px 40vw;
+  margin:240px 40vw 200px 8vw;
   position:relative;
 }
 
@@ -217,15 +217,14 @@ header {
 .entry {
   display:flex;
   justify-content:space-between;
-  margin-top:16vh;
-  background:#191919;
-  padding:4vw;
+  margin-top:26vh;
+  height:30vh;
 }
 
-.entry:nth-child(even) {
+/*.entry:nth-child(even) {
 	flex-direction:row-reverse;
 }
-
+*/
 .project {
 	width:40%;
 }
