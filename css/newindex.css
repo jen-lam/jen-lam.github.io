@@ -120,10 +120,11 @@ header {
 }
 
 #introduction {
+  font-family:'Poppins', sans-serif;
   margin-top:20px;
-  font-size:20px;
+  font-size:18px;
   font-weight:500;
-  line-height:110%;
+  line-height:120%;
   color:#FFFFFF;
 }
 
@@ -146,10 +147,10 @@ header {
 }
 
 .scroll {
-  width:24px;
+  width:28px;
   height:48px;
   position:absolute;
-  bottom:16vh;
+  bottom:-8vh;
   left:20vw;
   border:1px solid #CCCCCC;
   border-radius:24px;
