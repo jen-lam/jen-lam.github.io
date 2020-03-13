@@ -183,8 +183,10 @@ header {
 label {
   background:#5AC8FA;
   display:inline;
-  padding:4px;
+  padding:4px 8px;
   margin-right:8px;
+  border-radius:4px;
+  color:#131313;
 }
 
 .index section {
@@ -241,7 +243,6 @@ label {
 }
 */
 .project {
-  max-width:50%;
 }
 
 .project a {
@@ -255,7 +256,6 @@ label {
 
 .preview {
   position:relative;
-  width:40%;
 }
 
 .about {
