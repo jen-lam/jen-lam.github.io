@@ -244,6 +244,7 @@ label {
 */
 .project {
 	width:60%;
+	margin-right:4vw;
 }
 
 .project a {
@@ -439,11 +440,16 @@ footer {
 
   .entry {
   	flex-direction:column-reverse;
-  	margin-top:8vh;
+  	margin-top:40vh;
   }
 
-  .project, .preview {
+  .project {
   	width:100%;
+  	margin-right:0;
+  }
+
+  .preview {
+  	width:50%;
   }
 
   .statement {
@@ -451,7 +457,7 @@ footer {
     margin-top:20px;
   }
 
-  .project a:hover + .preview, .scroll {
+  .scroll {
     display:none;  
   }
 
