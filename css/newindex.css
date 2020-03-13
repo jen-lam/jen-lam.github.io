@@ -27,7 +27,7 @@ ul {
 h1 {
   font-size:56px;
   font-family:'Poppins', sans-serif;
-  font-weight:900;
+  font-weight:700;
   color:#FFFFFF;
   line-height:100%;
 }
@@ -35,7 +35,7 @@ h1 {
 h2 {
   font-size:36px;
   font-family:'Poppins', sans-serif;
-  font-weight:900;
+  font-weight:700;
   color:#FFFFFF;
   line-height:100%;
 }
@@ -83,7 +83,7 @@ nav {
 .logo a {
   font-family:'Poppins', sans-serif;
   color:#FFFFFF;
-  font-weight:900;
+  font-weight:700;
 }
 
 .logo a::after {
@@ -118,7 +118,7 @@ header {
 #introduction {
   font-family:'Poppins', sans-serif;
   font-size:48px;
-  font-weight:900;
+  font-weight:700;
   line-height:110%;
   color:#FFFFFF;
 }
@@ -198,7 +198,7 @@ header {
   font-size:32px;
   color:#F7F2F2;
   font-family:'Poppins', sans-serif;
-  font-weight:900;
+  font-weight:700;
   padding-left:4vw;
 }
 
