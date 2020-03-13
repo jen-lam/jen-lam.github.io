@@ -146,13 +146,13 @@ header {
 }
 
 .scroll {
-  width:32px;
-  height:56px;
+  width:24px;
+  height:48px;
   position:absolute;
   bottom:16vh;
   left:20vw;
   border:1px solid #CCCCCC;
-  border-radius:25px;
+  border-radius:24px;
 }
 
 .scroll:before {
@@ -175,7 +175,7 @@ header {
   
   100% { 
     opacity:0;
-    transform:translateY(32px);
+    transform:translateY(24px);
   }
 }
 
@@ -418,7 +418,7 @@ footer {
 
   header {
     display:block;
-    margin:40vh 8vw 0; 
+    margin:32vh 8vw 0; 
     height:40vh;
   }
 
