@@ -422,6 +422,10 @@ footer {
     height:40vh;
   }
 
+  #description {
+  	font-size:56px;
+  }
+
   .index section {
     margin:120px 4vw;
     padding:0;
