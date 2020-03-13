@@ -248,13 +248,7 @@ header {
 
 .preview {
   position:relative;
-  width:20%;
-  filter:grayscale(100%);
-  background:#FFFFFF;
-}
-
-.entry:hover {
-	transform: scale(1.1);
+  width:30%;
 }
 
 .about {
