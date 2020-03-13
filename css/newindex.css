@@ -112,7 +112,7 @@ nav {
 
 header {
   height:40vh;
-  margin:50vh 20vw 0; 
+  margin:50vh 32vw 0 20vw; 
 }
 
 #introduction {
@@ -120,14 +120,16 @@ header {
   font-weight:500;
   line-height:110%;
   color:#FFFFFF;
+
 }
 
 #description {
   font-family:'Poppins', sans-serif;
   margin-top:20px;
-  font-size:48px;
+  font-size:60px;
   font-weight:700;
   line-height:110%;
+  color:#FFFFFF;
 }
 
 .text-accent {
