@@ -180,6 +180,13 @@ header {
   }
 }
 
+label {
+  background:#5AC8FA;
+  display:inline;
+  padding:4px;
+  margin-right:8px;
+}
+
 .index section {
   margin:240px 20vw;
   position:relative;
