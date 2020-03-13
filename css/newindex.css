@@ -37,7 +37,7 @@ h2 {
   font-family:'Poppins', sans-serif;
   font-weight:700;
   color:#FFFFFF;
-  line-height:100%;
+  line-height:120%;
 }
 
 .index h2 {
@@ -74,7 +74,7 @@ b {
   width:100%;
   transition:top 0.5s;
   z-index:1;
-/*  background:rgba(19, 19, 19, 0.4);*/
+  background:rgba(19, 19, 19, 0.1);
 }
 
 nav {
@@ -314,14 +314,7 @@ label {
 }
 
 .accent {
-  border-radius:8px;
-  padding:2vh 8vw;
   margin-top:8vh;
-  text-align:center;
-}
-
-.accent h2 {
-  color:#131313;
 }
 
 section span {
@@ -330,6 +323,7 @@ section span {
   letter-spacing:0.1em;
   position:relative;
   top:16px;
+  font-weight:bold;
   text-transform:uppercase;
 }
 
@@ -438,6 +432,10 @@ footer {
   	margin-top:50vh;
   }
 
+  .type {
+  	margin-bottom:-16vh;
+  }
+
   .entry {
   	flex-direction:column-reverse;
   	margin-top:40vh;
@@ -479,8 +477,8 @@ footer {
     width:100%;
   }
 
-  .module {
-    margin:8vh 8vw;
+  .module {   
+  	margin:4vh 8vw !important;
   }
 
   .part {

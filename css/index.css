@@ -26,16 +26,16 @@ ul {
 
 h1 {
   font-size:56px;
-  font-family:'Montserrat', sans-serif;
-  font-weight:900;
+  font-family:'Poppins', sans-serif;
+  font-weight:700;
   color:#FFFFFF;
   line-height:100%;
 }
 
 h2 {
-  font-size:32px;
-  font-family:'Montserrat', sans-serif;
-  font-weight:900;
+  font-size:36px;
+  font-family:'Poppins', sans-serif;
+  font-weight:700;
   color:#FFFFFF;
   line-height:120%;
 }
@@ -64,6 +64,10 @@ b {
   font-weight:500;
 }
 
+.project b {
+  font-weight:700;
+}
+
 #navbar {
   top:0;
   position:fixed;
@@ -81,9 +85,9 @@ nav {
 }
 
 .logo a {
-  font-family:'Montserrat', sans-serif;
+  font-family:'Poppins', sans-serif;
   color:#FFFFFF;
-  font-weight:900;
+  font-weight:700;
 }
 
 .logo a::after {
@@ -112,25 +116,24 @@ nav {
 
 header {
   height:40vh;
-  margin:50vh 16vw 0; 
-  display:flex;
-  justify-content:space-between;
-}
-
-#introduction, #description {
-  width:calc(50% - 40px);
+  margin:50vh 32vw 0 20vw; 
 }
 
 #introduction {
-  font-family:'Montserrat', sans-serif;
-  font-size:32px;
-  font-weight:900;
-  line-height:110%;
+  font-family:'Poppins', sans-serif;
+  margin-top:20px;
+  font-size:18px;
+  font-weight:500;
+  line-height:120%;
   color:#FFFFFF;
 }
 
 #description {
-  font-size:18px;
+  font-family:'Poppins', sans-serif;
+  font-size:72px;
+  font-weight:700;
+  line-height:110%;
+  color:#FFFFFF;
 }
 
 .text-accent {
@@ -144,13 +147,13 @@ header {
 }
 
 .scroll {
-  width:32px;
-  height:56px;
+  width:28px;
+  height:48px;
   position:absolute;
-  bottom:16vh;
-  left:16vw;
+  bottom:-8vh;
+  left:20vw;
   border:1px solid #CCCCCC;
-  border-radius:25px;
+  border-radius:24px;
 }
 
 .scroll:before {
@@ -173,16 +176,22 @@ header {
   
   100% { 
     opacity:0;
-    transform:translateY(32px);
+    transform:translateY(24px);
   }
 }
 
+label {
+  background:#5AC8FA;
+  display:inline;
+  padding:4px 8px;
+  margin-right:8px;
+  border-radius:4px;
+  color:#131313;
+}
+
 .index section {
-  margin:240px 8vw;
-  padding:0 8vw 120px;
-  background:#1F1F1F;
+  margin:240px 20vw;
   position:relative;
-  border-radius:16px;
 }
 
 .huli section, .rooms section, .rooms-two section, .wx section, .creative section, .triangles section {
@@ -194,14 +203,6 @@ header {
   color:#131313;
 }
 
-.index section span {
-  top:0;
-  font-size:0.6em;
-  letter-spacing:0.1em;
-  text-transform:uppercase;
-  color:#F7F2F2;
-}
-
 .container span {
   font-size:12px;
   letter-spacing:0.1em;
@@ -210,16 +211,14 @@ header {
 }
 
 .type {
-  top:-100px;
   position:relative;
   font-size:32px;
   color:#F7F2F2;
-  font-family:'Montserrat', sans-serif;
-  font-weight:900;
+  font-family:'Poppins', sans-serif;
+  font-weight:700;
 }
 
 .container .type {
-  top:0;
   font-size:20px;
   font-weight:400;
   font-family:'Barlow', sans-serif;
@@ -231,35 +230,34 @@ header {
   margin:8px 0 32px;
 }
 
+.entry {
+  display:flex;
+  justify-content:space-between;
+  margin-top:20vh;
+  height:30vh;
+  transition:all 0.2s ease-in-out; }
+}
+
+/*.entry:nth-child(even) {
+  flex-direction:row-reverse;
+}
+*/
+.project {
+  width:60%;
+  margin-right:4vw;
+}
+
 .project a {
-  font-family:'Barlow', sans-serif;
-  font-weight:300;
-  font-size:20px;
-  display:block;
-  width:30%;
-  margin-top:80px;
+  font-family:'Poppins', sans-serif;
+  line-height:110%;
+  font-weight:400;
+  font-size:32px;
   color:#F7F2F2;
   transition:all 0.2s ease;
 }
 
 .preview {
-  display:none;
-  position:absolute;
-  width:40%;
-  height:calc(100% - 240px);
-  right:8vw;
-  top:50%;
-  transform:translateY(-50%);
-  transition:all 0.2s ease;
-  color:#F7F2F2;
-}
-
-.project a:hover {
-  color:#5AC8FA;
-}
-
-.project a:hover + .preview {
-  display:block;  
+  position:relative;
 }
 
 .about {
@@ -320,10 +318,11 @@ header {
 }
 
 section span {
-  font-size:0.7em;
+  font-family:'Poppins', sans-serif;
+  font-size:12px;
   letter-spacing:0.1em;
   position:relative;
-  top:24px;
+  top:16px;
   font-weight:bold;
   text-transform:uppercase;
 }
@@ -415,8 +414,12 @@ footer {
 
   header {
     display:block;
-    margin:40vh 8vw 0; 
+    margin:32vh 8vw 0; 
     height:40vh;
+  }
+
+  #description {
+    font-size:56px;
   }
 
   .index section {
@@ -425,24 +428,34 @@ footer {
     background:none;
   }
 
-  .index .type {
-    padding:0 4vw;
-    line-height:100%;
-    top:0;
+  .index {
+    margin-top:50vh;
   }
 
-  #introduction, #description, .statement {
+  .type {
+    margin-bottom:-16vh;
+  }
+
+  .entry {
+    flex-direction:column-reverse;
+    margin-top:40vh;
+  }
+
+  .project {
+    width:100%;
+    margin-right:0;
+  }
+
+  .preview {
+    width:50%;
+  }
+
+  .statement {
     width:100%;
     margin-top:20px;
   }
 
-  .project a {
-    width:100%;
-    padding:4vw;
-    margin-top:40px;
-  }
-
-  .project a:hover + .preview, .scroll {
+  .scroll {
     display:none;  
   }
 
@@ -464,7 +477,7 @@ footer {
     width:100%;
   }
 
-  .module {
+  .module {   
     margin:4vh 8vw !important;
   }
 
