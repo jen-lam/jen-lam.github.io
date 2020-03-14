@@ -203,6 +203,10 @@ label {
   color:#131313;
 }
 
+.container {
+  margin:32vh 20vw;
+}
+
 .container span {
   font-size:12px;
   letter-spacing:0.1em;
