@@ -247,8 +247,8 @@ label {
 }
 */
 .project {
-  width:40%;
-  margin-right:4vw;
+  width:50% !important;
+  padding-right:4vw;
 }
 
 .project a {
