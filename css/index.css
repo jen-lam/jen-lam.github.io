@@ -180,6 +180,26 @@ header {
   }
 }
 
+.connector::before {
+  content: '';
+  width:10px;
+  height:10px;
+  border-radius:5px;
+  background:#FFFFFF;
+  display:inline-block;
+  position:absolute;
+  top:-4px;
+  left:-5px;
+}
+
+.connector {
+  width:150px;
+  height:2px;
+  background:#FFFFFF;
+  position:relative;
+  transform:rotate(90deg);
+}
+
 label {
   background:#5AC8FA;
   display:inline;
