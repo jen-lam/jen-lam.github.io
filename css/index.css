@@ -71,7 +71,7 @@ b {
 #navbar {
   top:0;
   position:fixed;
-  width:100%;
+  width:100vw;
   transition:top 0.5s;
   z-index:1;
   background:rgba(19, 19, 19, 0.2);
@@ -268,7 +268,7 @@ label {
 }
 */
 .project {
-  width:50vw !important;
+  width:50vw;
   padding-right:4vw;
 }
 
@@ -532,7 +532,7 @@ footer {
   }
 
   .container {
-    padding:80px 8vw !important;
+    padding:160px 8vw !important;
   }
 
 }
