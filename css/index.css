@@ -427,7 +427,7 @@ footer {
   }
 
   .index section {
-    margin:120px 4vw;
+    margin:120px 8vw;
     padding:0;
     background:none;
   }
@@ -506,7 +506,7 @@ footer {
   }
 
   .container {
-    padding:80px 4vw !important;
+    padding:80px 8vw !important;
   }
 
 }
