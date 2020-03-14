@@ -216,7 +216,7 @@ label {
 }
 
 .huli section, .rooms section, .rooms-two section, .wx section, .creative section, .triangles section {
-  margin:16vh 24vw 0 24vw;
+  margin:16vh 20vw 0;
 }
 
 .rooms-two, .rooms-two h2, .rooms-two h3 {
@@ -430,7 +430,7 @@ video {
 }
 
 footer {
-  padding:4vh 16vw; 
+  padding:8vh 20vw 4vh; 
   text-align:center;
   font-size:14px;
 }
