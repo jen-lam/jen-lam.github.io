@@ -115,13 +115,13 @@ nav {
 }
 
 header {
-  height:40vh;
+  height:80vh;
   margin:50vh 32vw 0 20vw; 
 }
 
 #introduction {
   font-family:'Poppins', sans-serif;
-  margin-top:20px;
+  margin-top:40px;
   font-size:18px;
   font-weight:500;
   line-height:120%;
@@ -193,11 +193,12 @@ header {
 }
 
 .connector {
-  width:150px;
-  height:2px;
+  width:1px;
+  top:16px;
+  left:10px;
+  height:30vh;
   background:#FFFFFF;
   position:relative;
-  transform:rotate(90deg);
 }
 
 label {
@@ -443,7 +444,7 @@ footer {
   header {
     display:block;
     margin:32vh 8vw 0; 
-    height:40vh;
+    height:60vh;
   }
 
   #description {
