@@ -74,7 +74,7 @@ b {
   width:100vw;
   transition:top 0.5s;
   z-index:1;
-  background:rgba(19, 19, 19, 0.2);
+/*  background:rgba(19, 19, 19, 0.2);*/
 }
 
 nav {
