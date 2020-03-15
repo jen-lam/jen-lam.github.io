@@ -83,7 +83,8 @@ nav {
   font-family:'Poppins', sans-serif;
   color:#FFFFFF;
   font-weight:700;
-  padding:12px;
+  padding:4px 12px;
+  border-radius:0 8px 8px 0;
   background:rgba(19, 19, 19, 0.2);
 }
 
@@ -319,6 +320,12 @@ label {
 
 .module {
   margin:8vh 20vw;
+}
+
+.box {
+  padding:16px;
+  border-radius:8px;
+  margin-bottom:20px;
 }
 
 .huli .background {
