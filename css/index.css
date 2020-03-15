@@ -90,11 +90,11 @@ nav {
   font-weight:700;
 }
 
-.logo a::after {
+/*.logo a::after {
   content:'.';
   color:#5AC8FA;
   font-size:1.4em;
-}
+}*/
 
 .nav {
   display:flex;
