@@ -88,6 +88,9 @@ nav {
   font-family:'Poppins', sans-serif;
   color:#FFFFFF;
   font-weight:700;
+  padding:12px;
+  background:#131313;
+  border-radius:50px;
 }
 
 /*.logo a::after {
@@ -430,7 +433,8 @@ video {
 footer {
   padding:8vh 20vw 4vh; 
   text-align:center;
-  font-size:14px;
+  font-size:18px;
+  font-family:'Poppins', sans-serif;
 }
 
 
