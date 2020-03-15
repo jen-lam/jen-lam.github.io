@@ -333,6 +333,10 @@ label {
   margin-right:2vw;
 }
 
+.wx a {
+  color:#A5C84D;
+}
+
 .box {
   padding:16px 32px 32px 32px;
   border-radius:4px;
