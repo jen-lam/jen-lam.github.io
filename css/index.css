@@ -84,8 +84,7 @@ nav {
   color:#FFFFFF;
   font-weight:700;
   padding:12px;
-  background:#131313;
-  border-radius:50px;
+  background:rgba(19, 19, 19, 0.2);
 }
 
 /*.logo a::after {
