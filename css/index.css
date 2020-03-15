@@ -442,7 +442,7 @@ video {
 }
 
 footer {
-  padding:8vh 20vw; 
+  padding:16vh 20vw 8vh; 
   text-align:center;
   font-size:18px;
   font-family:'Poppins', sans-serif;
@@ -553,6 +553,10 @@ footer {
 
   .container {
     margin:160px 8vw !important;
+  }
+
+  footer {
+    padding:16vh 8vw 8vh; 
   }
 
 }
