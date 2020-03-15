@@ -214,7 +214,7 @@ label {
 }
 
 .huli section, .rooms section, .rooms-two section, .wx section, .creative section, .triangles section {
-  margin:16vh 20vw 0;
+  margin:16vh 32vw 0 20vw;
 }
 
 .rooms-two, .rooms-two h2, .rooms-two h3 {
