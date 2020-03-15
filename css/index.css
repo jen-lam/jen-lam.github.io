@@ -223,7 +223,7 @@ label {
 }
 
 .container {
-  margin:32vh 20vw;
+  margin:32vh 32vw 32vh 20vw;
 }
 
 .container span {
