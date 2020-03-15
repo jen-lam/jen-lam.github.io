@@ -290,20 +290,18 @@ label {
 }
 
 .about {
-  display:flex;
-  justify-content:flex-start;
   margin-top:16vh;
   line-height:1.6em;
 }
 
-.experience {
+/*.experience {
   margin-left:120px;
   width:60%;
 }
 
 .skills {
   width:calc(40% - 120px);
-}
+}*/
 
 .cover {
   background:#131313;
