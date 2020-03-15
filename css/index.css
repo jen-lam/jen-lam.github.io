@@ -83,6 +83,7 @@ nav {
   font-family:'Poppins', sans-serif;
   color:#FFFFFF;
   font-weight:700;
+  margin-left:-12px;
   padding:4px 12px;
   border-radius:0 8px 8px 0;
   background:rgba(19, 19, 19, 0.2);
@@ -220,6 +221,10 @@ label {
 .rooms-two, .rooms-two h2, .rooms-two h3 {
   background:#FFFFFF;
   color:#131313;
+}
+
+.wx {
+  margin-top:40vh;
 }
 
 .container {
