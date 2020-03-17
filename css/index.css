@@ -461,6 +461,7 @@ footer {
 
 footer a {
   margin-left:16px;
+  filter:invert(100%);
 }
 
 
