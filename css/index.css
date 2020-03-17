@@ -100,6 +100,7 @@ nav {
 }
 
 .nav a {
+  font-family:'Poppins', sans-serif;
   margin-left:40px;
   color:#F7F2F2;
   transition:all 0.2s ease;
@@ -461,6 +462,10 @@ footer {
 
 footer a {
   margin-left:16px;
+}
+
+footer img {
+  width:24px;
 }
 
 
