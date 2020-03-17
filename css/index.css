@@ -120,7 +120,7 @@ header {
 
 #introduction {
   font-family:'Poppins', sans-serif;
-  margin-top:40px;
+  margin-top:72px;
   font-size:18px;
   font-weight:500;
   line-height:120%;
@@ -193,7 +193,7 @@ header {
 
 .connector {
   width:1px;
-  top:16px;
+  top:32px;
   left:10px;
   height:30vh;
   background:#FFFFFF;
