@@ -215,11 +215,7 @@ label {
   position:relative;
 }
 
-/*.huli section, .rooms section, .rooms-two section, .wx section, .triangles section {
-  margin:16vh 32vw 0 20vw;
-}*/
-
-section {
+.huli section, .rooms section, .rooms-two section, .wx section, .triangles section {
   margin:16vh 32vw 0 20vw;
 }
 
