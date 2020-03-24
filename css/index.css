@@ -215,7 +215,11 @@ label {
   position:relative;
 }
 
-.huli section, .rooms section, .rooms-two section, .wx section, .creative section, .triangles section {
+/*.huli section, .rooms section, .rooms-two section, .wx section, .triangles section {
+  margin:16vh 32vw 0 20vw;
+}*/
+
+section {
   margin:16vh 32vw 0 20vw;
 }
 
@@ -224,7 +228,7 @@ label {
   color:#131313;
 }
 
-.wx {
+.huli, .rooms, .wx, .triangles {
   margin-top:40vh;
 }
 
@@ -294,7 +298,7 @@ label {
 }
 
 .about {
-  margin-top:16vh;
+  margin-top:40vh;
   line-height:1.6em;
 }
 
