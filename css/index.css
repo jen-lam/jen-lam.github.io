@@ -215,7 +215,7 @@ label {
   position:relative;
 }
 
-.huli section, .rooms section, .rooms-two section, .wx section, .triangles section {
+.huli section, .rooms section, .rooms-two section, .wx section, .creative section, .triangles section {
   margin:16vh 32vw 0 20vw;
 }
 
@@ -224,7 +224,7 @@ label {
   color:#131313;
 }
 
-.huli, .rooms, .wx, .triangles {
+.wx {
   margin-top:40vh;
 }
 
@@ -294,7 +294,7 @@ label {
 }
 
 .about {
-  margin-top:40vh;
+  margin-top:16vh;
   line-height:1.6em;
 }
 
@@ -302,7 +302,6 @@ label {
   margin-left:120px;
   width:60%;
 }
-
 .skills {
   width:calc(40% - 120px);
 }*/
@@ -346,6 +345,7 @@ label {
 .box {
   padding:16px 40px 40px 40px;
   margin-bottom:20px;
+  border:1px solid #ADADAD;
 }
 
 .huli .background {
