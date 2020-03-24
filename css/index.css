@@ -224,8 +224,8 @@ label {
   color:#131313;
 }
 
-.wx {
-  margin-top:40vh;
+.huli, .rooms, .wx, .triangles {
+  margin-top:50vh;
 }
 
 .container {
