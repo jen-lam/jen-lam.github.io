@@ -4,7 +4,7 @@
 
 body {
   font-family:'Barlow', sans-serif ;
-  background:#131313;
+  background:#121212;
   line-height:1.6em;
   font-size:18px;
   margin:0px;
@@ -208,7 +208,7 @@ label {
   padding:4px 8px;
   margin-right:8px;
   border-radius:4px;
-  color:#131313;
+  color:#121212;
 }
 
 .index section {
@@ -222,7 +222,7 @@ label {
 
 .rooms-two, .rooms-two h2, .rooms-two h3 {
   background:#FFFFFF;
-  color:#131313;
+  color:#121212;
 }
 
 .huli, .rooms, .wx, .triangles {
@@ -308,7 +308,7 @@ label {
 }*/
 
 .cover {
-  background:#131313;
+  background:#121212;
   width:100%;
   position:relative;
   top:0;
