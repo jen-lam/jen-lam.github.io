@@ -270,7 +270,7 @@ label {
 
 .work {
   background:#1F1F1F;
-  width:calc(50% - 10px);
+  width:calc(50% - 20px);
   margin-right:20px;
   margin-bottom:20px;
   transition:all 0.2s ease-in-out;
@@ -282,12 +282,16 @@ label {
 }
 
 .work:hover .info {
+  opacity:1;
+}
+
+.info {
   color:#F7F2F2;
   font-family:'Poppins', sans-serif;
   font-size:20px;
   position:absolute;
   font-weight:400;
-
+  opacity:0;
 }
 
 .about {
