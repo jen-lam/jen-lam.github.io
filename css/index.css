@@ -305,10 +305,6 @@ label {
   color:#C2C2C2;
 }
 
-.preview {
-  position:relative;
-}
-
 .about {
   margin-top:16vh;
   line-height:1.6em;
@@ -528,11 +524,6 @@ footer img:hover {
   .project {
     width:100%;
     margin-right:0;
-  }
-
-  .preview {
-    width:50%;
-    max-width:300px;
   }
 
   .statement {
