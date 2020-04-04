@@ -260,12 +260,32 @@ label {
   margin:8px 0 32px;
 }
 
+.works {
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  margin-top:20vh;
+  transition:all 0.2s ease-in-out;
+}
+
+.work {
+  background:#1F1F1F;
+  flex:1 0 auto;
+  height:auto;
+}
+
+.work:after {
+  content:'';
+  padding-top:100%;
+  display:table;
+}
+
 .entry {
   display:flex;
   justify-content:space-between;
   margin-top:20vh;
   height:30vh;
-  transition:all 0.2s ease-in-out; }
+  transition:all 0.2s ease-in-out;
 }
 
 /*.entry:nth-child(even) {
