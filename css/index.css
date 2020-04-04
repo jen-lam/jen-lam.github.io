@@ -276,6 +276,10 @@ label {
   transition:all 0.2s ease-in-out;
 }
 
+.index img {
+  transition:all 0.2s ease-in-out;
+}
+
 .work:hover img {
   transition:all 0.2s ease-in-out;
   transform:translateY(-40px);
@@ -294,6 +298,7 @@ label {
   font-weight:400;
   opacity:0;
   margin-top:-120px;
+  transition:all 0.2s ease-in-out;
 }
 
 .about {
