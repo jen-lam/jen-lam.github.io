@@ -272,6 +272,7 @@ label {
   background:#1F1F1F;
   width:calc(50% - 20px);
   margin-right:20px;
+  margin-bottom:20px;
 }
 
 .entry {
@@ -512,6 +513,11 @@ footer img:hover {
 
   .index .type {
     margin-bottom:-16vh;
+  }
+
+  .work {
+    width:100%;
+    margin-right:0;
   }
 
   .entry {
