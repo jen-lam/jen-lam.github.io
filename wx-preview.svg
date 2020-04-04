@@ -32,17 +32,12 @@
       .cls-10, .cls-8 {
         stroke: none;
       }
-
-      .cls-11 {
-        fill: #e4e4e4;
-      }
     </style>
     <clipPath id="clip-WX_1">
       <rect width="600" height="600"/>
     </clipPath>
   </defs>
   <g id="WX_1" data-name="WX – 1" class="cls-1">
-    <rect class="cls-11" width="600" height="600"/>
     <g id="Group_24" data-name="Group 24" transform="translate(33 18)">
       <g id="Rectangle_93" data-name="Rectangle 93" class="cls-2" transform="translate(76 379.003)">
         <path class="cls-8" d="M0,0H383a0,0,0,0,1,0,0V4a8,8,0,0,1-8,8H8A8,8,0,0,1,0,4V0A0,0,0,0,1,0,0Z"/>
