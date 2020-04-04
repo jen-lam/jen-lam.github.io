@@ -60,7 +60,7 @@ b {
   font-weight:500;
 }
 
-.project b {
+.work b {
   font-weight:700;
 }
 
@@ -513,6 +513,15 @@ footer img:hover {
   .work {
     width:100%;
     margin-right:0;
+  }
+
+  .work img {
+    transform:translateY(-40px);
+  }
+
+  .info {
+    width:100%;
+    opacity:1;
   }
 
   .statement {
