@@ -104,7 +104,7 @@ nav {
   font-family:'Poppins', sans-serif;
   margin-left:40px;
   color:#F7F2F2;
-  transition:all 0.2s ease;
+  transition:all 0.4s ease;
   text-transform:uppercase;
   padding-bottom:10px;
   letter-spacing:0.1em;
@@ -265,27 +265,27 @@ label {
   justify-content:space-between;
   flex-wrap:wrap;
   margin-top:20vh;
-  transition:all 0.2s ease-in-out;
+  transition:all 0.4s ease-in-out;
 }
 
 .work {
   background:#1F1F1F;
   width:calc(50% - 10px);
   margin-bottom:20px;
-  transition:all 0.2s ease-in-out;
+  transition:all 0.4s ease-in-out;
 }
 
 .index img {
-  transition:all 0.2s ease-in-out;
+  transition:all 0.4s ease-in-out;
 }
 
 .work:hover img {
-  transition:all 0.2s ease-in-out;
+  transition:all 0.4s ease-in-out;
   transform:translateY(-40px);
 }
 
 .work:hover .info {
-  transition:all 0.2s ease-in-out;
+  transition:all 0.4s ease-in-out;
   opacity:1;
 }
 
@@ -301,7 +301,7 @@ label {
   text-align:center;
   opacity:0;
   margin-top:-120px;
-  transition:all 0.2s ease-in-out;
+  transition:all 0.4s ease-in-out;
 }
 
 .about {
