@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 248 248">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 600">
   <defs>
     <style>
       .cls-1 {
-        clip-path: url(#clip-TRIANGLES);
+        clip-path: url(#clip-TRIANGLES_1);
       }
 
       .cls-2 {
@@ -34,12 +34,12 @@
         stroke: none;
       }
     </style>
-    <clipPath id="clip-TRIANGLES">
-      <rect width="248" height="248"/>
+    <clipPath id="clip-TRIANGLES_1">
+      <rect width="600" height="600"/>
     </clipPath>
   </defs>
-  <g id="TRIANGLES" class="cls-1">
-    <g id="Group_22" data-name="Group 22" transform="translate(128)">
+  <g id="TRIANGLES_1" data-name="TRIANGLES – 1" class="cls-1">
+    <g id="Group_22" data-name="Group 22" transform="translate(304 176)">
       <g id="Rectangle_98" data-name="Rectangle 98" class="cls-2" transform="translate(0 4)">
         <rect class="cls-7" width="120" height="240" rx="16"/>
         <rect class="cls-8" x="0.5" y="0.5" width="119" height="239" rx="15.5"/>
@@ -60,7 +60,7 @@
         <path id="Rectangle_116-2" data-name="Rectangle 116" class="cls-3" d="M4,0H92a4,4,0,0,1,4,4v8a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V4A4,4,0,0,1,4,0Z" transform="translate(188 225)"/>
       </g>
     </g>
-    <g id="Group_23" data-name="Group 23" transform="translate(-128)">
+    <g id="Group_23" data-name="Group 23" transform="translate(48 176)">
       <g id="Rectangle_103" data-name="Rectangle 103" class="cls-2" transform="translate(128 4)">
         <rect class="cls-7" width="120" height="240" rx="16"/>
         <rect class="cls-8" x="0.5" y="0.5" width="119" height="239" rx="15.5"/>
