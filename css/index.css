@@ -264,7 +264,7 @@ label {
   display:flex;
   justify-content:space-between;
   flex-wrap:wrap;
-  margin-top:20vh;
+  margin-top:8vh;
   transition:all 0.4s ease-in-out;
 }
 
@@ -306,7 +306,7 @@ label {
 }
 
 #about {
-  margin:16vh 12vw 0 0;
+  margin:20vh 12vw 0 0;
 }
 
 .about {
@@ -472,18 +472,22 @@ footer {
   font-family:'Poppins', sans-serif;
   display:flex;
   justify-content:space-between;
+  transition:all 0.4s ease-in-out;
 }
 
 footer a {
   margin-left:16px;
+  transition:all 0.4s ease-in-out;
 }
 
 footer img {
   width:24px;
+  transition:all 0.4s ease-in-out;
 }
 
 footer img:hover {
   filter:opacity(50%);
+  transition:all 0.4s ease-in-out;
 }
 
 @media only screen and (max-width:961px) {
