@@ -270,6 +270,7 @@ label {
 
 .work {
   background:#1F1F1F;
+  border-radius:4px;
   width:calc(50% - 10px);
   margin-bottom:20px;
   transition:all 0.4s ease-in-out;
@@ -517,6 +518,10 @@ footer img:hover {
   .work {
     width:100%;
     margin-right:0;
+  }
+
+  .work:hover img, .info {
+    pointer-events:none;
   }
 
   .work img {
