@@ -523,10 +523,10 @@ footer img:hover {
     width:100%;
     margin-right:0;
   }
-
+/*
   .work:hover img, .info {
-  transform:translateY(0px);
-  }
+  transform:translateY(-40px);
+  }*/
 
   .work img {
     transform:translateY(-40px);
