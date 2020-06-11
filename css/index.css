@@ -525,7 +525,7 @@ footer img:hover {
   }
 
   .work:hover img {
-  transform:translateY(0px);
+  transform:translateY(-40px);
   }
 
   .work img {
