@@ -524,8 +524,8 @@ footer img:hover {
     margin-right:0;
   }
 
-  .work:hover {
-  pointer-events:none;
+  .work:hover img {
+  transform:translateY(0px);
   }
 
   .work img {
