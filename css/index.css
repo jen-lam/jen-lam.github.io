@@ -359,8 +359,8 @@ label {
 }
 
 .wx .box {
-  width:calc(50% - 20px);
-  margin-right:20px;
+  width:calc(50% - 16px);
+  margin-right:16px;
 }
 
 .wx a {
@@ -369,9 +369,15 @@ label {
 
 .box {
   padding:16px 40px 40px 40px;
-  margin-bottom:20px;
+  margin-bottom:16px;
   border-radius:4px;
   background:#181818;
+}
+
+.stickyn {
+  width:calc(33% - 32x);
+  margin-right:16px;
+  margin-bottom:16px;
 }
 
 .huli .background {
@@ -603,6 +609,11 @@ footer img:hover {
   }
 
   .wx .box {
+    width:100%;
+    margin-right:0;
+  }
+
+  .stickyn {
     width:100%;
     margin-right:0;
   }
