@@ -226,6 +226,10 @@ label {
 }
 
 .huli section, .rooms section, .rooms-two section, .wx section, .creative section, .triangles section {
+  margin:16vh 20vw 0 20vw;
+}
+
+.intro {
   margin:16vh 32vw 0 20vw;
 }
 
@@ -453,8 +457,8 @@ video {
 
 .dot {
   cursor:pointer;
-  height:16px;
-  width:16px;
+  height:12px;
+  width:12px;
   margin:0 2px;
   border-radius:50%;
   display:inline-block;
