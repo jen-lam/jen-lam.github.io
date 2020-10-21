@@ -388,6 +388,11 @@ label {
   color:#121212;
 }
 
+.stickyn b {
+  color:#121212;
+  font-weight:700;
+}
+
 .huli .background {
   display:flex;
   justify-content:flex-start;
