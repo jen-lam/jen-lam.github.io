@@ -3,14 +3,15 @@
 }
 
 body {
-  font-family:'Roboto', sans-serif ;
+  font-family:'Overpass', sans-serif ;
   background:#121212;
-  line-height:1.6em;
-  font-size:18px;
+  line-height:1.8em;
+  font-size:16px;
+  font-weight:300;
   margin:0px;
   overflow-x:hidden;
   overflow-y:scroll;
-  color:#ADADAD;
+  color:#C2C2C2;
 }
 
 input,
@@ -51,7 +52,7 @@ h2 {
 }
 
 h3 {
-  font-family:'Roboto', sans-serif;
+  font-family:'Overpass', sans-serif;
   font-weight:500;
   font-size:20px;
   margin-bottom:4px;
@@ -259,7 +260,7 @@ label {
 .container .type {
   font-size:20px;
   font-weight:400;
-  font-family:'Roboto', sans-serif;
+  font-family:'Overpass', sans-serif;
 }
 
 .container .description {
