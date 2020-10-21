@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family:'Barlow', sans-serif ;
+  font-family:'Roboto', sans-serif ;
   background:#121212;
   line-height:1.6em;
   font-size:18px;
@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-  font-family:'Barlow', sans-serif;
+  font-family:'Roboto', sans-serif;
   font-weight:500;
   font-size:20px;
   margin-bottom:4px;
@@ -259,7 +259,7 @@ label {
 .container .type {
   font-size:20px;
   font-weight:400;
-  font-family:'Barlow', sans-serif;
+  font-family:'Roboto', sans-serif;
 }
 
 .container .description {
@@ -433,8 +433,8 @@ video {
 
 .dot {
   cursor:pointer;
-  height:10px;
-  width:10px;
+  height:16px;
+  width:16px;
   margin:0 2px;
   border-radius:50%;
   display:inline-block;
