@@ -383,7 +383,7 @@ label {
 .stickyn {
   padding:24px;
   border-radius:4px;
-  width:calc(33% - 16px);
+  width:calc(33.33% - 16px);
   font-size:14px;
   line-height:1.6em;
   font-weight:400;
@@ -453,8 +453,8 @@ video {
 
 .dot {
   cursor:pointer;
-  height:8px;
-  width:8px;
+  height:16px;
+  width:16px;
   margin:0 2px;
   border-radius:50%;
   display:inline-block;
