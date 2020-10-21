@@ -368,7 +368,7 @@ label {
 }
 
 .box {
-  padding:16px;
+  padding:16px 40px 40px 40px;
   margin-bottom:16px;
   border-radius:4px;
   background:#181818;
@@ -381,9 +381,11 @@ label {
 }
 
 .stickyn {
-  padding:16px;
+  padding:24px;
   border-radius:4px;
   width:calc(33% - 16px);
+  font-size:14px;
+  line-height:1.6em;
   font-weight:400;
   margin-right:16px;
   margin-bottom:16px;
@@ -451,8 +453,8 @@ video {
 
 .dot {
   cursor:pointer;
-  height:16px;
-  width:16px;
+  height:8px;
+  width:8px;
   margin:0 2px;
   border-radius:50%;
   display:inline-block;
