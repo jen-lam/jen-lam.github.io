@@ -368,16 +368,23 @@ label {
 }
 
 .box {
-  padding:16px 40px 40px 40px;
+  padding:16px;
   margin-bottom:16px;
   border-radius:4px;
   background:#181818;
 }
 
+.rooms .module {
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
 .stickyn {
   padding:16px 40px 40px 40px;
   border-radius:4px;
-  width:calc(33% - 32x);
+  width:calc(33% - 32px);
+  font-weight:400;
   margin-right:16px;
   margin-bottom:16px;
   background:#FFE600;
