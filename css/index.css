@@ -375,9 +375,13 @@ label {
 }
 
 .stickyn {
+  padding:16px 40px 40px 40px;
+  border-radius:4px;
   width:calc(33% - 32x);
   margin-right:16px;
   margin-bottom:16px;
+  background:#FFE600;
+  color:#121212;
 }
 
 .huli .background {
