@@ -343,15 +343,6 @@ label {
   left:0;
 }
 
-.intro {
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translateX(-50%) translateY(-50%);
-  width:30vw;
-  text-align:center;
-}
-
 .module {
   margin:8vh 20vw;
 }
@@ -587,16 +578,6 @@ footer img:hover {
     display:block !important;
   }
 
-  .intro {
-    position:relative;
-    top:40px;
-    left:0;
-    margin:0 8vw;
-    text-align:left;
-    transform:none;
-    width:auto;
-  }
-
   .col, video, .skills {
     width:100%;
   }
@@ -611,6 +592,10 @@ footer img:hover {
   }
 
   .huli section, .rooms section, .wx section, .creative section, .triangles section {
+    margin:16vh 8vw 0;
+  }
+
+  .intro {
     margin:16vh 8vw 0;
   }
 
