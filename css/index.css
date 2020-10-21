@@ -381,9 +381,9 @@ label {
 }
 
 .stickyn {
-  padding:16px 40px 40px 40px;
+  padding:16px;
   border-radius:4px;
-  width:calc(33% - 32px);
+  width:calc(33% - 16px);
   font-weight:400;
   margin-right:16px;
   margin-bottom:16px;
