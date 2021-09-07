@@ -1,1 +1,70 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<title>Hexahedron — Jen Lam</title>
+		<link rel="stylesheet" type="text/css" href="/css/index.css">		
+		<link rel="shortcut icon" type="image/png" href="favicon.png" sizes="24x24">
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	</head>
+
+	<body>
+
+	<div id="navbar">
+	<nav>
+		<div class="logo"><a href="/">‹&nbsp;&nbsp;&nbsp;JL</a></div>
+	</nav>
+	</div>
+
+	<div class="hexahedron">
+		<div class="intro">
+			<span>2014 — 2018</span>
+			<h2>Hexahedron</h2>
+			As a side hobby, I designed and developed blog layouts for the microblogging and social networking platform, Tumblr. 
+
+			Here's a few of my favourite pieces —
+		</div>
+
+		<section>
+			<span>Main</span>
+			<h2>Projects</h2>
+		</section>
+
+
+	</div>
+	
+	<footer>
+		© 2021 Jen Lam
+		<div>
+		<a href="/"><img src="home.svg"></a>
+		<a href="mailto:jenlam137@gmail.com"><img src="mail.svg"></a>
+		<a href="https://www.linkedin.com/in/jenl/" target="_blank"><img src="linkedin.svg"></a>
+		</div>
+	</footer>
+
+	<script>
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function() {
+	var currentScrollPos = window.pageYOffset;
+	  if (prevScrollpos > currentScrollPos) {
+	    document.getElementById("navbar").style.top = "0";
+	  } else {
+	    document.getElementById("navbar").style.top = "-100px";
+	  }
+	  prevScrollpos = currentScrollPos;
+	}
+	</script>
+
+
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+	<script>
+		AOS.init({
+		  duration: 1000,
+		})
+	</script>
+
+	</body>
+</html>
 
