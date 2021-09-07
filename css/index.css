@@ -28,7 +28,7 @@ ul {
   list-style-type:none;
 }
 
-.huli ul, .rooms ul, .wx ul .creative ul, .triangles ul {
+.huli ul, .rooms ul, .wx ul .creative ul, .triangles ul, .hexahedron ul {
   list-style-type:square;
   margin-left:20px;
 }
@@ -225,7 +225,7 @@ label {
   position:relative;
 }
 
-.huli section, .rooms section, .rooms-two section, .wx section, .creative section, .triangles section {
+.huli section, .rooms section, .rooms-two section, .wx section, .creative section, .triangles section, .hexahedron section {
   margin:16vh 20vw 0 20vw;
 }
 
@@ -437,6 +437,10 @@ section span {
   color:#A5C84D;
 }
 
+.hexahedron section span {
+  color:#2D82D2;
+}
+
 video {
   margin:20px 0;
 }
@@ -596,7 +600,7 @@ footer img:hover {
      margin-left:0 !important;
   }
 
-  .huli section, .rooms section, .wx section, .creative section, .triangles section {
+  .huli section, .rooms section, .wx section, .creative section, .triangles section, .hexahedron section {
     margin:16vh 8vw 0;
   }
 
