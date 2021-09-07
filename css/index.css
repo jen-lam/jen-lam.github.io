@@ -388,9 +388,22 @@ label {
   color:#121212;
 }
 
-.stickyn b {
+.stickyn b, .process b {
   color:#121212;
   font-weight:700;
+}
+
+.process {
+  padding:24px;
+  border-radius:4px;
+  width:calc(24% - 24px);
+  font-size:14px;
+  line-height:1.6em;
+  font-weight:400;
+  margin-right:16px;
+  margin-bottom:16px;
+  background:#A5C84D;
+  color:#121212;
 }
 
 .huli .background {
