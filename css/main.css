@@ -130,7 +130,7 @@ p {
 }
 
 section {
-  margin: 24vh 28vw 12vh 28vw;
+  margin: 12vh 32vw;
 }
 
 .divider {
@@ -140,7 +140,7 @@ section {
 }
 
 .module {
-  margin: 4vh 20vw;
+  margin: 4vh 16vw;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -149,7 +149,7 @@ section {
 .stickyn {
   padding: 24px;
   border-radius: var(--border-radius);
-  width: calc(33.33% - 16px);
+  width: calc(50% - 16px);
   font-weight: 400;
   margin-right: 16px;
   margin-bottom: 16px;
@@ -236,7 +236,7 @@ footer img:hover {
 }
 
 
-@media only screen and (max-width:961px) {
+@media only screen and (max-width:1279px) {
 
   .module, section {
     margin: 8vh 8vw;
