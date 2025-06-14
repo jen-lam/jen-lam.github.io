@@ -126,21 +126,22 @@ p {
   height: 56px;
   z-index: 1;
   background: var(--background-color);
+  padding: 16px 64px;
 }
 
 section {
-  padding: 4vw 28vw;
+  margin: 4vh 28vw;
 }
 
 .divider {
   width: calc(100% - 16vw);
   height:1px;
   margin:40px 0;
-  color:var(--line-color);
+  background-color:var(--line-color);
 }
 
 .module {
-  margin: 8vh 20vw;
+  margin: 4vh 20vw;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -212,31 +213,36 @@ video {
 }
 
 
-.footer {
-  padding:16vh 20vw 8vh; 
+footer {
+  padding: 16px 32px; 
   text-align:center;
   display:flex;
   justify-content:space-between;
   transition:all 0.4s ease-in-out;
 }
 
-.footer a {
+footer a {
   margin-left:16px;
   transition:all 0.4s ease-in-out;
 }
 
-.footer img {
+footer img {
   width:24px;
   transition:all 0.4s ease-in-out;
 }
 
-.footer img:hover {
+footer img:hover {
   filter:opacity(50%);
   transition:all 0.4s ease-in-out;
 }
 
 
 @media only screen and (max-width:961px) {
+
+  .module, section {
+    margin: 4vh 4vw;
+  }
+
   .stickyn {
     width:100%;
     margin-right:0;
