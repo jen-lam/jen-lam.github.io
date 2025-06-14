@@ -16,7 +16,8 @@ html {
   --background-color: #FCFCFC;
   --box-color: #F5F5F5;
   --font-color: #222222;
-  --line-color: #555555;
+  --line-color: #F5F5F5;
+  --border-radius: 8px;
 }
 
 body {
@@ -48,13 +49,12 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  margin-bottom:8px;
+  margin-bottom:16px;
 }
 
 h3 {
   line-height: 1.2;
   font-weight: 500;
-  margin-top:16px;
   color: var(--bold-color);
 }
 
@@ -130,13 +130,12 @@ p {
 }
 
 section {
-  margin: 4vh 28vw;
+  margin: 24vh 28vw 12vh 28vw;
 }
 
 .divider {
-  width: calc(100% - 16vw);
-  height:1px;
-  margin:40px 0;
+  width: 100%;
+  height: 1px;
   background-color:var(--line-color);
 }
 
@@ -149,7 +148,7 @@ section {
 
 .stickyn {
   padding: 24px;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
   width: calc(33.33% - 16px);
   font-weight: 400;
   margin-right: 16px;
@@ -159,10 +158,10 @@ section {
 }
 
 .box {
-  padding:16px 40px 40px 40px;
-  margin-bottom:16px;
-  border-radius:4px;
-  background:var(--box-color);
+  padding: 40px;
+  margin-bottom: 16px;
+  border-radius: var(--border-radius);
+  background: var(--box-color);
 }
 
 
@@ -214,7 +213,7 @@ video {
 
 
 footer {
-  padding: 16px 32px; 
+  padding: 16px 64px; 
   text-align:center;
   display:flex;
   justify-content:space-between;
@@ -240,7 +239,7 @@ footer img:hover {
 @media only screen and (max-width:961px) {
 
   .module, section {
-    margin: 4vh 4vw;
+    margin: 8vh 8vw;
   }
 
   .stickyn {
