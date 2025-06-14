@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
   scroll-behavior: smooth;
 }
 
@@ -35,9 +35,6 @@ ul {
   margin-left: 20px;
 }
 
-
-/* h1 = main title, h2 = main headings, h3 = overline, h4 = body headings */
-
 h1, h2, .overline {
   font-family: var(--heading-font);
   font-weight: 700;
@@ -51,16 +48,18 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  margin-bottom:8px;
 }
 
 h3 {
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 500;
+  margin-top:16px;
   color: var(--bold-color);
 }
 
 .overline {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   color: var(--accent-color);
 }
@@ -72,7 +71,7 @@ a {
 }
 
 b {
-  font-weight: bold;
+  font-weight: 500;
   color: var(--bold-color);
 }
 
@@ -85,7 +84,7 @@ p {
   left:50%;
 }
 
-.scroll {
+/*.scroll {
   width:32px;
   height:56px;
   position:absolute;
@@ -117,7 +116,7 @@ p {
     opacity:0;
     transform:translateY(32px);
   }
-}
+}*/
 
 #navigation {
   top: 0;
@@ -151,7 +150,6 @@ section {
   padding: 24px;
   border-radius: 4px;
   width: calc(33.33% - 16px);
-  font-size: 0.875rem;
   font-weight: 400;
   margin-right: 16px;
   margin-bottom: 16px;
@@ -211,4 +209,50 @@ video {
 @keyframes fade {
     from {opacity:.4} 
     to {opacity:1}
+}
+
+
+.footer {
+  padding:16vh 20vw 8vh; 
+  text-align:center;
+  display:flex;
+  justify-content:space-between;
+  transition:all 0.4s ease-in-out;
+}
+
+.footer a {
+  margin-left:16px;
+  transition:all 0.4s ease-in-out;
+}
+
+.footer img {
+  width:24px;
+  transition:all 0.4s ease-in-out;
+}
+
+.footer img:hover {
+  filter:opacity(50%);
+  transition:all 0.4s ease-in-out;
+}
+
+
+@media only screen and (max-width:961px) {
+  .stickyn {
+    width:100%;
+    margin-right:0;
+  }
+
+  .part {
+     width:100% !important;
+     margin-left:0 !important;
+  }
+
+  .vid {
+    display:block !important;
+  }
+
+  .footer {
+    padding:16vh 8vw 8vh; 
+  }
+
 }
