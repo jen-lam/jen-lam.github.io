@@ -195,7 +195,7 @@ video {
   border: 1px solid var(--accent-color);
 }
 
-.dot:hover {
+.dot:hover, .dot:active {
   background: var(--accent-color);
 }
 
