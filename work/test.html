@@ -16,21 +16,290 @@
 	</div>
 
 	<section>
-		<h1>Main heading</h1>
+		<h1>UNSW Rooms</h1>
+		<p>A mobile application designed to supplement and improve the current room booking experience for university students.<p>
+		<p><b>Role:</b> Research, Ideation, Design, Prototyping<br><b>Duration:</b> April 2018 (2 weeks) - updated December 2018</p>
 	</section>
 
 	<section>
-		<span class="overline">Overline</span>
-		<h2>Step heading</h2>
-		<h3>Sub-heading</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut urna diam, sollicitudin vel pulvinar ut, iaculis et risus. Ut pulvinar, quam blandit ullamcorper ultricies, leo ligula tempus justo, non luctus massa odio vel mi. Donec sit amet erat interdum, <b>imperdiet mauris et,</b> hendrerit erat. Donec ultrices ligula eu scelerisque faucibus.</p>
+		<span class="overline">Overview</span>
+		<h2>Background</h2>
+		<p>During breaks, many students visit the library for an undisrupted place to study, hold groups meetings or interviews. As a result, some students book rooms or media booths days in advance.</p>
+		<p>As a student who has both booked a room and walked around tirelessly trying to find a place to study, <b>I wondered how the room booking experience could be improved.</b></p>
+
+		<h2>Problem</h2>
+    	<p>The current booking system causes an underutilisation of rooms and media booths, and does not accommodate students with unscheduled breaks or meetings. These students find themselves walking around each level looking for an appropriate space, which can be quite time consuming.</p>
+
+    	<span class="overline">Challenge</span>
+    	<h2>How might we create a simple and efficient mobile booking system for students that will improve the utilisation of time and study spaces?</h2>
+    </section>
+
+    <div class="divider"></div>
+
+    <section>
+		<h2>Solution</h2>
+		<p>UNSW Rooms is a mobile application that allows students to quickly <b>search, filter and view</b> rooms and media booths that better align with their needs. Students are also able to <b>share larger capacity rooms</b> with other students, to improve utilisation.</p>
+	</section>
+
+	<div class="module" style="margin:8vh 8vw">
+		<img src="rooms-proto-1.png" style="width:100%">
+	</div>
+
+	<section>
+		<span class="overline">Research & Analysis"</span>
+		<h2>Validating the hypothesis</h2>
+		<h3>Student Insights</h3>
+		<p>Before conducting any interviews, I decided to take a step back and observe how students in general go about their day at university. They were students constantly walking - getting to lectures, tutorials, the library, the food court - everywhere. They were students who sat in the library for more than 1 hour and students who were walking around the library, taking a peek through every room door. Very rarely do you see students who are walking around stop in their paths, take out their laptops, and book a room. But what I noticed is that a lot of students tend to carry their phones in their hands when they walk around.</p>
+		<p>Bearing these observations in mind, I conducted informal user interviews to develop insights into the room booking experience. I asked questions regarding their visits to the library, the room booking experience (if they had any) and observed how they would make a booking. After interviewing multiple students from different stages and faculties, I collated the information to derive the following insights:</p>
+	</section>
+
+	<div class="module">
+		<div class="stickyn">
+			<b>01</b>
+			<p>Students whose lectures and tutorials that are typically at lower campus feel less inclined to study or hold meetings in the library (upper campus) – these students either did not know of the booking system or have rarely used it</p>
+		</div>
+		<div class="stickyn">
+			<b>02</b>
+			<p>Students have found that rooms that could seat 4 or more people are rarely ever at full capacity</p>
+		</div>
+		<div class="stickyn">
+			<b>03</b>
+			<p>Some students have spent more than 20 minutes trying to find a vacant room on multiple occasions</p>
+		</div>
+		<div class="stickyn">
+			<b>04</b>
+			<p>Many students hope to find a vacant room without having to book one</p>
+		</div>
+		<div class="stickyn">
+			<b>05</b>
+			<p>Students were willing to share greater capacity rooms with other students as long as they are not disruptive</p>
+		</div>
+		<div class="stickyn">
+			<b>06</b>
+			<p>Some students had entered an empty room, placed everything they needed on the desks, only for the people who actually booked the room to come - a lot of awkward stories</p>
+		</div>
+	</div>
+
+	<section>
+		<h2>User Journey Mapping</h2>
+		<p>Based on the student insights, two user journey maps were made to represent the student's actions, feelings, and opportunities for improvement when using the website to book a room. The journey maps were based on two personas:</p>
+	</section>
+
+	<div class="module">
+		<div class="box">
+			<h3>Jessica Pham</h3>
+			<p>A first year Information Systems student who has <b>never booked a room before.</b> She has been to the library a few times but assumed that students could just walk into rooms and use them. Jessica is shy around strangers and wishes to figure things out herself before having to ask someone else for help.</p>
+		</div>
+
+		<div class="box">
+			<h3>Natalie Oh</h3>
+			<p>A third year Civil Engineering student who has <b>booked multiple rooms before.</b> Her experiences range from booking rooms in advance to finding an empty room and hoping for 15 minutes to pass by (bookings are forfeited after 15 minutes past the hour). Natalie has had some unreliable group members in the past so she starts her group assignments early in case she has to do extra work.</p>
+		</div>
+	</div>
+
+	<div class="module">
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<img src="cjm-jp.png" style="width:100%; border:10px solid #fff">
+				<div class="text" style="text-align:center; margin:10px auto">User Journey Map - Jessica Pham</div>
+			</div>
+
+			<div class="mySlides fade">
+				<img src="cjm-no.png" style="width:100%; border:10px solid #fff">
+				<div class="text" style="text-align:center; margin:10px auto">User Journey Map - Natalie Oh</div>
+			</div>
+		</div>
+
+		<div style="position:relative; left:50%; transform:translateX(-50%)">
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;&nbsp;&nbsp;</a>
+			<span class="dot" onclick="currentSlide(1)"></span> 
+			<span class="dot" onclick="currentSlide(2)"></span>
+		  <a class="next" onclick="plusSlides(1)">&nbsp;&nbsp;&#10095;</a>
+		</div>
+	</div>
+
+
+	<section>
+		<h2>Current System</h2>
+		<p>To further understand the room booking experience, I analysed the current system and identified possible problem areas. I also noted down the features that could be transferrable to the mobile application format.</p>
+		
+		<b>1. Poor use of space</b>
+		<p>While the layout of the website is clean and simple, a lot of unnecessary space is used up for the 10 PM - 6 AM time slots which appear to never be available (likely due to opening hours).</p>
+		
+		<b>2. Tedious</b>
+		<p>To find the most suitable room, students need to consider the amount of people, the equipment needed, and the time slot. As there are no filter options, students are required to click through each tab and hover over each time slot to check the equipment - their efforts may end up being futile.</p>
+		
+		<b>3. Lack of a legend</b>
+		<p>The legend appears on the landing page, but then cannot be seen straight away after logging in. When interviewing other students, I found that most did not keep that legend in mind and had to find the legend again to discern the difference between a book and unbooked room.</p>
+	</section>
+
+	<div class="module">
+		<img src="rooms-current.png" style="width:100%">
+		<div class="text" style="text-align:center; margin-top:10px">Current website booking system after logging in</div>
+	</div>
+
+	<section>
+		<span class="overline">Sketches</span>
+		<h2>Initial Design</h2>	
+		<p>As I was not only trying to improve the current room booking experience but also creating a mobile application, I sketched (very messily) a few versions of what the user flows may be and the associated screens. The main user flows were: making a booking, viewing available rooms, and viewing current reservations.</p>
+	</section>
+
+	<div class="module">
+		<img src="rooms-sketch.png" style="width:100%">			
+		<div class="text" style="text-align:center; margin-top:10px">
+			<p>So many ways to style a form...</p>
+		</div>
+	</div>
+
+	<section>
+		<h3>Usability?</h3>
+		<p>As I continued working on the design, I found the positioning of important buttons to be quite challenging. Many mobile applications place buttons in a logical order - with the most important being at the top. However, with the growth of mobile screens and considering the immediate needs of students, I thought that the 'Make a booking' and 'View available rooms' buttons could work better being at the bottom of the screen as they were more accessible.</p>
+		<p>To decide which design would be more favourable, I asked some of the students I interviewed, along with my friends how they hold and interact with their phones. I found that - </p>
+		<p>When typing:
+			<ul>
+				<li>80% used both hands</li>
+				<li>10% used one hand but used swipe to type</li>
+				<li>10% used a combination of one or two hands, depending on how much they needed to type</li>
+			</ul></p>
+		<p>When comfortably touching approximately 50% of the screen:
+			<ul>
+				<li>70% would hold their phones with their dominant hand and use that hand's thumb</li>
+				<li>30% would either hold their phone with both hands or use one hand to interact with the screen and the other holding the phone</li>
+			</ul></p>
+		<p>And lastly, to reach the upper region of the phone, all students had to reposition either the phone or their hand.</p>
 	</section>
 
 	<section>
-		<span class="overline">Overline</span>
-		<h2>Section 2</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut urna diam, sollicitudin vel pulvinar ut, iaculis et risus. Ut pulvinar, quam blandit ullamcorper ultricies, leo ligula tempus justo, non luctus massa odio vel mi. Donec sit amet erat interdum, <b>imperdiet mauris et,</b> hendrerit erat. Donec ultrices ligula eu scelerisque faucibus.</p>
+		<span class="overline">High-fidelity</span>
+		<h2>Prototype</h2>
+		<p>Following a few changes to the initial design and many sketches, the following screens were created to represent the most important functional requirements of the application.</p>
+		<p>The most notable changes I made were the positioning of buttons and the search field to improve usability. </p>
 	</section>
+
+	<div class="module" style="padding-bottom:80px">
+		<img src="rooms-proto.png" style="width:100%">
+	</div>
+
+	<div class="rooms-two" style="padding:1vh 0">
+
+		<section style="margin:16vh 20vw 16vh 20vw;">
+			<div class="vid" style="display:flex; align-items:center">
+				<div class="part">
+					<video width="280" height="auto" muted="" autoplay="" loop="">
+  					<source src="rooms-proto-v1.mp4" type="video/mp4">
+  					If you are reading this, your browser does not support HTML5 videos.
+					</video>
+    			</div>
+    
+    			<div class="part" style="width:calc(70% - 40px); margin-left:40px">
+    				<h3>I want to make a booking</h3>
+    				Students are able to book a room or media booth tailored to their needs. The booking form contains default values - the current date and hour (changes after the 15 minute period), a minimum of 2 people, and the main library. These default values make it especially easier for students who are booking on the day. <p>The system then displays results that match the form input. It also suggests similar rooms that will be useful in the event that the most suitable rooms are all booked.</div>
+    			</div>
+
+			<div class="vid" style="display:flex; align-items:center">
+				<div class="part">
+					<video width="280" height="auto" muted="" autoplay="" loop="">
+  						<source src="rooms-proto-v2.mp4" type="video/mp4">
+  						If you are reading this, your browser does not support HTML5 videos.
+					</video>
+    			</div>
+    
+    			<div class="part" style="width:calc(70% - 40px); margin-left:40px">
+    				<h3>I want to view available rooms</h3>
+    				Ideal for students who do not have specific needs, trying to find a room last minute, or want to check if a room has not been booked. Students are able to quickly check if a room has been booked by searching up the room number. If a student allows room sharing, the room (when searched) will appear as available with a note indicating it is a share room.</div>
+				</div>
+
+			<div class="vid" style="display:flex; align-items:center">
+				<div class="part">
+					<video width="280" height="auto" muted="" autoplay="" loop="">
+  					<source src="rooms-proto-v3.mp4" type="video/mp4">
+  					If you are reading this, your browser does not support HTML5 videos.
+					</video>
+    			</div>
+    
+    			<div class="part" style="width:calc(70% - 40px); margin-left:40px">
+    				<h3>I want to check my reservations</h3>
+    				Perhaps a student has forgotten which room they have booked for a future date, or they want to cancel a booking.</div>
+				</div>
+
+		</section>
+	</div>
+
+	<section>
+		<span class="overline">Reflection</span>
+		<h2>Future Improvements & Key Learnings</h2>
+		<h3>Where to next</h3>
+		<p>I believe UNSW Rooms has much more potential to be a better application, bringing an even better user experience for students. Future steps and improvements would include:</p>
+		<p>
+			<ul>
+				<li><b>Testing & feedback</b> - while I did receive user feedback at different stages of the process, having more users testing the prototype would result in more feedback that could be used to create an even better experience</li>
+				<li><b>Prototyping</b> - the software I used to create the prototypes felt quite limiting and did not truly represent the transitions and micro-interactions that would make the application better. A more sophisticated software may assist in creating them.</li>
+				<li><b>Features</b> - an opportunity I mentioned that I did not implement was attaching or displaying floor plans to help students find rooms faster. In addition, expanding the room booking experience to all study rooms on campus may also be beneficial.</li>
+			</ul> 
+		</p>
+		<h3>Key takeaway</h3>
+		<p>Research shouldn't stop at the first step. Allow yourself to be flexible and take on research opportunities that arise during other steps.</p>
+		</section>
+	</div>
+
+	<footer>
+		© 2025 Jen Lam
+		<div>
+		<a href="/"><img src="home.svg"></a>
+		<a href="mailto:jenlam137@gmail.com"><img src="mail.svg"></a>
+		<a href="https://www.linkedin.com/in/jenl/" target="_blank"><img src="linkedin.svg"></a>
+		</div>
+	</footer>
+		
+	<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	// Next/previous controls
+	function plusSlides(n) {
+  	showSlides(slideIndex += n);
+	}
+
+	// Thumbnail image controls
+	function currentSlide(n) {
+  	showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+  		var i;
+  		var slides = document.getElementsByClassName("mySlides");
+  		var dots = document.getElementsByClassName("dot");
+  		if (n > slides.length) {slideIndex = 1} 
+  		if (n < 1) {slideIndex = slides.length}
+  		for (i = 0; i < slides.length; i++) {
+      		slides[i].style.display = "none"; 
+  		}
+  		for (i = 0; i < dots.length; i++) {
+      		dots[i].className = dots[i].className.replace(" active", "");
+  		}
+  		slides[slideIndex-1].style.display = "block"; 
+  		dots[slideIndex-1].className += " active";
+	}
+	</script>
+
+
+	<script>
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function() {
+	var currentScrollPos = window.pageYOffset;
+	  if (prevScrollpos > currentScrollPos) {
+	    document.getElementById("navbar").style.top = "0";
+	  } else {
+	    document.getElementById("navbar").style.top = "-100px";
+	  }
+	  prevScrollpos = currentScrollPos;
+	}
+	</script>
+
+
+
+
+
 </body>
 
 </html>
