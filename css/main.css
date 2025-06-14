@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --heading-font: 'Poppins', sans-serif;
+  --accent-color: #178841;
+  --bold-color: #000000;
+  --background-color: #FCFCFC;
+  --font-color: #222222;
+}
+
+body {
+  font-family: 'Barlow', sans-serif ;
+  background: var(--background-color);
+  color: var(--font-color);
+  line-height: 1.6em;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+ul {
+  margin:0;
+  padding:0;
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+
+/* h1 = main title, h2 = main headings, h3 = overline, h4 = body headings */
+
+h1, h2, .overline {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--bold-color);
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  line-height: 1.2;
+  font-weight: 400;
+  color: var(--bold-color);
+}
+
+.overline {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+b {
+  font-weight: bold;
+  color: var(--bold-color);
+}
+
+p {
+
+}
+
+.scroll:before {
+  position:absolute;
+  left:50%;
+}
+
+.scroll {
+  width:32px;
+  height:56px;
+  position:absolute;
+  bottom:16vh;
+  left:16vw;
+  border:1px solid #CCCCCC;
+  border-radius:25px;
+}
+
+.scroll:before {
+  content:'';
+  width:8px;
+  height:8px;
+  background:#5AC8FA;
+  margin-left:-4px;
+  top:8px;
+  border-radius:4px;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
+  animation-name:scroll;
+}
+
+@keyframes scroll {
+  0% { 
+    opacity:1; 
+  }
+  
+  100% { 
+    opacity:0;
+    transform:translateY(32px);
+  }
+}
+
+#navigation {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 56px;
+  z-index: 1;
+  background: var(--background-color);
+}
+
+section {
+  padding: 4vw 16vw;
+}
