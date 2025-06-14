@@ -64,6 +64,10 @@ h3 {
   color: var(--accent-color);
 }
 
+.subhead {
+  font-size: 1.33rem;
+}
+
 
 a {
   color: var(--accent-color);
