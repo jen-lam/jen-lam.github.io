@@ -164,6 +164,10 @@ section {
   width: 32%;
 }
 
+.index-section {
+  margin: 12vh 20vw;
+}
+
 .module, .module-two, .module-three {
   margin: -4vh 20vw 2vh;
   display: flex;
@@ -194,7 +198,6 @@ section {
   aspect-ratio: 1 / 1;
   position: relative;
   margin: 0 16px 16px 0;
-  background: var(--accent-color);
 }
 
 .description {
@@ -289,7 +292,7 @@ footer img:hover {
 
 @media only screen and (max-width:1279px) {
 
-  .module, section {
+  .module, section, .index-section {
     margin: 8vh 8vw;
   }
 
