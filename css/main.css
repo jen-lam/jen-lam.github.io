@@ -32,7 +32,6 @@ body {
 ol, ul {
   margin:0;
   padding:0;
-  list-style-type: disc;
   margin-left: 20px;
 }
 
@@ -88,7 +87,7 @@ b {
 }
 
 p {
-  margin: 8px 0;
+  margin: 4px 0 8px;
 }
 
 .scroll:before {
