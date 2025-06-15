@@ -158,7 +158,7 @@ section {
 }
 
 .module, .module-two, .module-three {
-  margin: 2vh 16vw;
+  margin: 2vh 20vw;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
