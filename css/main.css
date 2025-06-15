@@ -251,6 +251,7 @@ img {
 
 .description {
   text-align: left;
+  padding: 0 16px;
 }
 
 #metrics {
