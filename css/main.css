@@ -144,31 +144,35 @@ section {
   background-color:var(--line-color);
 }
 
-.module {
-  margin: 4vh 16vw;
+.flex-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  flex: 1;
+  width: 32%;
+}
+
+.module, .module-three {
+  margin: 2vh 16vw;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.stickyn {
-  padding: 24px;
+.box {
+  padding: 32px;
   border-radius: var(--border-radius);
-  width: calc(33.33% - 16px);
-  font-weight: 400;
-  margin-right: 16px;
   margin-bottom: 16px;
   background: var(--box-color);
   color: var(--font-color);
 }
 
-.box {
-  padding: 40px;
-  margin-bottom: 16px;
-  border-radius: var(--border-radius);
-  background: var(--box-color);
+.module-three .box {
+  width: calc(33.33% - 16px);
+  margin-right: 16px;
 }
-
 
 video {
   margin: 20px 0;
