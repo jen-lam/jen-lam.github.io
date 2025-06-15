@@ -23,235 +23,155 @@
 
 	<section>
 		<span class="overline">Woolworths</span>
-		<h1>My Account</h1>
+		<h1>Change My Order</h1>
 		<div class="subhead">
-			<p>Re-imagining how customers manage their personal details, orders, payment methods, and access value on the Woolworths app.</p>
+			<p>Helping customers manage their fulfilment method, timeslot, and products post-checkout so they get the perfect order for their needs.</p>
 		</div>
 			<p>
-				<b>Involvement:</b> Strategy, Research, Ideation, Prototyping, Testing, Interface Design<br>
-				<b>Duration:</b> Jan 2025 - March 2025<br>
+				<b>Involvement:</b> Research, Ideation, Prototyping, Testing, Interface Design<br>
+				<b>Duration:</b> Sep 2024 - Mar 2025<br>
 				<b>Team:</b> Post-Purchase Experience Squad
 			</p>
-
-		<b>Key wins:</b>
-		<div id="metrics">
-			<p></p>
-			<div class="box">
-				<span class="overline">Support calls</span>
-				<p><b>23%</b> decrease in account-related calls</p>
-			</div>
-
-			<div class="box">
-				<span class="overline">Visits</span>
-				<p><b>5.4%</b> increase in engagement to My orders</p>
-			</div>
-
-			<div class="box">
-				<span class="overline">Reach</span>
-				<p><b>15.3K</b> weekly active users self-servicing</p>
-			</div>
-		</div>
 	</section>
 
 	<div class="module">
-		<img src="http://jen-lam.github.io/assets/account/account-ba.jpg" style="width: 100%">
+		<img src="http://jen-lam.github.io/assets/cmo/cmo.jpg" style="width: 100%"> <!-- order details + T&Cs + start screen -->
 	</div>
 
 	<section>
 		<span class="overline">The problem</span>
-		<h3>Self-service means customers shouldn't need to call customer support</h3>
-		<p>Yet Woolworths received over <b>345,000 calls</b> in 2024 regarding account and self-service-related problems. While some of these problems can only be solved by human intervention, there is still a massive opportunity make it easier for customers to self-serve. An opportunity in the millions.</p>
-		<p>Despite having a large suite of self-service tools and information, Woolworths makes it hard for customers to find and use them, especially in moments of frustration.</p>
+		<h3>Making changes to your order shouldn't be daunting</h3>
+		<p>Yet many Woolworths customers face uncertainty when going through this process, often resulting in them abandoning their changes. In 2024, there were over <b>100K</b> calls regarding cancelling or changing an order.</p>
+		<p>Every abandoned order amendment is a potential lost sale for the business, and an unhappy customer who will not receive their perfect order. </p>
 	</section>
 
 	<section>
 		<span class="overline">The solution</span>
-		<h3>My Account, my way</h3>
-		<p>A foundational account hub that provides a seamless, secure, and intuitive experience for management of personal details, preferences, order history, payment and app security, all in one place.</p>
+		<h3>A centralised index pointing customers in the right direction</h3>
+		<p>A task-driven experience to help customers make the exact changes they need to complete their order.</p>
 	</section>
 
 	<div class="module">
-		<img src="http://jen-lam.github.io/assets/account/my-account.jpg" style="width: 100%">
+		<img src="http://jen-lam.github.io/assets/cmo/cmo-experience.jpg" style="width: 100%">
 	</div>
 
 	<section>
 		<h2>01. Discovery –</h2>
-		<h3>Stakeholder mapping</h3>
-		<p>As the More menu / Account is basically free for all to add to, there were a lot of stakeholders to identify and map against a matrix to determine how to involve them. Following a bunch of conversation and digging around, I identified 16 teams that would be impacted by changes to this experience. Stakeholders from these teams would later be engaged depending on their level of impact as part of feedback and roadshow sessions.</p>
+		<h3>Understanding the technical details</h3>
+		<p>As this was an unfamiliar space for me, my first goal was to understand how editing orders work from a front and backstage perspective. This process involved reading up on a lot of past discovery, speaking to engineers who previously built the experience, and testing multiple scenarios in production to generate all possible outcomes.</p>
+		<p>Through this process, I uncovered some potential bugs - some of which could be quickly fixed and others that required logs put into place to better understand the cause and effect.</p>
+		<p>Fundamentally, changes can involve: products, timeslots, delivery addresses or pick up locations - all of which must be done before a specified cut-off time, and follows a very similar process to the existing checkout experience.</p>
 	</section>
 
 	<section>
-		<h3>Understanding why engagement is low and calls are high</h3>
-		<p>Through speaking to customers, analysing Voice of Customer verbatim and support call logs, and conducting a heuristics analysis, it was clear that the app struggles to support customer top tasks, does not enable personalisation, and deviates from familiar patterns resulting in added cognitive load. There were four key problem areas to be addressed:</p>
+		<h3><i>"As a first time user I found the site difficult to navigate but my biggest problem arose when I tried to change my order. I found it stressful and I needed help from the "chat" person"</i></h3>
+	</section>
 
+	<section>
+		<h3>Understanding how customers feel about changing their order</h3>
+		<p>On the surface, it seemed like a simple process as most of it mimicked the existing checkout experience - something customers would have gone through to place their order. However, upon further discovery through interviews and analysis of customer feedback, I identified the following key themes:</p>
 		<ol>
 			<li>
-				<b>Poor scannability and findability</b>
-				<p>Customers spend additional time trying to find information or features that are relevant for their needs. The More menu has become an ever-growing list of entry points with no structure. Stakeholders view this screen as a way to bring more visibility to their features, but has an opposite effect as more links are added.</p>
+				<b>Unclear process</b>
+				<p>When entering a change order flow, customers are essentially thrown back into a normal shopping experience. While this may be familiar, it raised concerns around understanding how checking out would work.</p>
 			</li>
 			<li>
-				<b>Lack of hierarchy and categorisation</b>
-				<p>Customers feel overwhelmed and lost scrolling through all the links. The current hierarchy does not reflect how customers use the menu, or the natural groupings of tasks and information.</p>
+				<b>Product availability</b>
+				<p>Customers experienced some of their products going out of stock, despite not having made a change yet. Product availability was one of the key drivers to abandon changing an order as sacrificing multiple products for a new one did not make sense to customers.</p>
 			</li>
 			<li>
-				<b>Disjointed omni-channel experience</b>
-				<p>To access account information, customers are pushed into a different, web view experience. It is not immediately obvious how to return to the app, and customers end up continuining their shopping experience in a buggy web view.</p>	
+				<b>Timeslot availability</b>
+				<p>Customers experienced their reservations expiring, despite being well within the cut-off times. My hypothesis was this involved a technical bug as a new order ID is made each time, meaning a customer was effectively competing with themselves for a timeslot.</p>	
 			</li>
 			<li>
-				<b>Inconsistent with global standards</b>
-				<p>When looking at competitors, Woolworths lacks key features and personalisation that enrich the customers self-service experience. As customers form expectations from their experiences with other apps, we are making it harder for them to perform simple tasks.</p>
+				<b>Losing promos</b>
+				<p>Due to system logic, one-time use promo codes were technically already used with the original order, rendering it useless for the changed order and massively increasing the price of the basket, causing customers to abandon their order.</p>
 			</li>
 		</ol>
 	</section>
 
-
-	<div class="module">
-		<img src="http://jen-lam.github.io/assets/account/account-problem.jpg" style="width:100%" >
-	</div>
-
 	<section>
-		<h3><i>"I'm struggling to find it. I know it should be in here somewhere but I can't see it. I must be scrolling past it?"</i></h3>
+		<h3><i>"I lost all discounts when I changed my order - NOT HAPPY"</i></h3>
 	</section>
 
+
 	<section>
-		<h3>Looking at global adjacents, the account lags behind in key areas and features</h3>
-		<p>Opportunity areas identified include:</p>
+		<h3>An elusive experience in the competitor landscape</h3>
+		<p>Making changes to an order through a digital experience was quite uncommon in the competitor landscape. Changes are typically not allowed or can be made through calling a support number, neither of which helped with figuring out what was best in class.</p>
+		<p>I did however, get the opportunity to speak with our New Zealand counterparts on their experience, which while not as complex or mature as Australia, still yielded some interesting ideas.</p>
 		<ul>
-			<li><b>Personalisation:</b> HMW tailor the experience based on past usage and suggest the next best action so that customers face less friction?</li>
-			<li><b>Categorisation:</b> HMW group similar information so that we reflect key jobs to be done?</li>
-			<li><b>Surfacing value:</b> HMW make value known to customers so that they get the best out of their shop?</li>
-			<li><b>Native account management:</b> HMW make it easier to manage account information for customers who prefer to use the app?</li>
-			<li><b>Surfacing help and support:</b> HMW make it easier for customers to access support as a last resort?</li>
+			<li><b>Retaining the order ID:</b> By having the same order ID for the original and changed order, it would be less likely to run into the issue of timeslot and product unavailability</li>
+			<li><b>Retaining prices:</b> Customers find more value in being able to 'lock in' special prices from different promotional weeks. While gaming the system was identified as a risk for Australia, data suggests the impact is not as big for New Zealand</li>
+			<li><b>Only allowing adding / removing items:</b> Only changing items greatly simplifies the process, as stock levels can be more accurate and does not disrupt routing for other stores</li>
 		</ul>
 	</section>
 
-	<div class="module">
-		<img src="http://jen-lam.github.io/assets/account/account-landscape.jpg" style="width:100%">
-	</div>
-
-
 	<section>
 		<h2>02. Define –</h2>
-		<h3>As Woolworths continues to adopt an app-first strategy, there is an opportunity to...</h3>
+		<h3>Workshopping with stakeholders</h3>
+		<p>With less than a week to prepare, I was given an opportunity to use our quarterly planning session on anything design related. I thought this was a good opportunity to align with stakeholders, identify opportunities, and ideate on the problem space.</p>
 	</section>
 
-	<div class="module-two">
-		<div class="box">
-			<b>Increase <s>More</s> Account menu interactions</b>
-			<p>By strengthening the brand of More -> Account, creating a place for all things personal and account-related</p>
-		</div>
-		<div class="box">
-			<b>Increase engagement of self-service features</b>
-			<p>By improving findability through increasing visibility and bringing meaningful structure to all self-service features</p>
-		</div>
-		<div class="box">
-			<b>Reduce overall Customer Hub costs</b>
-			<p>By making features and information more readily available, and bringing prominence to asynchronous support channels</p>
-		</div>
-		<div class="box">
-			<b>Improve app adoption, VOC and NPS</b>
-			<p>By making it easier to access information and manage personal details and security natively</p>
-		</div>
+	<div class="module">
+		<img src="http://jen-lam.github.io/assets/cmo/cmo-workshop.jpg" style="width:100%">
+	</div>
+
+	<div class="module" style="margin-top: 4vh">
+		<img src="http://jen-lam.github.io/assets/account/cmo-outputs.jpg" style="width:100%">
 	</div>
 
 	<section>
 		<h2>03. Develop –</h2>
-		<h3>Understanding top tasks & establishing a hierarchy</h3>
-		<p>I used two primary methods to determine what customers used the account for, which would later be validated as part of testing.</p>
-		<ol>
-			<li>
-				<b>Analysing Adobe Analytics & FullStory</b>
-				<p>To understand current customer behaviour, I leaned on existing data we had in Adobe Analytics for web and app, and FullStory for web. Although this piece of work was purely for app, it was good to cross-reference and also understand whether behaviours were similar between the two platforms.</p>
-			</li>
-			<li>
-				<b>Card sorting</b>
-				<p>As I also looked to introduce new entry points within the account section, card sorting was performed in moderated sessions to better understand how customers grouped features and information.</p>
-			</li>
-		</ol>
+		<h3>Consolidating ideas and bringing them to life</h3>
+		<p>I worked closely with my UI counterpart to ideate on different concepts from the workshop. We went through multiple rounds of feedback with internal stakeholders and other designers to land on concepts we could take into testing.</p>
 	</section>
 
 	<div class="module">
-		<img src="http://jen-lam.github.io/assets/account/account-card.jpg" style="width: 100%">
+		<img src="http://jen-lam.github.io/assets/cmo/cmo-ideation.jpg" style="width: 100%">
 	</div>
 
 	<section>
 		<h3>Evaluating usability</h3>
-		<p>I then worked closely with my UI counterpart to generate different layouts based on the data we had. After a round of feedback with stakeholders, I facilitated customer sessions to validate the information architecture, usability and comprehension of the My account tab.</p>
+		<p>I faciliated customer sessions to validate a change order index concept, comprehension of financial information, and general expectations around the process.</p>
 		<p>Key insights:</p>
 		<ul>
-			<li>Introducing sections to the Account tab improves findability of pages however, further exploration is required to ensure both business and customer needs are balanced</li>			
-			<li>Customers expect all their personal information to be found in Account Details, and have formed this familiarity through experiences with other apps and websites</li>
-			<li>Customers do not necessarily expect store credits or promo codes within the Account > Wallet section, however seeing them all in one place was perceived as useful</li>
+			<li>Customers tend to read important information about the process the first time, but will skip past it on future shops. This becomes an issue when conditions or processes change</li>			
+			<li>Customers were able to easily change their fulfilment method, instructions and timeslot for their order</li>
+			<li>Customers find it useful for their cart to differentiate between original and new products, as they can keep track of what has been added</li>
+			<li>Customers find it useful to see how much their order total has changed. However, there is a delicate balance between being transparent and providing too much information, as some customers found it overwhelming to see so many numbers when their main goal was to pay the difference</li>
+			<li>Customers found it useful to be prompted with items they usually purchase or specials. They see it as a good reminder and also an opportunity to take advantage of current promotions</li>
 		</ul>
 	</section>
 
 	<div class="module">
-		<img src="http://jen-lam.github.io/assets/account/account-ideation.jpg" style="width:100%">
-	</div>
-
-	<div class="module" style="margin-top: 4vh">
-		<img src="http://jen-lam.github.io/assets/account/account-testing.jpg" style="width:100%">
+		<img src="http://jen-lam.github.io/assets/cmo/cmo-testing.jpg" style="width:100%">
 	</div>
 
 	<section>
-		<h3><i>"Simple, straightforward, was where you would think it would be so it's nice and easy."</i></h3>
+		<h3><i>"I like how there’s frequently purchased products. Often the thing you forget is the thing you buy regularly."</i></h3>
+	</section>
+
+	<section>
+		<h3>Iterating based on insights</h3>
+		<p>To provide the optimal experience for customers, iterations were made based on customer and internal stakeholder feedback. In conjunction, I worked closely with the engineers to understand any technical constraints with the designs, and to ensure switching between different views was seamless and not clunky.</p>
 	</section>
 
 	<section>
 		<h2>04. Deliver –</h2>
 		<h3>Introducing the whole vision</h3>
+		<p></p>
 	</section>
 
-	<div class="module" style="margin-top: 4vh">
-		<div class="part" style="width: calc(50% - 32px)">
-			<img src="http://jen-lam.github.io/assets/account/account-quick-links.jpg" style="width: 100%">
-		</div>
-		<div class="part" style="width: calc(50% - 32px); padding-top: 4vh">
-			<h5>Quick links</h5>
-			<p>Quick links based on customer top tasks, elevating support, and creating richer visual cues.</p>
-			<p>Customers found it useful to have their most accessed links readily available. In particular, forms of support previously felt 'buried' and 'hidden' from customers.</p>
-		</div>
-	</div>
-
-	<div class="module" style="margin-top: 4vh">
-		<div class="part" style="width: calc(50% - 32px)">
-			<img src="http://jen-lam.github.io/assets/account/account-curated-items.jpg" style="width: 100%">
-		</div>
-		<div class="part" style="width: calc(50% - 32px); padding-top: 4vh">
-			<h5>Curated items</h5>
-			<p>Personalised and curated content in a centralised place.</p> 
-			<p>Customers found it easier to access these links, as opposed to traversing different screens on the app to find their curated items.</p>
-		</div>
-	</div>
-
-	<div class="module" style="margin-top: 4vh">
-		<div class="part" style="width: calc(50% - 32px)">
-			<img src="http://jen-lam.github.io/assets/account/account-settings.jpg" style="width: 100%">
-		</div>
-		<div class="part" style="width: calc(50% - 32px); padding-top: 4vh">
-			<h5>Account settings</h5>
-			<p>A seamless native experience for the management of information and security.</p>
-			<p>Customers previously had no way of managing this information natively, and found it quick and easy to make updates to their account when doing so natively.</p>
-		</div>
-	</div>
-
-	<div class="module" style="margin-top: 4vh">
-		<div class="part" style="width: calc(50% - 32px)">
-			<img src="http://jen-lam.github.io/assets/account/account-payments.jpg" style="width: 100%">
-		</div>
-		<div class="part" style="width: calc(50% - 32px); padding-top: 4vh">
-			<h5>Transactions & Payments</h5>
-			<p>Surfacing financial controls and information in the form of payment methods, store credits and promo codes.</p>
-			<p>Customers previously were not able to manage their payment methods from the account section and instead had to either go to web or deep into checkout to do so. Additionally, customers liked seeing store credits and promo codes upfront as it would impact their budgeting and spending habits for their upcoming shop.</p>
-		</div>
+	<div class="module">
+		<img src="http://jen-lam.github.io/assets/cmo/cmo-flow.jpg" style="width:100%">
 	</div>
 
 	<section>
 		<span class="overline">Wrap up</span>
 		<h3>Reflections</h3>
-		<p>I appreciated that this initiative had reliable, existing data to work with and help inform design decisions. I had also previously worked in the authetication space within Woolworths so much of the log in and security work was familiar and I could lean on my technical understanding to make decisions.</p>
-		<p>A challenge I had encountered, which is not as common in other spaces in Woolworths, was trying to quantify the value to senior leadership. As a section in the app that does not directly generate revenue or impact sales, it was hard to attach a dollar value and demonstrate that this initiative should be prioritised. I managed to work with Customer Hub and Finance to understand the financial impacts of certain features, which helped with my financial analysis and pitch to stakeholders.</p>
-		<p>Ultimately, this initiative was a good opportunity to work more closely with the business, pitch a strategy deck, and get buy in to proceed with building out this experience.</p>
+		<p>I'm grateful for this initiative as it meant I had to organise and facilitate my first in-person workshop in a long time (perks of remote working). Keeping 15 stakeholders engaged for an entire day is tiring but rewarding, as it showed how important it is to bring them along on the journey and the benefit of different perspectives.</p>
+		<p>While this experience is still being built out, I can already see additional areas of improvement that can be fast-follows. A lot of work can be done in the pre-change journey to encourage customers to use this feature, especially for busy shoppers whose grocery needs are constantly changing.</p>
+		<p>I look forward to seeing how this experience evolves to become a powerful tool for customers, as opposed to a daunting experience.</p>
 	</section>
 
 </body>
