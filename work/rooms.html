@@ -231,44 +231,12 @@
 	<footer>
 		© 2025 Jen Lam
 		<div>
-		<a href="/"><img src="https://jen-lam.github.io/assets/site/home.svg"></a>
-		<a href="mailto:jenlam137@gmail.com"><img src="https://jen-lam.github.io/assets/site/mail.svg"></a>
-		<a href="https://www.linkedin.com/in/jenl/" target="_blank"><img src="https://jen-lam.github.io/assets/site/linkedin.svg"></a>
+		<a href="/">Home</a>
+		<a href="mailto:jenlam137@gmail.com">Mail</a>
+		<a href="https://www.linkedin.com/in/jenl/" target="_blank">LinkedIn</a>
 		</div>
 	</footer>
 		
-	<script>
-	var slideIndex = 1;
-	showSlides(slideIndex);
-
-	// Next/previous controls
-	function plusSlides(n) {
-  	showSlides(slideIndex += n);
-	}
-
-	// Thumbnail image controls
-	function currentSlide(n) {
-  	showSlides(slideIndex = n);
-	}
-
-	function showSlides(n) {
-  		var i;
-  		var slides = document.getElementsByClassName("mySlides");
-  		var dots = document.getElementsByClassName("dot");
-  		if (n > slides.length) {slideIndex = 1} 
-  		if (n < 1) {slideIndex = slides.length}
-  		for (i = 0; i < slides.length; i++) {
-      		slides[i].style.display = "none"; 
-  		}
-  		for (i = 0; i < dots.length; i++) {
-      		dots[i].className = dots[i].className.replace(" active", "");
-  		}
-  		slides[slideIndex-1].style.display = "block"; 
-  		dots[slideIndex-1].className += " active";
-	}
-	</script>
-
-
 	<script>
 	var prevScrollpos = window.pageYOffset;
 	window.onscroll = function() {
