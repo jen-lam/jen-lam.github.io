@@ -51,15 +51,21 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
-  margin-bottom:16px;
+  font-size: 3rem;
+  margin-bottom: 8vh;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 2rem;
+  margin-bottom:16px;
+  color: var(--accent-color);
 }
 
 h4 {
+  font-size: 1.2rem;
+}
+
+h5 {
   line-height: 1.2;
   font-weight: 500;
   color: var(--bold-color);
