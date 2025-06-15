@@ -166,6 +166,9 @@ section {
 
 .index-section {
   margin: 12vh 20vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .module, .module-two, .module-three {
@@ -292,7 +295,7 @@ footer img:hover {
 
 @media only screen and (max-width:1279px) {
 
-  .module, section, .index-section, .module-two, .module-three, #metrics{
+  .module, section, .index-section, .module-two, .module-three, #metrics {
     margin: 8vh 8vw;
     display: block;
   }
