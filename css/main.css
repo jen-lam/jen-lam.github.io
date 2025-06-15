@@ -297,14 +297,14 @@ footer img:hover {
     display: block;
   }
 
-  .box, .module-two .box, .module-three .box, #metrics .box{
-    width:100%;
-    margin-right:0;
+  .box {
+    width:100% !important;
+    margin-right:0 !important;
   }
 
   .project {
-    width: 100%;
-    margin: 0 0 16px 0;
+    width: 100% !important;
+    margin: 0 0 16px 0 !important;
   }
 
   .part {
