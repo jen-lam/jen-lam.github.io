@@ -94,6 +94,7 @@ h4 {
 }
 
 h5 {
+  font-size: 1.2rem;
   line-height: 1.2;
   font-weight: 500;
   color: var(--bold-color);
@@ -179,6 +180,10 @@ p {
   border-bottom: 1px solid var(--line-color);
   display:flex;
   justify-content:space-between;
+}
+
+#navigation a {
+  margin-left: 16px;
 }
 
 section {
