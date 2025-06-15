@@ -39,7 +39,7 @@ li {
   margin: 16px 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: var(--heading-font);
   font-weight: 700;
   line-height: 1.2;
@@ -56,6 +56,10 @@ h2 {
 }
 
 h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
   line-height: 1.2;
   font-weight: 500;
   color: var(--bold-color);
@@ -185,6 +189,19 @@ section {
   margin-right: 16px;
 }
 
+.project {
+  width: calc(50% - 16px);
+  aspect-ratio: 1 / 1;
+  position: relative;
+  margin: 0 16px 16px 0;
+  background: var(--accent-color);
+}
+
+.description {
+  margin-top:16px;
+  text-align: left;
+}
+
 #metrics {
   margin: 2vh 0;
   display: flex;
@@ -279,6 +296,11 @@ footer img:hover {
   .box {
     width:100%;
     margin-right:0;
+  }
+
+  .project {
+    width: 100%;
+    margin: 0 0 16px 0;
   }
 
   .part {
