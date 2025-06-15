@@ -54,9 +54,7 @@
 	</section>
 
 	<div class="module">
-		<div class="gallery">
-			<img src="http://jen-lam.github.io/assets/account/account-ba.jpg" style="width: 100%" data-full="http://jen-lam.github.io/assets/account/account-ba.jpg" alt="Image 1" class="lightbox-trigger" >
-		</div>
+		<img src="http://jen-lam.github.io/assets/account/account-ba.jpg" style="width: 100%">
 	</div>
 
 	<section>
@@ -255,42 +253,6 @@
 		<p>A challenge I had encountered, which is not as common in other spaces in Woolworths, was trying to quantify the value to senior leadership. As a section in the app that does not directly generate revenue or impact sales, it was hard to attach a dollar value and demonstrate that this initiative should be prioritised. I managed to work with Customer Hub and Finance to understand the financial impacts of certain features, which helped with my financial analysis and pitch to stakeholders.</p>
 		<p>Ultimately, this initiative was a good opportunity to work more closely with the business, pitch a strategy deck, and get buy in to proceed with building out this experience.</p>
 	</section>
-
-  <!-- Lightbox Overlay -->
-  <div id="lightbox" class="hidden">
-    <div class="lightbox-content">
-      <span class="lightbox-close">&times;</span>
-      <img id="lightbox-image" src="" alt="Large view" />
-    </div>
-  </div>
-
-  <script src="script.js">
-	const lightbox = document.getElementById('lightbox');
-	const lightboxImage = document.getElementById('lightbox-image');
-	const closeBtn = document.querySelector('.lightbox-close');
-	const triggers = document.querySelectorAll('.lightbox-trigger');
-
-	triggers.forEach(img => {
-	  img.addEventListener('click', () => {
-	    const fullSrc = img.getAttribute('data-full');
-	    lightboxImage.src = fullSrc;
-	    lightbox.classList.remove('hidden');
-	  });
-	});
-
-	closeBtn.addEventListener('click', () => {
-	  lightbox.classList.add('hidden');
-	  lightboxImage.src = '';
-	});
-
-	lightbox.addEventListener('click', (e) => {
-	  if (e.target === lightbox) {
-	    lightbox.classList.add('hidden');
-	    lightboxImage.src = '';
-	  }
-	});
-
-  </script>
 
 </body>
 
