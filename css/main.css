@@ -176,6 +176,9 @@ p {
   z-index: 1;
   background: var(--background-color);
   padding: 16px 64px;
+  border-bottom: 1px solid var(--line-color);
+  display:flex;
+  justify-content:space-between;
 }
 
 section {
