@@ -154,7 +154,7 @@ section {
   width: 32%;
 }
 
-.module, .module-three {
+.module, .module-two, .module-three {
   margin: 2vh 16vw;
   display: flex;
   justify-content: space-between;
@@ -167,6 +167,11 @@ section {
   margin-bottom: 16px;
   background: var(--box-color);
   color: var(--font-color);
+}
+
+.module-two .box {
+  width: calc(50% - 16px);
+  marign-right: 16px;
 }
 
 .module-three .box {
