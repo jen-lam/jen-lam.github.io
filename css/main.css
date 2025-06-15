@@ -38,7 +38,7 @@ ul {
 
 h1, h2, .overline {
   font-family: var(--heading-font);
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.2;
   color: var(--bold-color);
 }
@@ -162,7 +162,7 @@ section {
 }
 
 .box {
-  padding: 32px;
+  padding: 28px;
   border-radius: var(--border-radius);
   margin-bottom: 16px;
   background: var(--box-color);
