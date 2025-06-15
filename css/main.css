@@ -81,6 +81,7 @@ h4 {
 
 
 a {
+  color: var(--font-color);
   text-decoration: none;
 }
 
