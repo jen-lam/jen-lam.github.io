@@ -11,7 +11,7 @@ html {
 
 :root {
   --heading-font: 'Poppins', sans-serif;
-  --accent-color: #178841;
+  --accent-color: #000000;
   --bold-color: #000000;
   --background-color: #FCFCFC;
   --box-color: #F5F5F5;
@@ -27,6 +27,34 @@ body {
   line-height: 1.6em;
   overflow-x: hidden;
   overflow-y: scroll;
+}
+
+body.account {
+  --accent-color: #1971ED;
+}
+
+body.rooms {
+  --accent-color: #943414;
+}
+
+body.index {
+  --accent-color: #237690;
+}
+
+body.cmo {
+  --accent-color: #178841;
+}
+
+body.driver {
+  --accent-color: #A82452;
+}
+
+body.hexahedron {
+  --accent-color: #36465D;
+}
+
+body.pdp {
+  --accent-color: #7754D9;
 }
 
 ol, ul {
@@ -51,13 +79,13 @@ h1 {
 }
 
 h2 {
-  font-size: 3.3rem;
+  font-size: 3rem;
   margin-bottom: 8vh;
   color: var(--accent-color) !important;
 }
 
 h3 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin-bottom:16px;
 }
 
