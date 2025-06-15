@@ -16,7 +16,7 @@ html {
   --background-color: #FCFCFC;
   --box-color: #F5F5F5;
   --font-color: #222222;
-  --line-color: #EEEEEE;
+  --line-color: #D6D6D6;
   --border-radius: 8px;
 }
 
@@ -32,7 +32,7 @@ body {
 ul {
   margin:0;
   padding:0;
-  list-style-type: square;
+  list-style-type: circle;
   margin-left: 20px;
 }
 
@@ -177,6 +177,20 @@ section {
 .module-three .box {
   width: calc(33.33% - 16px);
   margin-right: 16px;
+}
+
+#metrics {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#metrics .box {
+  width: calc(33.33% - 16px);
+  margin-right: 16px;
+  background: var(--background-color);
+  border: 1px solid var(--line-color);
 }
 
 video {
