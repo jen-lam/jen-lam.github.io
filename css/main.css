@@ -18,13 +18,6 @@ html {
   --font-color: #222222;
   --line-color: #D6D6D6;
   --border-radius: 8px;
-  --index-accent: #4E55B1;
-  --account-accent: #1971ED;
-  --rooms-accent: #943414;
-  --cmo-accent: #178841;
-  --driver-accent: #E02500;
-  --hexahedron-accent: #36465D;
-  --pdp-accent: #8763B6;
 }
 
 body {
@@ -183,14 +176,14 @@ p {
   height: 56px;
   z-index: 1;
   background: var(--background-color);
-  padding: 16px 8vw;
+  padding: calc(6vw - 8px) 0;
   border-bottom: 1px solid var(--line-color);
   display:flex;
   justify-content:space-between;
 }
 
 #navigation a {
-  margin-left: 16px;
+  margin: 0 8px;
 }
 
 section {
