@@ -214,7 +214,7 @@ section {
 }
 
 .module, .module-two, .module-three {
-  margin: 2vh 20vw 2vh;
+  margin: 4vh 20vw;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
