@@ -187,7 +187,7 @@ p {
 }
 
 section {
-  margin: 12vh 32vw;
+  margin: 12vh 32vw 0;
 }
 
 .divider {
@@ -207,14 +207,14 @@ section {
 }
 
 .index-section {
-  margin: 12vh 20vw;
+  margin: 12vh 20vw 0;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .module, .module-two, .module-three {
-  margin: -4vh 20vw 2vh;
+  margin: 2vh 20vw 2vh;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -317,50 +317,13 @@ footer img:hover {
 
 @media only screen and (max-width:1279px) {
 
-  .module, section, .index-section, .module-two, .module-three {
-    margin: 12vh 8vw !important;
-    display: block !important;
-  }
-
-  #metrics {
-    display: block;
-  }
-
-  .box {
-    width:100% !important;
-    margin-right:0 !important;
-  }
-
-  .project {
-    width: 100% !important;
-    margin: 0 0 64px 0 !important;
-  }
-
-  .part {
-     width:100% !important;
-     margin-left:0 !important;
-  }
-
-  .vid {
-    display:block !important;
-  }
-
-  .footer {
-    padding:16vh 8vw 8vh; 
-  }
-
-}
-
-
-@media only screen and (max-width:1279px) {
-
   section {
-    margin: 12vh 6vw !important;
+    margin: 12vh 6vw 0 !important;
     display: block !important;
   }
 
   .module, .index-section, .module-two, .module-three {
-    margin: 4vh 6vw !important;
+    margin: 4vh 6vw 0 !important;
     display: block !important;
   }
 
