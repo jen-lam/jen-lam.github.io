@@ -18,6 +18,13 @@ html {
   --font-color: #222222;
   --line-color: #D6D6D6;
   --border-radius: 8px;
+  --index-accent: #4E55B1;
+  --account-accent: #1971ED;
+  --rooms-accent: #943414;
+  --cmo-accent: #178841;
+  --driver-accent: #E02500;
+  --hexahedron-accent: #36465D;
+  --pdp-accent: #8763B6;
 }
 
 body {
@@ -30,31 +37,31 @@ body {
 }
 
 body.index {
-  --accent-color: #4E55B1;
+  --accent-color: var(--index-accent);
 }
 
 body.account {
-  --accent-color: #1971ED;
+  --accent-color: var(--account-accent);
 }
 
 body.rooms {
-  --accent-color: #943414;
+  --accent-color: var(--rooms-accent);
 }
 
 body.cmo {
-  --accent-color: #178841;
+  --accent-color: var(--cmo-accent);
 }
 
 body.driver {
-  --accent-color: #A82452;
+  --accent-color: var(--driver-accent);
 }
 
 body.hexahedron {
-  --accent-color: #36465D;
+  --accent-color: var(--hexahedron-accent);
 }
 
 body.pdp {
-  --accent-color: #7754D9;
+  --accent-color: var(--pdp-accent);
 }
 
 ol, ul {
