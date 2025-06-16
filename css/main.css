@@ -395,11 +395,11 @@ footer img:hover {
 
 @media only screen and (max-width: 768px) {
   h1 {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
   }
 
   h2 {
-    font-size: 2.4rem;
+    font-size: 2rem;
     margin-bottom: 8vh;
     color: var(--accent-color) !important;
   }
