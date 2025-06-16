@@ -37,31 +37,31 @@ body {
 }
 
 body.index {
-  --accent-color: var(--index-accent);
+  --accent-color: #252525;
 }
 
 body.account {
-  --accent-color: var(--account-accent);
+  --accent-color: #1971ED;
 }
 
 body.rooms {
-  --accent-color: var(--rooms-accent);
+  --accent-color: #127D87;
 }
 
 body.cmo {
-  --accent-color: var(--cmo-accent);
+  --accent-color: #178841;
 }
 
 body.driver {
-  --accent-color: var(--driver-accent);
+  --accent-color: #E02500;
 }
 
 body.hexahedron {
-  --accent-color: var(--hexahedron-accent);
+  --accent-color: #36465D;
 }
 
 body.pdp {
-  --accent-color: var(--pdp-accent);
+  --accent-color: #8763B6;
 }
 
 ol, ul {
