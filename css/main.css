@@ -29,16 +29,16 @@ body {
   overflow-y: scroll;
 }
 
+body.index {
+  --accent-color: #4E55B1;
+}
+
 body.account {
   --accent-color: #1971ED;
 }
 
 body.rooms {
   --accent-color: #943414;
-}
-
-body.index {
-  --accent-color: #237690;
 }
 
 body.cmo {
@@ -176,7 +176,7 @@ p {
   height: 56px;
   z-index: 1;
   background: var(--background-color);
-  padding: 16px 64px;
+  padding: 16px 8vw;
   border-bottom: 1px solid var(--line-color);
   display:flex;
   justify-content:space-between;
@@ -251,7 +251,7 @@ img {
 
 .description {
   text-align: left;
-  padding: 0 16px;
+  padding: 0 8px;
 }
 
 #metrics {
@@ -349,4 +349,67 @@ footer img:hover {
     padding:16vh 8vw 8vh; 
   }
 
+}
+
+
+@media only screen and (max-width:1279px) {
+
+  section {
+    margin: 12vh 6vw !important;
+    display: block !important;
+  }
+
+  .module, .index-section, .module-two, .module-three {
+    margin: 4vh 6vw !important;
+    display: block !important;
+  }
+
+  #metrics {
+    display: block;
+  }
+
+  .box {
+    width:100% !important;
+    margin-right:0 !important;
+  }
+
+  .project {
+    width: 100% !important;
+    margin: 0 0 16px 0 !important;
+  }
+
+  .part {
+     width:100% !important;
+     margin-left:0 !important;
+  }
+
+  .vid {
+    display:block !important;
+  }
+
+  .footer {
+    padding:16vh 8vw 8vh; 
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+    margin-bottom: 8vh;
+    color: var(--accent-color) !important;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+    margin-bottom:16px;
+  }
+
+  .subhead {
+    font-size:1.2rem;
+  }
 }
