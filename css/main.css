@@ -125,6 +125,10 @@ b {
   color: var(--bold-color);
 }
 
+#navigation b {
+  font-family: var(--heading-font);
+}
+
 p {
   margin: 4px 0 8px;
 }
