@@ -224,6 +224,11 @@ img {
   border-radius: var(--border-radius);
 }
 
+.caption {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
 .box {
   padding: 24px;
   border-radius: var(--border-radius);
