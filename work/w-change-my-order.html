@@ -76,7 +76,7 @@
 
 	<section>
 		<h2>01. Discovery –</h2>
-		<h3>Understanding the technical details</h3>
+		<h3>Understanding the current process</h3>
 		<p>As this was an unfamiliar space for me, my first goal was to understand how editing orders work from a front and backstage perspective. This process involved reading up on a lot of past discovery, speaking to engineers who previously built the experience, and testing multiple scenarios in production to generate all possible outcomes.</p>
 		<p>Through this process, I uncovered some potential bugs - some of which could be quickly fixed and others that required logs put into place to better understand the cause and effect.</p>
 		<p>Fundamentally, changes can involve: products, timeslots, delivery addresses or pick up locations - all of which must be done before a specified cut-off time, and follows a very similar process to the existing checkout experience.</p>
@@ -142,6 +142,16 @@
 	</div>
 
 	<section>
+		<h3>Business and technical constraints</h3>
+		<p>Every big initiative is not without its constraints. As the change order experience essentially touches all parts of the shopping experience, I identified and worked with the following constraints:</p>
+		<ul>
+			<li><b>Dependencies on other teams:</b> To make changes to most parts of the experience, I needed to engage teams from fulfilment, store operations, ranging, and payments. I would need to work closely with my Product Manager and Engineering lead to engage these stakeholders and get any changes prioritised in their backlogs, which was a tough task given teams were at capacity.</li>
+			<li><b>Aligning with checkout re-design:</b> In an ideal world, we would complete both initiatives at the same time, creating a consistent end-to-end visual experience. In reality, I had to work with the checkout teams to understand their timelines, what code my team could re-purpose (and vice versa) and how to overcome any gaps in the design.</li>
+			<li><b>Trader and other system limitations:</b> The scope of technical change was quite narrow as the business is in the process of moving off Trader, meaning I would need to work with my Product Manager to evaluate effort vs value as a lot of work could potentially be throwaway code.</li>
+		</ul>
+	</section>
+
+	<section>
 		<h2>03. Develop –</h2>
 		<h3>Consolidating ideas and bringing them to life</h3>
 		<p>I worked closely with my UI counterpart to ideate on different concepts from the workshop. We went through multiple rounds of feedback with internal stakeholders and other designers to land on concepts we could take into testing.</p>
@@ -159,7 +169,7 @@
 	<section>
 		<h3>Evaluating usability</h3>
 		<p>I faciliated customer sessions to validate a change order index concept, comprehension of financial information, and general expectations around the process.</p>
-		<p>Key insights:</p>
+		<p><b>Key insights:</b></p>
 		<ul>
 			<li>Customers tend to read important information about the process the first time, but will skip past it on future shops. This becomes an issue when conditions or processes change</li>			
 			<li>Customers were able to easily change their fulfilment method, instructions and timeslot for their order</li>
