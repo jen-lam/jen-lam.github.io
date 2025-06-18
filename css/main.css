@@ -326,7 +326,7 @@ footer img:hover {
 }
 
 
-@media only screen and (max-width:1279px) {
+@media only screen and (max-width:1023px) {
 
   section {
     margin: 12vh 6vw 0 !important;
@@ -367,7 +367,7 @@ footer img:hover {
 
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   h1 {
     font-size: 2.2rem;
   }
