@@ -10,7 +10,7 @@ html {
 }
 
 :root {
-  --heading-font: 'Inter', sans-serif;
+  --heading-font: 'Figtree', sans-serif;
   --accent-color: #000000;
   --bold-color: #000000;
   --background-color: #FCFCFC;
@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif ;
+  font-family: 'Figtree', sans-serif ;
   background: var(--background-color);
   color: var(--font-color);
   line-height: 1.6em;
