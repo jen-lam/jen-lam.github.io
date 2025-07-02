@@ -320,15 +320,15 @@ footer img:hover {
 
 @media only screen and (min-width: 960px) {
   section {
-    padding: 12vh 0 0;
+    padding: 12vh 0 0 !important;
   }
 
   module {
-    padding: 4vh 0;
+    padding: 4vh 0 !important;
   }
 
   .index-section {
-    padding: 12vh 0 0;
+    padding: 4vh 0 0;
     display: flex !important;
     justify-content: space-between !important;
     flex-wrap: wrap !important;
