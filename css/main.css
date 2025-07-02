@@ -310,15 +310,23 @@ footer img:hover {
     font-size: 1.33rem;
   }
 
-
   .part {
     width: calc(50% - 32px) !important;
   }
 }
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 960px) {
+  section {
+    padding: 12vh 0 0;
+  }
+
+  module {
+    padding: 4vh 0;
+  }
+
   .index-section {
+    padding: 12vh 0 0;
     display: flex !important;
     justify-content: space-between !important;
     flex-wrap: wrap !important;
