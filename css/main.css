@@ -316,3 +316,16 @@ footer img:hover {
   }
 }
 
+
+@media only screen and (min-width: 768px) {
+  .index-section {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+  }
+
+  .project {
+    width: calc(50% - 16px) !important;
+    margin: 0 16px 64px 0 !important;
+  }
+}
