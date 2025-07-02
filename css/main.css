@@ -154,7 +154,7 @@ p {
 }
 
 section {
-  max-width: 960px;
+  max-width: calc(960px + 6vw);
   margin: 0 auto;
   padding: 12vh 6vw 0;
 }
@@ -176,14 +176,14 @@ section {
 }
 
 .index-section {
-  max-width: 960px;
+  max-width: calc(960px + 6vw);
   margin: 0 auto;
   padding: 12vh 6vw 0;
   display: block;
 }
 
 .module {
-  max-width: 1280px;
+  max-width: calc(1280px + 6vw);
   margin: 0 auto;
   padding: 4vh 6vw;
   display: flex;
@@ -319,16 +319,7 @@ footer img:hover {
 
 
 @media only screen and (min-width: 960px) {
-  section {
-    padding: 12vh 0 0 !important;
-  }
-
-  module {
-    padding: 4vh 0 !important;
-  }
-
   .index-section {
-    padding: 4vh 0 0;
     display: flex !important;
     justify-content: space-between !important;
     flex-wrap: wrap !important;
