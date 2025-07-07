@@ -306,7 +306,7 @@ footer img:hover {
 
   .subhead {
     font-size: 1.33rem;
-  } */
+  } 
 
   section {
     padding: 12vh;
@@ -315,6 +315,8 @@ footer img:hover {
   .module, .index-section {
     padding-top: 4vh;
   }
+
+  */
 
 }
 
