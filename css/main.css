@@ -19,6 +19,7 @@ html {
   --font-color: #222222;
   --line-color: #D6D6D6;
   --border-radius: 8px;
+  --opacity: 0.4;
 }
 
 body {
@@ -139,6 +140,11 @@ b {
 
 p {
   margin: 4px 0 8px;
+}
+
+mark {
+  background-color: rgb(from var(--accent-color) r g b / var(--opacity));
+
 }
 
 #navigation {
