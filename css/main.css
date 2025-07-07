@@ -266,15 +266,15 @@ footer img:hover {
 @media only screen and (min-width: 1536px) {
 
   section {
-    padding-top: 12vh;
+    padding: 12vh 0 0 0;
   }
 
   .heading-section {
-    padding-top: 24vh;
+    padding: 24vh 0 0 0;
   }
 
   .module, .index-section {
-    padding-top: 4vh;
+    padding: 4vh 0 0 0;
   }
 
 }
