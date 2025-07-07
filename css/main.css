@@ -113,8 +113,6 @@ h4 {
 
 .subhead {
   line-height: 1.4;
-  display: flex;
-
 }
 
 figcaption {
@@ -160,6 +158,14 @@ p {
   margin: 0 8px;
 }
 
+.heading-section {
+  max-width: 1780px;
+  padding: 16vh 6vw 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 section {
   max-width: 960px;
   padding: 12vh 6vw 0;
@@ -188,16 +194,6 @@ section {
   background-color:var(--line-color);
 }
 
-.flex-grid {
-  display: flex;
-  justify-content: space-between;
-}
-
-.col {
-  flex: 1;
-  width: 32%;
-}
-
 img {
   border-radius: var(--border-radius);
 }
@@ -217,20 +213,6 @@ img {
 .description {
   text-align: left;
   padding: 0 8px;
-}
-
-#metrics {
-  margin: 2vh 0;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-#metrics .box {
-  width: calc(33.33% - 16px);
-  margin-right: 16px;
-  background: var(--background-color);
-  border: 1px solid var(--line-color);
 }
 
 video {
@@ -282,7 +264,7 @@ footer img:hover {
 
 @media only screen and (min-width: 1536px) {
 
-  section {
+  section, .heading-section {
     padding-top: 12vh;
   }
 
