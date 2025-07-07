@@ -217,7 +217,7 @@ img {
   margin: 0 0 40px 0;
 }
 
-.col {
+.col, .col-four {
   width: 100%;
   margin-left:0;
 }
@@ -311,6 +311,10 @@ footer img:hover {
 
   .col {
     width: calc(50% - 16px) !important;
+  }
+
+  .col-four {
+    width: calc(25% - 16px) !important;
   }
 
 }
