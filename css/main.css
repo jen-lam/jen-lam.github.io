@@ -294,6 +294,7 @@ footer img:hover {
 
 @media only screen and (min-width: 1536px) {
 
+/*
   h1 {
     font-size: 3.5rem;
   }
@@ -308,14 +309,14 @@ footer img:hover {
 
   .subhead {
     font-size: 1.33rem;
-  }
+  } */
 
   section {
-    padding: 12vh 0 0;
+    padding-top: 12vh;
   }
 
   .module, .index-section {
-    padding: 4vh 0 0;
+    padding-top: 4vh;
   }
 
 }
