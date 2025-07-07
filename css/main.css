@@ -26,7 +26,7 @@ body {
   font-family: var(--body-font);
   background: var(--background-color);
   color: var(--font-color);
-  line-height: 1.6em;
+  line-height: 1.6;
   font-weight: 300;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -120,7 +120,7 @@ figcaption {
   text-align: center;
   font-size: 0.8rem;
   width: 100%;
-  margin-top: 16px;
+  margin: 16px auto;
   line-height: 1.2;
 }
 
@@ -305,12 +305,12 @@ footer img:hover {
   }
 
   .project {
-    width: calc(50% - 32px) !important;
+    width: calc(50% - 16px) !important;
     margin: 0 16px 64px 0 !important;
   }
 
   .col {
-    width: calc(50% - 32px) !important;
+    width: calc(50% - 16px) !important;
   }
 
 }
