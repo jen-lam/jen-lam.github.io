@@ -171,9 +171,6 @@ section {
   max-width: 960;
   padding: 12vh 6vw 0;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .index-section {
