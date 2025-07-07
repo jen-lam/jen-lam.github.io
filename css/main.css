@@ -10,7 +10,8 @@ html {
 }
 
 :root {
-  --heading-font: 'Poppins', sans-serif;
+  --heading-font: 'Inter', sans-serif;
+  --body-font: 'Inter', sans-serif;
   --accent-color: #000000;
   --bold-color: #000000;
   --background-color: #F9F9F9;
@@ -21,7 +22,7 @@ html {
 }
 
 body {
-  font-family: 'Barlow', sans-serif ;
+  font-family: var(--body-font);
   background: var(--background-color);
   color: var(--font-color);
   line-height: 1.6em;
