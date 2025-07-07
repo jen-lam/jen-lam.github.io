@@ -155,13 +155,13 @@ p {
 }
 
 section {
-  max-width: 1780px;
-  padding: 12vh 12vw 0 6vw;
+  max-width: 960px;
+  padding: 12vh 6vw 0;
   margin: 0 auto;
 }
 
 .index-section {
-  max-width: 1780px;
+  max-width: 960px;
   padding: 4vh 6vw 0;
   display: block;
   margin: 0 auto;
