@@ -69,6 +69,10 @@ li {
   margin: 8px 0;
 }
 
+ol > li::marker {
+  font-weight: 500;
+}
+
 h1, h2, h3 {
   font-family: var(--heading-font);
   font-weight: 600;
@@ -109,6 +113,8 @@ h4 {
 
 .subhead {
   line-height: 1.4;
+  display: flex;
+
 }
 
 figcaption {
@@ -196,24 +202,6 @@ img {
   border-radius: var(--border-radius);
 }
 
-.box {
-  padding: 24px;
-  border-radius: var(--border-radius);
-  margin-bottom: 16px;
-  background: var(--box-color);
-  color: var(--font-color);
-}
-
-.module-two .box {
-  width: calc(50% - 16px);
-  marign-right: 16px;
-}
-
-.module-three .box {
-  width: calc(33.33% - 16px);
-  margin-right: 16px;
-}
-
 .project {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -293,25 +281,6 @@ footer img:hover {
 
 
 @media only screen and (min-width: 1536px) {
-
-/*
-  h1 {
-    font-size: 3.5rem;
-  }
-
-  h2 {
-    font-size: 3rem;
-  }
-
-  h3 {
-    font-size: 2rem;
-  }
-
-  .subhead {
-    font-size: 1.33rem;
-  } 
-
-*/
 
   section {
     padding: 12vh;
