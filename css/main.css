@@ -168,9 +168,12 @@ p {
 }
 
 section {
-  max-width: 960px;
+  max-width: 1780px;
   padding: 12vh 6vw 0;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .index-section {
@@ -183,10 +186,10 @@ section {
 .module {
   max-width: 1780px;
   padding: 4vh 6vw;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin: 0 auto;
 }
 
 .divider {
@@ -206,7 +209,7 @@ img {
   margin: 0 0 40px 0;
 }
 
-.part {
+.col {
   width: 100%;
   margin-left:0;
 }
@@ -296,9 +299,8 @@ footer img:hover {
     margin: 0 16px 64px 0 !important;
   }
 
-  .part {
+  .col {
     width: calc(50% - 32px) !important;
   }
 
-  .col {}
 }
