@@ -168,10 +168,9 @@ p {
 }
 
 section {
-  max-width: 960px;
-  padding: 12vh 6vw 0;
+  max-width: 1780px;
+  padding: 4vh 6vw 0;
   margin: 0 auto;
-  
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -179,7 +178,7 @@ section {
 
 .content {
   max-width: 960px;
-  margin
+  margin: 6vh auto 0 0;
 }
 
 .index-section {
@@ -189,6 +188,7 @@ section {
   margin: 0 auto;
 }
 
+/*
 .module {
   max-width: 1780px;
   padding: 4vh 6vw;
@@ -197,6 +197,7 @@ section {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+*/
 
 .divider {
   width: 100%;

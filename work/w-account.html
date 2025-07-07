@@ -24,7 +24,7 @@
 	<div class="heading-section">
 		<div class="col">
 			<h1>Re-imagining self-service on the Woolworths app</h1>
-			<p>Strategy, Design ◈ 2025</p>
+			<p>Strategy, Research, Design ◈ 2025</p>
 		</div>
 		<div class="col">
 			<p style="margin-top:24px"><b>Key wins:</b></p>
@@ -36,84 +36,92 @@
 		</div>
 	</div>
 
-	<div class="module">
+	<section>
 		<img src="http://jen-lam.github.io/assets/account/account-ba.jpg" alt="Three mobile screens: More menu, account tab, and log in and security page" style="width: 100%">
 		<figcaption>Current and future state of Account on app</figcaption>
-	</div>
+	</section>
 
 	<section>
 		<h2>Overview</h2>
-		<h3>Self-service means customers shouldn't need to call customer support</h3>
-		<p>Yet Woolworths received over <b>345,000 calls</b> in 2024 regarding account and self-service-related problems. While some of these problems can only be solved by human intervention, there is still a massive opportunity make it easier for customers to self-serve. An opportunity in the millions.</p>
-		<p>Despite having a large suite of self-service tools and information, Woolworths makes it hard for customers to find and use them, especially in moments of frustration.</p>
-	</section>
+
+		<div class="content">
+			<h3>Self-service means customers shouldn't need to call customer support</h3>
+			<p>Yet Woolworths received over <b>345,000 calls</b> in 2024 regarding account and self-service-related problems. While some of these problems can only be solved by human intervention, there is still a massive opportunity make it easier for customers to self-serve. An opportunity in the millions.</p>
+			<p>Despite having a large suite of self-service tools and information, Woolworths makes it hard for customers to find and use them, especially in moments of frustration.</p>
+		</div>
+
+		<div class="content">
+			<h3>Creating a native hub for all things related to account</h3>
+			<p>A foundational account hub that provides a seamless, secure, and intuitive experience for management of personal details, preferences, order history, payment and app security, all in one place.</p>
+		</div>
 
 	<section>
-		<h3>Creating a native hub for all things related to account</h3>
-		<p>A foundational account hub that provides a seamless, secure, and intuitive experience for management of personal details, preferences, order history, payment and app security, all in one place.</p>
-	</section>
-
-	<div class="module">
 		<img src="http://jen-lam.github.io/assets/account/my-account.jpg" alt="Three mobile screens: Account tab, account details page, and login and security page" style="width: 100%">
 		<figcaption>Future state of Account and account management</figcaption>
-	</div>
+	</section>
 
 	<section>
 		<h2>Discovery</h2>
-		<h3>Stakeholder mapping</h3>
-		<p>As the More menu / Account is basically free for all to add to, there were a lot of stakeholders to identify and map against a matrix to determine how to involve them. Following a bunch of conversation and digging around, I identified 16 teams that would be impacted by changes to this experience. Stakeholders from these teams would later be engaged depending on their level of impact as part of feedback and roadshow sessions.</p>
+
+		<div class="content">
+			<h3>Stakeholder mapping</h3>
+			<p>As the More menu / Account is basically free for all to add to, there were a lot of stakeholders to identify and map against a matrix to determine how to involve them. Following a bunch of conversation and digging around, I identified 16 teams that would be impacted by changes to this experience. Stakeholders from these teams would later be engaged depending on their level of impact as part of feedback and roadshow sessions.</p>
+		</div>
+
+		<div class="content">
+
+			<h3>Understanding why engagement is low and calls are high</h3>
+			<p>Through speaking to customers, analysing Voice of Customer verbatim and support call logs, and conducting a heuristics analysis, it was clear that the app struggles to support customer top tasks, does not enable personalisation, and deviates from familiar patterns resulting in added cognitive load. There were four key problem areas to be addressed:</p>
+
+			<ol>
+				<li>
+					<b>Poor scannability and findability</b>
+					<p>Customers spend additional time trying to find information or features that are relevant for their needs. The More menu has become an ever-growing list of entry points with no structure. Stakeholders view this screen as a way to bring more visibility to their features, but has an opposite effect as more links are added.</p>
+				</li>
+				<li>
+					<b>Lack of hierarchy and categorisation</b>
+					<p>Customers feel overwhelmed and lost scrolling through all the links. The current hierarchy does not reflect how customers use the menu, or the natural groupings of tasks and information.</p>
+				</li>
+				<li>
+					<b>Disjointed omni-channel experience</b>
+					<p>To access account information, customers are pushed into a different, WebView experience. It is not immediately obvious how to return to the app, and customers end up continuining their shopping experience in a buggy web view.</p>	
+				</li>
+				<li>
+					<b>Inconsistent with global standards</b>
+					<p>When looking at competitors, Woolworths lacks key features and personalisation that enrich the customers self-service experience. As customers form expectations from their experiences with other apps, we are making it harder for them to perform simple tasks.</p>
+				</li>
+			</ol>
+		</div>
 	</section>
+
 
 	<section>
-		<h3>Understanding why engagement is low and calls are high</h3>
-		<p>Through speaking to customers, analysing Voice of Customer verbatim and support call logs, and conducting a heuristics analysis, it was clear that the app struggles to support customer top tasks, does not enable personalisation, and deviates from familiar patterns resulting in added cognitive load. There were four key problem areas to be addressed:</p>
-
-		<ol>
-			<li>
-				<b>Poor scannability and findability</b>
-				<p>Customers spend additional time trying to find information or features that are relevant for their needs. The More menu has become an ever-growing list of entry points with no structure. Stakeholders view this screen as a way to bring more visibility to their features, but has an opposite effect as more links are added.</p>
-			</li>
-			<li>
-				<b>Lack of hierarchy and categorisation</b>
-				<p>Customers feel overwhelmed and lost scrolling through all the links. The current hierarchy does not reflect how customers use the menu, or the natural groupings of tasks and information.</p>
-			</li>
-			<li>
-				<b>Disjointed omni-channel experience</b>
-				<p>To access account information, customers are pushed into a different, WebView experience. It is not immediately obvious how to return to the app, and customers end up continuining their shopping experience in a buggy web view.</p>	
-			</li>
-			<li>
-				<b>Inconsistent with global standards</b>
-				<p>When looking at competitors, Woolworths lacks key features and personalisation that enrich the customers self-service experience. As customers form expectations from their experiences with other apps, we are making it harder for them to perform simple tasks.</p>
-			</li>
-		</ol>
-	</section>
-
-
-	<div class="module">
 		<img src="http://jen-lam.github.io/assets/account/account-problem.jpg" alt="Two mobile screens: More menu, and My Account WebView" style="width:100%" >
 		<figcaption>Disjointed omni-channel experience, going from app to WebView</figcaption>
-	</div>
-
-	<section>
-		<h3><i>"I'm struggling to find it. I know it should be in here somewhere but I can't see it. I must be scrolling past it?"</i></h3>
 	</section>
 
 	<section>
-		<h3>Looking at global adjacents, the account lags behind in key areas and features</h3>
-		<p>Opportunity areas identified include:</p>
-		<ul>
-			<li><b>Personalisation:</b> HMW tailor the experience based on past usage and suggest the next best action so that customers face less friction?</li>
-			<li><b>Categorisation:</b> HMW group similar information so that we reflect key jobs to be done?</li>
-			<li><b>Surfacing value:</b> HMW make value known to customers so that they get the best out of their shop?</li>
-			<li><b>Native account management:</b> HMW make it easier to manage account information for customers who prefer to use the app?</li>
-			<li><b>Surfacing help and support:</b> HMW make it easier for customers to access support as a last resort?</li>
-		</ul>
+		<div class="content">
+			<h3><i>"I'm struggling to find it. I know it should be in here somewhere but I can't see it. I must be scrolling past it?"</i></h3>
+		</div>
+
+		<div class="content">
+			<h3>Looking at global adjacents, the account lags behind in key areas and features</h3>
+			<p>Opportunity areas identified include:</p>
+			<ul>
+				<li><b>Personalisation:</b> HMW tailor the experience based on past usage and suggest the next best action so that customers face less friction?</li>
+				<li><b>Categorisation:</b> HMW group similar information so that we reflect key jobs to be done?</li>
+				<li><b>Surfacing value:</b> HMW make value known to customers so that they get the best out of their shop?</li>
+				<li><b>Native account management:</b> HMW make it easier to manage account information for customers who prefer to use the app?</li>
+				<li><b>Surfacing help and support:</b> HMW make it easier for customers to access support as a last resort?</li>
+			</ul>
+		</div>
 	</section>
 
-	<div class="module">
+	<section>
 		<img src="http://jen-lam.github.io/assets/account/account-landscape.jpg" alt="Screenshots of account sections from various apps with features highlighted" style="width:100%">
 		<figcaption>Examples of areas that the Woolworths app lacks in</figcaption>
-	</div>
+	</section>
 
 
 	<section>
@@ -155,10 +163,10 @@
 		</ol>
 	</section>
 
-	<div class="module">
+	<section>
 		<img src="http://jen-lam.github.io/assets/account/account-card.jpg" alt="Card sorting notes" style="width: 100%">
 		<figcaption>Card sorting result from a participant</figcaption>
-	</div>
+	</section>
 
 	<section>
 		<h3>Evaluating usability</h3>
@@ -171,15 +179,15 @@
 		</ul>
 	</section>
 
-	<div class="module">
+	<section>
 		<img src="http://jen-lam.github.io/assets/account/account-ideation.jpg" alt="Unstructured board of different screen designs" style="width:100%">
 		<figcaption>One of many boards with design exploration</figcaption>
-	</div>
+	</section>
 
-	<div class="module">
+	<section>
 		<img src="http://jen-lam.github.io/assets/account/account-testing.jpg" alt="Screens with prototyping connections" style="width:100%">
 		<figcaption>Testing multiple flows in round one of testing</figcaption>
-	</div>
+	</section>
 
 	<section>
 		<h3><i>"Simple, straightforward, was where you would think it would be so it's nice and easy."</i></h3>
@@ -192,7 +200,7 @@
 		<p>One thing I re-inforced with stakeholders was that this work directly addressed the problems identified, but it was also <b>foundational</b> in enabling the future goals of Woolworths around personalisation, bringing more value to customers, and becoming best-in-class. With that, the following changes were handed over to the team to start building.</p>
 	</section>
 
-	<div class="module">
+	<section>
 		<div class="col">
 			<img src="http://jen-lam.github.io/assets/account/account-quick-links.jpg" alt="Quick links highlighted on Account tab screen" style="width: 100%">
 		</div>
@@ -201,9 +209,9 @@
 			<p>Quick links based on customer top tasks, elevating support, and creating richer visual cues.</p>
 			<p>Customers found it useful to have their most accessed links readily available. In particular, forms of support previously felt 'buried' and 'hidden' from customers.</p>
 		</div>
-	</div>
+	</section>
 
-	<div class="module">
+	<section>
 		<div class="col">
 			<img src="http://jen-lam.github.io/assets/account/account-curated-items.jpg" alt="Curated items highlighted on Account tab screen" style="width: 100%">
 		</div>
@@ -212,9 +220,9 @@
 			<p>Personalised and curated content in a centralised place.</p> 
 			<p>Customers found it easier to access these links, as opposed to traversing different screens on the app to find their curated items.</p>
 		</div>
-	</div>
+	</section>
 
-	<div class="module">
+	<section>
 		<div class="col">
 			<img src="http://jen-lam.github.io/assets/account/account-settings.jpg" alt="Account settings highlighted on Account tab screen" style="width: 100%">
 		</div>
@@ -223,9 +231,9 @@
 			<p>A seamless native experience for the management of information and security.</p>
 			<p>Customers previously had no way of managing this information natively, and found it quick and easy to make updates to their account when doing so natively.</p>
 		</div>
-	</div>
+	</section>
 
-	<div class="module">
+	<section>
 		<div class="col">
 			<img src="http://jen-lam.github.io/assets/account/account-payments.jpg" alt="Transactions and payments highlighted on Account tab screen" style="width: 100%">
 		</div>
@@ -234,7 +242,7 @@
 			<p>Surfacing financial controls and information in the form of payment methods, store credits and promo codes.</p>
 			<p>Customers previously were not able to manage their payment methods from the account section and instead had to either go to web or deep into checkout to do so. Additionally, customers liked seeing store credits and promo codes upfront as it would impact their budgeting and spending habits for their upcoming shop.</p>
 		</div>
-	</div>
+	</section>
 
 	<section style="margin-bottom: 12vh !important">
 		<h2>Wrap up</h2>
