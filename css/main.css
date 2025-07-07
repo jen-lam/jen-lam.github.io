@@ -81,7 +81,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -91,7 +91,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   margin-bottom:16px;
 }
 
@@ -207,8 +207,8 @@ img {
 }
 
 .part {
-    width: 100%;
-    margin-left:0;
+  width: 100%;
+  margin-left:0;
 }
 
 .description {
@@ -288,11 +288,13 @@ footer img:hover {
   }
 
   .project {
-    width: calc(50% - 16px) !important;
+    width: calc(50% - 32px) !important;
     margin: 0 16px 64px 0 !important;
   }
 
   .part {
     width: calc(50% - 32px) !important;
   }
+
+  .col {}
 }
