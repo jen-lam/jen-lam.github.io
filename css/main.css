@@ -161,6 +161,7 @@ p {
 .heading-section {
   max-width: 1780px;
   padding: 16vh 6vw 0;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -264,8 +265,12 @@ footer img:hover {
 
 @media only screen and (min-width: 1536px) {
 
-  section, .heading-section {
+  section {
     padding-top: 12vh;
+  }
+
+  .heading-section {
+    padding-top: 24vh;
   }
 
   .module, .index-section {
