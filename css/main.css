@@ -271,9 +271,10 @@ footer img:hover {
 @media only screen and (min-width: 1536px) {
 
   body {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
+/*
   section {
     padding: 12vh 0 0 0;
   }
@@ -285,6 +286,8 @@ footer img:hover {
   .module, .index-section {
     padding: 4vh 0 0 0;
   }
+
+*/
 
 }
 
