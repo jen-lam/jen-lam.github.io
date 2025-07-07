@@ -293,9 +293,6 @@ footer img:hover {
 
 
 @media only screen and (min-width: 1536px) {
-  body {
-    font-size: 1.2rem;
-  }
 
   h1 {
     font-size: 3.5rem;
