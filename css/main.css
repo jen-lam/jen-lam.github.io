@@ -219,8 +219,11 @@ img {
   overflow: hidden;
 }
 
-.hero img {
+.hero {
   border-radius: var(--border-radius);
+}
+
+.hero img {
   transition: transform 0.2s ease-out;
 }
 
