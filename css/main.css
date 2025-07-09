@@ -215,11 +215,10 @@ img {
   aspect-ratio: 1 / 1;
   position: relative;
   margin: 0 0 40px 0;
-  object-fit: cover;
-  overflow: hidden;
 }
 
 .hero {
+  overflow: hidden;
   border-radius: var(--border-radius);
 }
 
@@ -229,7 +228,6 @@ img {
 
 .hero:hover img {
   transform: scale(1.05);
-  border-radius: var(--border-radius);
 }
 
 .col, .col-four {
