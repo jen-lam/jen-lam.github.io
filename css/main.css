@@ -33,7 +33,7 @@ body {
 }
 
 body.index {
-  --accent-color: #252525;
+  --accent-color: #888888;
 }
 
 body.account {
@@ -107,7 +107,7 @@ h4 {
   font-family: var(--heading-font);
   font-size: 0.7rem;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: 300;
   text-transform: uppercase;
   color: var(--accent-color);
 }
@@ -237,7 +237,7 @@ img {
 
 .description {
   text-align: left;
-  padding: 0 8px;
+  padding: 16px;
 }
 
 video {
