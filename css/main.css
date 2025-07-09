@@ -217,16 +217,6 @@ img {
   margin: 0 0 40px 0;
 }
 
-.hero {
-  transition: transform .5s
-  overflow: hidden;
-}
-
-.hero:hover {
-  transform: scale(1.05);
-  overflow: hidden;
-}
-
 .col, .col-four {
   width: 100%;
   margin-left:0;
