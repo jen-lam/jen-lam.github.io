@@ -219,13 +219,13 @@ img {
   overflow: hidden;
 }
 
-.hero img {
+.hero {
+  border-radius: var(--border-radius);
   transition: transform 0.2s ease-out;
 }
 
 .hero:hover img {
   transform: scale(1.05);
-  border-radius: var(--border-radius);
 }
 
 .col, .col-four {
