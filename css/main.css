@@ -215,6 +215,16 @@ img {
   aspect-ratio: 1 / 1;
   position: relative;
   margin: 0 0 40px 0;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.hero img {
+  transition: transform 0.2s ease-out;
+}
+
+.hero:hover img {
+  transform: scale(1.05);
 }
 
 .col, .col-four {
