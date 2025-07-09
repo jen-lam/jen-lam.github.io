@@ -220,6 +220,7 @@ img {
 .hero {
   overflow: hidden;
   border-radius: var(--border-radius);
+  z-index: 1;
 }
 
 .hero img {
