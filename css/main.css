@@ -317,4 +317,8 @@ footer img:hover {
     width: calc(25% - 16px) !important;
   }
 
+  content {
+    margin-top: 12vh;
+  }
+
 }
