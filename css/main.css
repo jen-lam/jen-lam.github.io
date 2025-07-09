@@ -225,6 +225,7 @@ img {
 
 .hero:hover img {
   transform: scale(1.05);
+  border-radius: var(--border-radius);
 }
 
 .col, .col-four {
