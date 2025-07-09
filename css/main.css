@@ -219,10 +219,12 @@ img {
 
 .hero {
   transition: transform .5s
+  overflow: hidden;
 }
 
 .hero:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+  overflow: hidden;
 }
 
 .col, .col-four {
