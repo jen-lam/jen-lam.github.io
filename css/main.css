@@ -217,6 +217,14 @@ img {
   margin: 0 0 40px 0;
 }
 
+.hero {
+  transition: transform .5s
+}
+
+.hero:hover {
+  transform: scale(1.5);
+}
+
 .col, .col-four {
   width: 100%;
   margin-left:0;
