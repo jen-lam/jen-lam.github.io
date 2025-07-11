@@ -157,6 +157,10 @@ mark {
   margin: 0 8px;
 }
 
+#navigation a:hover {
+  font-weight: 500;
+}
+
 #navigation img {
   border-radius: 0;
 }
