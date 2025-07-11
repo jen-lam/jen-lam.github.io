@@ -161,7 +161,7 @@ mark {
 }
 
 #navigation img {
-  border-radius: none;
+  border-radius: 0;
 }
 
 .heading-section {
