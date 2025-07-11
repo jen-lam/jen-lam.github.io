@@ -130,10 +130,6 @@ b {
   color: var(--bold-color);
 }
 
-#navigation b {
-  font-family: var(--heading-font);
-}
-
 p {
   margin: 8px 0;
 }
@@ -154,6 +150,7 @@ mark {
   border-bottom: 1px solid var(--line-color);
   display:flex;
   justify-content:space-between;
+  line-height: 0;
 }
 
 #navigation a {
