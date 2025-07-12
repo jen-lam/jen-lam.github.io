@@ -77,6 +77,7 @@ li {
 
 ol > li::marker {
   font-weight: 500;
+  color: var(--bold-color);
 }
 
 h1, h2, h3 {
