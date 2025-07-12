@@ -330,7 +330,7 @@ footer img:hover {
   }
 
   .col {
-    width: calc(50% - 32px) !important;
+    width: calc(50% - 16px) !important;
   }
 
   .col-four {
