@@ -212,6 +212,10 @@ img {
   border-radius: var(--border-radius);
 }
 
+.module img {
+  background-color: var(--accent-color);
+}
+
 .project {
   position: relative;
   margin: 0 0 40px 0;
