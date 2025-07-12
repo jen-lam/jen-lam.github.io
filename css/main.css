@@ -51,7 +51,7 @@ body.rooms {
 }
 
 body.cmo {
-  --accent-color: #6BA4FF;
+  --accent-color: #38D472;
 }
 
 body.driver {
@@ -156,7 +156,7 @@ mark {
   width: 100%;
   z-index: 1;
   backdrop-filter: blur(10px);
-  background: rgba(var(--background-color), 0.9);
+  background: rgb(from var(--background-color) r g b / 0.9);
   padding: 16px calc(6vw - 8px);
   display:flex;
   justify-content:space-between;
