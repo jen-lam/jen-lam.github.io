@@ -39,7 +39,7 @@ body {
 }*/
 
 body.index {
-  --accent-color: #666666;
+  --accent-color: #44E8D8;
 }
 
 body.account {
@@ -47,23 +47,23 @@ body.account {
 }
 
 body.rooms {
-  --accent-color: #127D87;
+  --accent-color: #C5DDFF;
 }
 
 body.cmo {
-  --accent-color: #178841;
+  --accent-color: #6BA4FF;
 }
 
 body.driver {
-  --accent-color: #E02500;
+  --accent-color: #FF775D;
 }
 
 body.hexahedron {
-  --accent-color: #36465D;
+  --accent-color: #C5DDFF;
 }
 
 body.pdp {
-  --accent-color: #8763B6;
+  --accent-color: #C497FF;
 }
 
 ol, ul {
