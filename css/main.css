@@ -12,7 +12,7 @@ html {
 :root {
   --heading-font: 'Mona Sans', sans-serif;
   --body-font: 'Mona Sans', sans-serif;
-  --accent-color: #E9F0F8;
+  --accent-color: #AAB6C4;
   --bold-color: #E9F0F8;
   --background-color: #0D1117;
   --font-color: #C2D1E1;
@@ -39,7 +39,7 @@ body {
 }*/
 
 body.index {
-  --accent-color: #44E8D8;
+  --accent-color: #AAB6C4;
 }
 
 body.account {
@@ -145,7 +145,7 @@ p {
 }
 
 mark {
-  background-color: rgb(from var(--accent-color) r g b / var(--opacity));
+  background-color: var(--accent-color);
 
 }
 
@@ -156,7 +156,7 @@ mark {
   width: 100%;
   z-index: 1;
   backdrop-filter: blur(10px);
-  background: rgb(from var(--background-color), 0.9);
+  background: rgba(var(--background-color), 0.9);
   padding: 16px calc(6vw - 8px);
   display:flex;
   justify-content:space-between;
