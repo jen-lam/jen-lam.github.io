@@ -104,20 +104,20 @@
 			<p>On the surface, it seemed like a simple process as most of it mimicked the existing checkout experience - something customers would have gone through to place their order. However, upon further discovery through interviews and analysis of customer feedback, I identified the following key themes:</p>
 			<ol>
 				<li>
-					<b>Unclear process</b>
-					<p>When entering a change order flow, customers are essentially thrown back into a normal shopping experience. While this may be familiar, it raised concerns around understanding how checking out would work.</p>
+					<p><b>Unclear process</b>
+					<br>When entering a change order flow, customers are essentially thrown back into a normal shopping experience. While this may be familiar, it raised concerns around understanding how checking out would work.</p>
 				</li>
 				<li>
-					<b>Product availability</b>
-					<p>Customers experienced some of their products going out of stock, despite not having made a change yet. Product availability was one of the key drivers to abandon changing an order as sacrificing multiple products for a new one did not make sense to customers.</p>
+					<p><b>Product availability</b>
+					<br>Customers experienced some of their products going out of stock, despite not having made a change yet. Product availability was one of the key drivers to abandon changing an order as sacrificing multiple products for a new one did not make sense to customers.</p>
 				</li>
 				<li>
-					<b>Timeslot availability</b>
-					<p>Customers experienced their reservations expiring, despite being well within the cut-off times. My hypothesis was this involved a technical bug as a new order ID is made each time, meaning a customer was effectively competing with themselves for a timeslot.</p>	
+					<p><b>Timeslot availability</b>
+					<br>Customers experienced their reservations expiring, despite being well within the cut-off times. My hypothesis was this involved a technical bug as a new order ID is made each time, meaning a customer was effectively competing with themselves for a timeslot.</p>	
 				</li>
 				<li>
-					<b>Losing promos</b>
-					<p>Due to system logic, one-time use promo codes were technically already used with the original order, rendering it useless for the changed order and massively increasing the price of the basket, causing customers to abandon their order.</p>
+					<p><b>Losing promos</b>
+					<br>Due to system logic, one-time use promo codes were technically already used with the original order, rendering it useless for the changed order and massively increasing the price of the basket, causing customers to abandon their order.</p>
 				</li>
 			</ol>
 		</div>
@@ -131,9 +131,18 @@
 			<p>Making changes to an order through a digital experience was quite uncommon in the competitor landscape. Changes are typically not allowed or can be made through calling a support number, neither of which helped with figuring out what was best in class.</p>
 			<p>I did however, get the opportunity to speak with our New Zealand counterparts on their experience, which while not as complex or mature as Australia, still yielded some interesting ideas.</p>
 			<ul>
-				<li><b>Retaining the order ID:</b> By having the same order ID for the original and changed order, it would be less likely to run into the issue of timeslot and product unavailability</li>
-				<li><b>Retaining prices:</b> Customers find more value in being able to 'lock in' special prices from different promotional weeks. While gaming the system was identified as a risk for Australia, data suggests the impact is not as big for New Zealand</li>
-				<li><b>Only allowing adding / removing items:</b> Only changing items greatly simplifies the process, as stock levels can be more accurate and does not disrupt routing for other stores</li>
+				<li>
+					<p><b>Retaining the order ID</b>
+					<br>By having the same order ID for the original and changed order, it would be less likely to run into the issue of timeslot and product unavailability</p>
+				</li>
+				<li>
+					<p><b>Retaining prices</b>
+					<br>Customers find more value in being able to 'lock in' special prices from different promotional weeks. While gaming the system was identified as a risk for Australia, data suggests the impact is not as big for New Zealand</p>
+				</li>
+				<li>
+					<p><b>Only allowing adding / removing items</b>
+					<br>Only changing items greatly simplifies the process, as stock levels can be more accurate and does not disrupt routing for other stores</p>
+				</li>
 			</ul>
 		</div>
 	</section>
@@ -165,9 +174,18 @@
 			<h3>Business and technical constraints</h3>
 			<p>Every big initiative is not without its constraints. As the change order experience essentially touches all parts of the shopping experience, I identified and worked with the following constraints:</p>
 			<ul>
-				<li><b>Dependencies on other teams:</b> To make changes to most parts of the experience, I needed to engage teams from fulfilment, store operations, ranging, and payments. I would need to work closely with my Product Manager and Engineering lead to engage these stakeholders and get any changes prioritised in their backlogs, which was a tough task given teams were at capacity.</li>
-				<li><b>Aligning with checkout re-design:</b> In an ideal world, we would complete both initiatives at the same time, creating a consistent end-to-end visual experience. In reality, I had to work with the checkout teams to understand their timelines, what code my team could re-purpose (and vice versa) and how to overcome any gaps in the design.</li>
-				<li><b>Trader and other system limitations:</b> The scope of technical change was quite narrow as the business is in the process of moving off Trader, meaning I would need to work with my Product Manager to evaluate effort vs value as a lot of work could potentially be throwaway code.</li>
+				<li>
+					<p><b>Dependencies on other teams</b>
+					<br>To make changes to most parts of the experience, I needed to engage teams from fulfilment, store operations, ranging, and payments. I worked closely with my Product Manager and Engineering lead to help prioritise changes for backlogs, which was a tough task given teams were at capacity.</p>
+				</li>
+				<li>
+					<p><b>Aligning with checkout re-design</b> 
+					<br>In an ideal world, we would complete both initiatives at the same time, creating a consistent end-to-end visual experience. In reality, I had to work with the checkout teams to understand their timelines, what code my team could re-purpose (and vice versa) and how to overcome any gaps in the design.</p>
+				</li>
+				<li>
+					<p><b>Trader and other system limitations</b>
+					<br>The scope of technical change was quite narrow as the business is in the process of moving off Trader, meaning I would need to work with my Product Manager to evaluate effort vs value as a lot of work could potentially be throwaway code.</p>
+				</li>
 			</ul>
 		</div>
 	</section>
