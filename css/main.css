@@ -14,7 +14,7 @@ html {
   --body-font: 'Inter', sans-serif;
   --accent-color: #E4EDF8;
   --bold-color: #E4EDF8;
-  --background-color: #F9F9F9;
+  --background-color: #0D1117;
   --font-color: #C2D1E1;
   --border-radius: 8px;
   --opacity: 0.2;
@@ -30,13 +30,13 @@ body {
   overflow-y: scroll;
 }
 
-body.light-mode {
+/*body.light-mode {
   --accent-color: #000000;
   --bold-color: #000000;
   --background-color: #F9F9F9;
   --font-color: #222222;
   --line-color: #D6D6D6;
-}
+}*/
 
 body.index {
   --accent-color: #666666;
