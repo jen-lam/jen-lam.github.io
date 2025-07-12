@@ -155,8 +155,8 @@ mark {
   position: fixed;
   width: 100%;
   z-index: 1;
+  backdrop-filter: blur(10px);
   background: var(--background-color);
-  opacity: 0.8;
   padding: 16px calc(6vw - 8px);
   display:flex;
   justify-content:space-between;
