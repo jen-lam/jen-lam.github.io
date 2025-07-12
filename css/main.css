@@ -159,6 +159,7 @@ mark {
 
 #navigation a {
   margin: 0 8px;
+  font-size: 20px !important;
 }
 
 #navigation img {
