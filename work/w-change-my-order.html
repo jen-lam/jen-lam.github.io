@@ -12,7 +12,7 @@
 </head>
 
 <body class="cmo">
-	<div id="navigation">
+	<div id="navigation" data-aos="fade-down">
 		<a href="/"><img src="http://jen-lam.github.io/assets/site/logo-light.svg"></a>
 		<div style="margin: auto 0">
 			<a href="/">Work</a>
@@ -20,14 +20,14 @@
 		</div>
 	</div>
 
-	<section style="margin-top: 16vh">
+	<section style="margin-top: 16vh" data-aos="fade-up">
 		<div class="content">
 			<h1>Helping customers change their orders post-checkout</h1>
 			<p>A deep dive into re-designing how customers make changes to their order fulfilment method, timeslot and products.</p>
 		</div>
 	</section>
 
-	<div class="module">
+	<div class="module" data-aos="fade-up">
 		<div class="col-four">
 			<p><b>Areas</b></p>
 			<p>Research, Design</p>
@@ -46,7 +46,7 @@
 		</div>
 	</div>
 
-	<div class="module">
+	<div class="module" data-aos="fade-up">
 		<img src="http://jen-lam.github.io/assets/cmo/cmo.png" alt="Three mobile screens: Order details, change order conditions, and order details in change mode" style="width: 100%">
 	</div>
 
@@ -57,8 +57,8 @@
 
 		<div class="content">
 			<h3>Making changes to your order shouldn't be daunting</h3>
-			<p>Yet many Woolworths customers face uncertainty when going through this process, often resulting in them abandoning their changes. In 2024, there were over <b>100K</b> calls regarding cancelling or changing an order.</p>
-			<p>Every abandoned order amendment is a potential lost sale for the business, and an unhappy customer who will not receive their perfect order. </p>
+			<p>Yet many Woolworths customers face uncertainty when going through this process, often resulting in them abandoning their changes. In 2024, there were over <b>100K</b> calls regarding cancelling or changing an order, costing the business over <b>$1.1M to service.</b></p>
+			<p>Every abandoned order amendment is a potential lost sale for the business, and an unhappy customer who will not receive their perfect order.</p>
 		</div>
 
 		<div class="content">
@@ -72,7 +72,7 @@
 			<p><b>Key opportunities:</b></p>
 			<ul>
 				<li>Projected <b>45%</b> reduction in monthly contacts</li>
-				<li><b>1.7M</b> (annualised) opportunity to convert</li>
+				<li><b>1.7M</b> (annualised) opportunity to convert from existing errors</li>
 				<li>Projected <b>2-5pt</b> increase in checkout VOC scores</li>
 			</ul>
 		</div>
@@ -91,7 +91,6 @@
 		<div class="content">
 			<h3>Understanding the current process</h3>
 			<p>As this was an unfamiliar space for me, my first goal was to understand how editing orders work from a front and backstage perspective. I read up on past documentation, spoke to engineers who previously built the experience, and tested multiple scenarios in production.</p>
-			<p>Through this process, I uncovered some potential bugs - some of which could be quickly fixed and others that required logs put into place to better understand the cause and effect.</p>
 		</div>
 
 		<div class="content">
@@ -128,19 +127,19 @@
 		<div class="content">
 			<h3>An elusive experience in the competitor landscape</h3>
 			<p>Making changes to an order through a digital experience was quite uncommon in the competitor landscape. Changes are typically not allowed or can be made through calling a support number, neither of which helped with figuring out what was best in class.</p>
-			<p>I did however, get the opportunity to speak with our New Zealand counterparts on their experience, which while not as complex or mature as Australia, still yielded some interesting ideas.</p>
+			<p>Instead, I had the opportunity to speak with our New Zealand counterparts on their change order experience.</p>
 			<ul>
 				<li>
 					<p><b>Retaining the order ID</b>
-					<br>By having the same order ID for the original and changed order, it would be less likely to run into the issue of timeslot and product unavailability</p>
+					<br>By having the same order ID for the original and changed order, it would be less likely to run into the issue of timeslot and product unavailability.</p>
 				</li>
 				<li>
 					<p><b>Retaining prices</b>
-					<br>Customers find more value in being able to 'lock in' special prices from different promotional weeks. While gaming the system was identified as a risk for Australia, data suggests the impact is not as big for New Zealand</p>
+					<br>Customers find more value in being able to 'lock in' special prices from different promotional weeks. While gaming the system was identified as a risk for Australia, data suggests the impact is not as big for New Zealand.</p>
 				</li>
 				<li>
 					<p><b>Only allowing adding / removing items</b>
-					<br>Only changing items greatly simplifies the process, as stock levels can be more accurate and does not disrupt routing for other stores</p>
+					<br>Only changing items greatly simplifies the process, as stock levels can be more accurate and does not disrupt routing for other stores.</p>
 				</li>
 			</ul>
 		</div>
@@ -191,6 +190,30 @@
 
 	<section>
 		<div class="content">
+			<h3>"Quick" wins</h3>
+			<p>Following the workshop, I identified some technical opportunities that could be immediately fixed, or investigated.</p>
+			<ul>
+				<li>
+					<p><b>Updating links</b>
+					<br>The entry point in the order confirmation email was broken, causing friction for over 70K customers. </p>
+				</li>
+				<li>
+					<p><b>Updating T&Cs</b>
+					<br>The current language was perceived as confusing and a deterrent to proceed.</p>
+				</li>
+				<li>
+					<p><b>End-to-end change mode banner</b>
+					<br>At certain points in the current experience, there was no way of knowing the order was in a change state.</p>
+				</li>
+				<li>
+					<p><b>Adding production logs</b>
+					<br>TO better understand timeslot availability, I requested my engineers to add logs to capture error data.</p>
+				</li>
+			</ul>
+	</section>
+
+	<section>
+		<div class="content">
 			<h2>Develop</h2>
 		</div>
 
@@ -213,13 +236,13 @@
 		<div class="content">
 			<h3>Evaluating usability</h3>
 			<p>I faciliated customer sessions to validate a change order index concept, comprehension of financial information, and general expectations around the process.</p>
-			<p><b>Key insights:</b></p>
+			<p><b>Key insights</b></p>
 			<ul>
-				<li>Customers tend to read important information about the process the first time, but will skip past it on future shops. This becomes an issue when conditions or processes change</li>			
-				<li>Customers were able to easily change their fulfilment method, instructions and timeslot for their order</li>
-				<li>Customers find it useful for their cart to differentiate between original and new products, as they can keep track of what has been added</li>
-				<li>Customers find it useful to see how much their order total has changed. However, there is a delicate balance between being transparent and providing too much information, as some customers found it overwhelming to see so many numbers when their main goal was to pay the difference</li>
-				<li>Customers found it useful to be prompted with items they usually purchase or specials. They see it as a good reminder and also an opportunity to take advantage of current promotions</li>
+				<li>Customers tend to read important information about the process the first time, but will skip past it on future shops. This becomes an issue when conditions or processes change.</li>			
+				<li>Customers were able to easily change their fulfilment method, instructions and timeslot for their order.</li>
+				<li>Customers find it useful for their cart to differentiate between original and new products, as they can keep track of what has been added.</li>
+				<li>Customers find it useful to see how much their order total has changed. However, there is a delicate balance between being transparent and providing too much information, as some customers found it overwhelming to see so many numbers when their main goal was to pay the difference.</li>
+				<li>Customers found it useful to be prompted with items they usually purchase or specials. They see it as a good reminder and also an opportunity to take advantage of current promotions.</li>
 			</ul>
 		</div>
 	</section>
@@ -236,7 +259,7 @@
 
 		<div class="content">
 			<h3>Iterating based on insights</h3>
-			<p>To provide the optimal experience for customers, iterations were made based on customer and internal stakeholder feedback. In conjunction, I worked closely with the engineers to understand any technical constraints with the designs, and to ensure switching between different views was seamless and not clunky.</p>
+			<p>To provide the optimal experience for customers, iterations were made based on customer and internal stakeholder feedback. In conjunction, I worked closely with the engineers to understand any technical constraints with the designs, and to ensure switching between different app views did not feel clunky.</p>
 		</div>
 	</section>
 
@@ -299,6 +322,13 @@
 			<p>I look forward to seeing how this experience evolves to become a powerful tool for customers, as opposed to a daunting experience.</p>
 		</div>
 	</section>
+
+	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	 <script>
+	 	AOS.init({
+		  duration: 1500,
+		})
+	 </script>
 
 </body>
 

@@ -13,7 +13,7 @@
 </head>
 
 <body class="index">
-	<div id="navigation">
+	<div id="navigation" data-aos="fade-down">
 		<a href="/"><img src="http://jen-lam.github.io/assets/site/logo-light.svg"></a>
 		<div style="margin: auto 0">
 			<a href="/">Work</a>
@@ -105,7 +105,9 @@
 
 	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 	 <script>
-	    AOS.init();
+	 	AOS.init({
+		  duration: 1500,
+		})
 	 </script>
 
 </body>

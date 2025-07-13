@@ -12,7 +12,7 @@
 </head>
 
 <body class="hexahedron">
-	<div id="navigation">
+	<div id="navigation" data-aos="fade-down">
 		<a href="/"><img src="http://jen-lam.github.io/assets/site/logo-light.svg"></a>
 		<div style="margin: auto 0">
 			<a href="/">Work</a>
@@ -20,7 +20,7 @@
 		</div>
 	</div>
 
-	<section style="margin-top: 16vh">
+	<section style="margin-top: 16vh" data-aos="fade-up">
 		<div class="content">
 			<h1>Hexahedron</h1>
 			<p>As a side hobby, I designed and developed free-to-use blog layouts for users on the microblogging and social networking platform, Tumblr.<br>Here's a few of my favourite pieces.</p>
@@ -28,7 +28,7 @@
 	</section>
 
 	<section>
-		<div class="content">
+		<div class="content" data-aos="fade-up">
 			<h3>Meta</h3>
 			<p>A layout to display theme layouts, page layouts, resources or artworks. <b><a href="https://hexahedron-meta.tumblr.com/" target="_blank">View live preview</a></b></p>
 		</div>
@@ -59,6 +59,13 @@
 	<div class="module" style="margin-bottom: 12vh !important">
 		<img src="http://jen-lam.github.io/assets/hexahedron/hexahedron-event.png" style="width: 100%">
 	</div>
+
+	 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	 <script>
+	 	AOS.init({
+		  duration: 1500,
+		})
+	 </script>
 
 </body>
 </html>
