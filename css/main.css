@@ -42,7 +42,7 @@ body.index {
   --accent-color: #AAB6C4;
 }
 
-body.account {
+body.account, body.qs {
   --accent-color: #40A6FF;
 }
 
