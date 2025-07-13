@@ -160,7 +160,7 @@ mark {
   }
 }
 
-.fadeIn-animation {
+.fadeIn {
   animation: 1.5s fadeIn;
 }
 
