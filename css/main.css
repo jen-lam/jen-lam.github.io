@@ -238,6 +238,10 @@ img {
   margin-left:0;
 }
 
+.col p {
+  margin: 24px 0;
+}
+
 .description {
   text-align: left;
   padding: 8px;
