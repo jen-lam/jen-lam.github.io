@@ -245,8 +245,8 @@ img {
   transition: transform 0.2s ease-out;
 }
 
-  .hero:hover img {
-    transform: scale(1.05);
+.hero:hover img {
+  transform: scale(1.05);
 }
 
 .col, .col-four {
