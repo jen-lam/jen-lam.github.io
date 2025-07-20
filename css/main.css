@@ -16,7 +16,7 @@ html {
   --bold-color: #E9F0F8;
   --background-color: #0A0A0A;
   --font-color: #C2D1E1;
-  --border-radius: 8px;
+  --border-radius: 16px;
   --opacity: 0.2;
 }
 
@@ -116,7 +116,6 @@ h4 {
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.2px;
-  text-transform: uppercase;
   color: var(--accent-color);
 }
 
@@ -236,13 +235,18 @@ img {
 
 .hero {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: auto;
   overflow: hidden;
   border-radius: var(--border-radius);
+  background: #121212;
 }
 
 .hero img {
+  width: 100%;
+  height: auto;
   transition: transform 0.2s ease-out;
+  background: #000000;
+  border-radius: var(--border-radius);
 }
 
 .hero:hover img {
