@@ -243,7 +243,7 @@ img {
 
 .hero {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: auto;
   border-radius: var(--border-radius);
   display: flex;
   justify-content: end;
@@ -251,6 +251,12 @@ img {
   background: #121212;
   opacity: 0.8;
   padding: 80px 80px 0 80px;
+}
+
+.hero-half {
+  aspect-ratio: auto;
+  margin: 0 auto;
+  flex-direction: row;
 }
 
 .hero img {
