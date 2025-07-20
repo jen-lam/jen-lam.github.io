@@ -364,7 +364,7 @@ footer img:hover {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
     grid-template-rows: repeat(4, 1fr) !important;
-    gap: 8px;
+    gap: 32px;
   }
 
   .div1 {
