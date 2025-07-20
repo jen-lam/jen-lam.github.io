@@ -15,6 +15,7 @@ html {
   --accent-color: #AAB6C4;
   --bold-color: #E9F0F8;
   --background-color: #0A0A0A;
+  --card-color: #121212;
   --font-color: #C2D1E1;
   --border-radius: 16px;
   --opacity: 0.2;
@@ -237,7 +238,7 @@ img {
   aspect-ratio: auto;
   overflow: hidden;
   border-radius: var(--border-radius);
-  background: #121212;
+  background: rgb(from var(--card-color) r g b / 0.8);
   padding: 32px;
 }
 
