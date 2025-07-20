@@ -239,6 +239,7 @@ img {
   overflow: hidden;
   border-radius: var(--border-radius);
   background: #121212;
+  padding: 40px;
 }
 
 .hero img {
