@@ -216,6 +216,13 @@ section {
   margin: 0 auto;
 }
 
+.work-section {
+  max-width: 1780;
+  padding: 4vh 6vw 0;
+  margin: 0 auto;
+  display: block;
+}
+
 .module {
   max-width: 1780px;
   padding: 4vh 6vw;
@@ -237,11 +244,18 @@ img {
 .hero {
   width: 100%;
   aspect-ratio: 1 / 1;
-  overflow: hidden;
   border-radius: var(--border-radius);
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  background: #121212;
+  opacity: 0.8;
+  padding: 80px 80px 0 80px;
 }
 
 .hero img {
+  width: 100%;
+  height: auto;
   transition: transform 0.2s ease-out;
 }
 
@@ -260,7 +274,7 @@ img {
 
 .description {
   text-align: left;
-  padding: 8px;
+  padding-bottom: 80px;
 }
 
 video {
@@ -338,6 +352,38 @@ footer img:hover {
     display: flex !important;
     justify-content: space-between !important;
     flex-wrap: wrap !important;
+  }
+
+  .work-section {
+    display: grid !important;
+    grid-template-columns: repeat(5, 1fr) !important;
+    grid-template-rows: repeat(5, 1fr) !important;
+    gap: 8px;
+  }
+
+  .div1 {
+    grid-row: span 2 / span 2;
+  }
+
+  .div2 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
+
+  .div3 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 1;
+  }
+
+  .div4 {
+    grid-row-start: 3;
+  }
+
+  .div5 {
+    grid-column-start: 2;
+    grid-row-start: 4;
   }
 
   .project {
