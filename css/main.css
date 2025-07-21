@@ -254,8 +254,8 @@ img {
   display: block;
 }
 
-.heo:hover img {
-  transform: scale(1.01);
+.hero:hover img {
+  transform: scale(1.05);
 }
 
 .col, .col-four {
@@ -269,7 +269,8 @@ img {
 
 .description {
   text-align: left;
-  padding: 40px 40px 8px 40px;
+  padding: clamp(40px, 4vw, 120px);
+  padding-bottom: 0;
 }
 
 video {
