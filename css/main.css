@@ -366,7 +366,7 @@ footer img:hover {
   }
 
   .project {
-    width: calc(50% - 40px) !important;
+    width: calc(50% - 20px) !important;
     margin-bottom: 40px !important;
   }
 
