@@ -279,7 +279,7 @@ img {
 }
 
 .hero:hover {
-  border: 1px solid #888888;
+  border: 1px solid #333333;
 }
 
 .hero:hover img {
