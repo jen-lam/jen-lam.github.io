@@ -340,6 +340,10 @@ footer img:hover {
     font-size: 1.4rem;
   }
 
+  body.index h1 {
+    font-size: 3rem;
+  }
+
 /*
   section {
     padding: 12vh 0 0 0;
