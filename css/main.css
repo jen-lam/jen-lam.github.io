@@ -47,6 +47,12 @@ body {
   'opsz' 48
 }
 
+.gradient {
+  background: linear-gradient(45deg, #45C1FF 20%, #906BFF 57%, #FF1FF8 88%); 
+  color: transparent; 
+  background-clip: text;
+}
+
 body.index {
   --accent-color: #AAB6C4;
   width: 100%;
