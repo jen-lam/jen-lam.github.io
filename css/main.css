@@ -253,7 +253,7 @@ img {
   border-radius: var(--border-radius);
 }
 
-.hero:hover img {
+.project:hover img {
   transform: scale(1.01);
 }
 
