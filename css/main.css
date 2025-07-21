@@ -243,14 +243,13 @@ img {
   aspect-ratio: auto;
   overflow: hidden;
   border-radius: var(--border-radius);
-  background: rgb(from var(--background-color) r g b / 0.6);
+  background: var(--card-color);
 }
 
 .hero img {
   width: 100%;
   height: auto;
   transition: transform 0.2s ease-out;
-  background: #000000;
   border-radius: var(--border-radius);
 }
 
