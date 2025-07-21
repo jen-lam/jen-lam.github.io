@@ -44,7 +44,7 @@ body {
   'FILL' 0,
   'wght' 200,
   'GRAD' 0,
-  'opsz' 48
+  'opsz' 24
 }
 
 .gradient {
@@ -366,8 +366,8 @@ footer img:hover {
   }
 
   .project {
-    width: calc(50% - 20px) !important;
-    margin: 0 16px 24px 0 !important;
+    width: calc(50% - 40px) !important;
+    margin-bottom: 40px !important;
   }
 
   .col {
