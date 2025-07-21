@@ -58,7 +58,7 @@ body.index {
   width: 100%;
   height: 100%;
   background-color: var(--background-color);
-  background-image: radial-gradient(circle at 0% 58%, hsla(284.55882352941177, 37%, 12%, 0.63) 0%, transparent 45.17552443057443%), radial-gradient(circle at 25% 96%, hsla(180, 67%, 60%, 0.16) 4.830917874396135%, transparent 39.23671615526872%);
+  background-image: radial-gradient(circle at 0% 58%, hsla(284.55882352941177, 37%, 12%, 0.63) 0%, transparent 45.17552443057443%), radial-gradient(circle at 25% 96%, hsla(205.14705882352945, 67%, 60%, 0.16) 4.830917874396135%, transparent 39.23671615526872%);
   background-blend-mode: normal, normal;
 }
 
@@ -149,6 +149,14 @@ figcaption {
 a {
   color: var(--font-color);
   text-decoration: none;
+}
+
+a:hover {
+  background-color: var(--background-color);
+  background-image: radial-gradient(circle at 0% 58%, hsla(284.55882352941177, 37%, 12%, 0.63) 0%, transparent 45.17552443057443%), radial-gradient(circle at 25% 96%, hsla(205.14705882352945, 67%, 60%, 0.16) 4.830917874396135%, transparent 39.23671615526872%);
+  background-blend-mode: normal, normal;
+  color: transparent;
+  background-clip: text;
 }
 
 b {
