@@ -244,7 +244,6 @@ img {
   overflow: hidden;
   border-radius: var(--border-radius);
   background: rgb(from var(--background-color) r g b / 0.6);
-  padding: 32px;
 }
 
 .hero img {
@@ -270,7 +269,7 @@ img {
 
 .description {
   text-align: left;
-  padding-top: 16px;
+  padding: 40px 40px 8px 40px;
 }
 
 video {
