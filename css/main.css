@@ -39,6 +39,14 @@ body {
   --line-color: #D6D6D6;
 }*/
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 body.index {
   --accent-color: #AAB6C4;
   width: 100%;
