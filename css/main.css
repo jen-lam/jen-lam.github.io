@@ -152,14 +152,6 @@ a {
   transition: transform 0.4s ease-out;
 }
 
-a:hover {
-  background-color: var(--background-color);
-  background-image: radial-gradient(circle at 0% 58%, hsla(284.55882352941177, 37%, 12%, 0.63) 0%, transparent 45.17552443057443%), radial-gradient(circle at 25% 96%, hsla(205.14705882352945, 67%, 60%, 0.16) 4.830917874396135%, transparent 39.23671615526872%);
-  background-blend-mode: normal, normal;
-  color: transparent;
-  background-clip: text;
-}
-
 b {
   font-weight: 500;
   color: var(--bold-color);
@@ -279,7 +271,7 @@ img {
 }
 
 .hero:hover {
-  border: 1px solid #333333;
+  border: 1px solid #222222;
 }
 
 .hero:hover img {
@@ -353,10 +345,6 @@ footer img:hover {
     font-size: 1.4rem;
   }
 
-  body.index h1 {
-    font-size: 3rem;
-  }
-
 /*
   section {
     padding: 12vh 0 0 0;
@@ -398,5 +386,10 @@ footer img:hover {
   content {
     margin-top: 12vh;
   }
+
+  body.index h1 {
+    font-size: 3rem;
+  }
+
 
 }
