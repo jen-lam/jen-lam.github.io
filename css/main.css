@@ -243,7 +243,7 @@ img {
   aspect-ratio: auto;
   overflow: hidden;
   border-radius: var(--border-radius);
-  background: var(--card-color);
+  background: rgba(0,0,0,0.3);
 }
 
 .hero img {
@@ -255,7 +255,7 @@ img {
 }
 
 .hero:hover img {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .col, .col-four {
@@ -269,7 +269,7 @@ img {
 
 .description {
   text-align: left;
-  padding: clamp(40px, 4vw, 120px);
+  padding: clamp(40px, 6vw, 120px);
   padding-bottom: 0;
 }
 
