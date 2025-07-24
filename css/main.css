@@ -131,11 +131,18 @@ h4 {
 }
 
 .overline {
-  font-family: var(--heading-font);
   font-size: 0.8rem;
   line-height: 1.2;
   font-weight: 400;
   color: var(--accent-color);
+  display: inline;
+}
+
+.o-indicator {
+  width: 16px;
+  height: 8px;
+  border-radius: var(--border-radius);
+  margin-right: 8px;
 }
 
 figcaption {
