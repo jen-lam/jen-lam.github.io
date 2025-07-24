@@ -317,7 +317,8 @@ video {
 
 
 footer {
-  padding: 16px calc(6vw - 8px);
+  font-size: 0.9rem;
+  padding: 32px calc(6vw - 8px) 16px;
   display:flex;
   justify-content:space-between;
   transition:all 0.4s ease-in-out;
