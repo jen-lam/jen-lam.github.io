@@ -53,6 +53,12 @@ body {
   background-clip: text;
 }
 
+a:hover {
+  background: linear-gradient(45deg, #45C1FF 20%, #906BFF 57%, #FF1FF8 88%); 
+  color: transparent; 
+  background-clip: text;  
+}
+
 body.index {
   --accent-color: #AAB6C4;
   width: 100%;
@@ -318,7 +324,7 @@ video {
 
 footer {
   font-size: 0.9rem;
-  padding: 32px calc(6vw - 8px) 16px;
+  padding: 32px 6vw 0;
   display:flex;
   justify-content:space-between;
   transition:all 0.4s ease-in-out;
