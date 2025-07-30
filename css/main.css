@@ -289,6 +289,7 @@ img {
 .col, .col-three, .col-four {
   width: 100%;
   margin-left:0;
+  margin-bottom: 16px;
 }
 
 .col p {
