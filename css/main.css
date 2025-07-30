@@ -286,7 +286,7 @@ img {
   transform: scale(1.02);
 }
 
-.col, .col-four {
+.col, .col-three, .col-four {
   width: 100%;
   margin-left:0;
 }
